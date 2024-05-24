@@ -1,0 +1,137 @@
+/* Root Variables */
+:root {
+    --primary-bg: #fff;
+    --primary-text: #353d49;
+    --secondary-text: #252627;
+    --link-color: #0076d1;
+    --shadow-color: rgba(0, 0, 0, 0.15);
+    --user-font-scale: 1rem - 16px;
+    --max-width: calc(100% - 1rem)
+}
+
+@font-face {
+    font-family: 'LXGWWenKaiScreenR';
+    src: url('/fonts/LXGWWenKaiScreenR.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Base Elements Styles */
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    background-color: var(--primary-bg);
+}
+
+body {
+    font-family: 'LXGWWenKaiScreenR', sans-serif;
+    color: var(--secondary-text);
+    min-height: 100vh;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+a {
+    color: var(--link-color);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+.line-clamp-1 a {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: clip;
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
+    max-height: 3em;
+}
+
+.line-clamp-2 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    max-height: 3em;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.scrolls-sidebar {
+    height: calc(100vh - 100px);
+    max-height: 100vh;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #d1d5db #ffffff;
+}
+
+.scrolls-sidebar a {
+    color: var(--secondary-text);
+}
+
+.scrolls-sidebar::-webkit-scrollbar {
+    width: 2px;
+}
+
+.scrolls-sidebar::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+.scrolls-sidebar::-webkit-scrollbar-thumb {
+    background-color: #d1d5db;
+    border-radius: 20px;
+    border: 1px solid #ffffff;
+}
+
+.post-content img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: left;
+    max-width: 100%;
+}
+
+.post-content img[style*="aspect-ratio: 1.2/1"] {
+    max-width: 200px;
+}
+
+.post-footer {
+    border-top: 1px solid #87909480
+}
+
+.post-content a {
+    text-decoration: none;
+    color: var(--link-color);
+}
+
+.grid-left {
+    grid-column: 1;
+}
+
+.grid-main {
+    grid-column: 2;
+}

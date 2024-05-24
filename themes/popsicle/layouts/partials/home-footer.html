@@ -1,0 +1,15 @@
+<footer>
+    <div class="social-media">
+        {{ range site.Params.social}}
+        <a href="{{ .url }}"></a>
+        {{ end }}
+    </div>
+    <p>&copy; {{ now.Format "2006" }} {{ .Site.Title }}</p>
+    <nav>
+        <ul>
+            {{- range site.Menus.main }}
+            <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+            {{- end }}
+        </ul>
+    </nav>
+</footer>

@@ -1,0 +1,16 @@
+{{ define "main" }}
+<main
+    class="article-layout grid lg:grid-cols-[20rem_minmax(0,_var(--max-width))_13rem] md:grid-cols-[20rem_minmax(0,_var(--max-width))_]">
+    {{partialCached "aside.html" .}}
+    <article class="grid-main py-6 px-14">
+        <h1 id="textOverlay">{{ .Title }}</h1>
+        {{ if .Params.cover_image }}
+        <img src="{{ .Params.cover_image }}" alt="{{ .Title }}" class="cover-image">
+        {{ end }}
+        <main class="post-content">
+            {{ .Content }}
+        </main>
+        {{ partial "post-footer" .}}
+    </article>
+</main>
+{{ end }}

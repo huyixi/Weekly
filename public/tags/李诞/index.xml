@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>李诞 on 散步周刊</title>
+    <link>http://localhost:1313/tags/%E6%9D%8E%E8%AF%9E/</link>
+    <description>Recent content in 李诞 on 散步周刊</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 11 Apr 2024 20:31:16 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E6%9D%8E%E8%AF%9E/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2024年3月</title>
+      <link>http://localhost:1313/202403/</link>
+      <pubDate>Thu, 11 Apr 2024 20:31:16 +0800</pubDate>
+      <guid>http://localhost:1313/202403/</guid>
+      <description>本月阅读 《笑场》：2024-03-05 21:26:14 看完。2 星。原本以为是李诞关于工作内容的书籍，没想到是小说。刚开始看没继续看下去，今天中午从 Kindle 偶然翻出来，看到澈丹的故事，被感动了到了，然后接着读完了。内容还挺有意思的。&amp;gt;在听《文化有限》一期播客的时候介绍四本书，其中有一句讲到，李诞的这几本书进步之巨大。好奇后面几本书的内容是什么样的。 2024-03-04 21:15:14 看了同年龄段的小孙同学的应聘，感觉自己是有点菜了。&#xA;Tokio Tutorial 2024-03-06 22:27:01 发现 Tokio 的 Tutorial 真不错。通过指导你搭建一个 mini-redis 来学习 tokio。&#xA;alias do 2024-03-09 12:57:14 今天尝试 nuxt 的时候，在 zshrc 配置文件中设置了一个别名，用来快速启动应用。&#xA;alias do = &amp;#34;nr run dev&amp;#34; 在激活 zshrc 的时候，遇到两个错误 刚开始以为是环境问题，重新安装了几次都无法解决。于是尝试查看这两处的源码，也没有发现什么问题。 然后开始 google，发现一个 issue 原来是把保留字设置为别名导致 bash 命令行函数执行的时候误解了。&#xA;Bash 中的一些保留字： if，then，else，elif，fi：用于条件判断。 case，esac：用于模式匹配和条件选择。 for，in，do，done：用于 for 循环。 while，until：用于 while 和 until 循环。 select：用于生成简单的菜单。 {，}：代码块的开始和结束。 function：函数定义的开始。 !：逻辑 NOT 操作符。 [[，]]：用于高级条件表达式。 time：用于计时命令执行时间。&#xA;Migrate Vue/Cli to vite 2024-03-12 Today, Migrate the project of work from vue/cli to vite.</description>
+    </item>
+  </channel>
+</rss>

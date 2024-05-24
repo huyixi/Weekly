@@ -1,0 +1,20 @@
+{{/* layouts/partials/post-card.html */}}
+<a href="{{ .RelPermalink }}" class="flex flex-col justify-between rounded-md shadow-md overflow-hidden card-content">
+    {{ with .Resources.GetMatch "cover.*" }}
+    <div class="relative w-full aspect-video overflow-hidden">
+        <img data-placeholder-background="linear-gradient(to bottom, #ece9e6, #ffffff)" alt="{{ $.Title }}"
+            class="lozad absolute top-0 left-0 w-full h-full object-cover"
+            style="background: linear-gradient(rgb(236, 233, 230), rgb(255, 255, 255));"
+            src="{{ .RelPermalink }}?x-oss-process=image/resize,w_640/format,webp" loading="lazy">
+    </div>
+    {{ end }}
+    <div class="p-3">
+        <div class="flex justify-between items-center leading-tight">
+            <div class="text-gray-800 line-clamp-1">{{ .Title }}</div>
+            <div class="text-grey-darker text-sm text-gray-600">{{ .Date.Format "2006/01/02" }}</div>
+        </div>
+        <p class="text-gray-600 text-sm overflow-hidden line-clamp-2 mt-2 ">
+            {{.Summary}}
+        </p>
+    </div>
+</a>

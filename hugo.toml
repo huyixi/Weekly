@@ -1,0 +1,18 @@
+baseURL = 'https://weekly.huyixi.com/'
+languageCode = 'zh-cn'
+title = '散步周刊'
+theme = "popsicle"
+
+[menu]
+[[menu.main]]
+name = "订阅"
+url = "/index.xml"
+weight = 1
+[[menu.main]]
+name = "博客"
+url = "https://blog.huyixi.com"
+weight = 2
+[[menu.main]]
+name = "关于"
+url = "/about"
+weight = 3
