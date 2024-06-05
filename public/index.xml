@@ -296,7 +296,7 @@
       <description>本期：20230519 - 20230525&#xA;动态 1. Kindle 使用指南与文档爬虫 本周，我主要在制作一个关于 Kindle 使用指南的教程。在此过程中，我开发了一个网页爬虫来抓取一些只在网页上提供在线浏览版本而未提供电子书选项的网络文档。这个爬虫有助于我将这些文档转换为可以在 Kindle 上使用的格式，便于阅读。在过去的一周里，我一直在优化这个爬虫。如果你对此也有需求，欢迎点击此链接查看。&#xA;2. VS Code 的 Copilot 本周，我收到了 VS Code 的 Copilot，进行了一番试用。此助手集成在编辑器内，使用起来非常方便。然而，由于其模型仅为 3.5 版本，所以并未提供 GPT-4 那样强大的功能。此外，Copilot 并不能直接读取你文件夹中的代码，你需要将代码输入到聊天框中。希望未来它能加入直接读取文件夹中代码的功能。&#xA;文章 1.如何用英语思考 How to THINK in English | No More Translating in Your Head!&#xA;这篇文章介绍了如何逐渐摆脱将英语翻译成母语的思维方式，转向直接用英文思考。以下是作者推荐的练习方法：&#xA;Step 1: 在你的头脑中用英语命名周围的物体。 Step 2: 用简单的句子进行思考。 Step 3: 用英语和自己进行小对话。 Step 4: 将你日常生活中的某一事物改为英文。 Step 5: 记录下来，确保你每天都在进行练习。 Step 6: 用英文回顾你的一天。 2.奥格登的基础英语 - 英语交流只需要 850 个单词 OGDEN&amp;rsquo;s BASIC ENGLISH&#xA;作者发现牛津英语词典里面的 25000 个单词的书，只要用 850 个单词就可以表单，通过这种方式让英语的入门变得更加简单。</description>
     </item>
     <item>
-      <title>Weekly 4：陈皓逝世</title>
+      <title>陈皓逝世</title>
       <link>http://localhost:1313/weekly-4/</link>
       <pubDate>Sat, 13 May 2023 08:00:00 +0800</pubDate>
       <guid>http://localhost:1313/weekly-4/</guid>
