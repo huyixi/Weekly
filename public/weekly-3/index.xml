@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Weekly-3s on 散步周刊</title>
+    <link>http://localhost:1313/weekly-3/</link>
+    <description>Recent content in Weekly-3s on 散步周刊</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 12 May 2023 08:00:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/weekly-3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>最好的时代</title>
+      <link>http://localhost:1313/weekly-3/weekly-3/</link>
+      <pubDate>Fri, 12 May 2023 08:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/weekly-3/weekly-3/</guid>
+      <description>本期：20230506 - 20230512&#xA;这是我的周刊，每周五早上发布。&#xA;我在这里记录过去一周所体验到的新鲜事物。&#xA;最好的时代 这是最好的时代，这也是最坏的时代。&#xA;AI 极大提高了个人单兵作战的能力。使用 ChatGPT 可以更快获取有效的信息而不是像往常一样浏览器逐个查看页面（当然使用 ChatGPT 所获取的一些信息目前还存在着错误，如果你没有足够的知识技能，可能还无法分辨出其中的错误）。可汗学院发布的 Khanmigo 的所使用的概念也将助力技能的学习更加快捷。&#xA;但与此同时 AI 也剥夺了初级工作者的工作机会。在以往你可能需要聘请一个设计师为您设计一个软件的界面，但是现在，你只要提供一些 Prompt 给 Midjourney，就可以生成你想要的东西，这极大的节约了成本。甚至于你可以使用 AutoGPT 直接帮你生成一个你想要的软件。初级工程师的工作机会将大大减少。&#xA;未来的时代，个人机会可能更大。因为 AI 可以逐步替代团队人力。原本五个人十个人需要干的事，未来可能只需要两三个人。目前的智力/人力密集的商业模式，可能能被算法+资本密集所代替。&#xA;这个时代个人的上限更高了，但是同时人的下限也更低了。善于利用工具帮助自己工作学习，个人成长的加速度将越来越快。&#xA;动态 Claude 宣布上下文窗口从 9K 扩展到 100K tokens，相当于 75,000 个单词。与此同时 GPT-4 的 tokens 只有 32K 。&#xA;原文链接&#xA;技术团队将《了不起的盖茨比》的全文加载到 Claude-Instant（72K tokens）中，并修改了一行，“Mr. Carraway was “a software engineer that works on machine learning tooling at Anthropic.”。Claude 在 22 秒内就找出了不同之处。&#xA;谷歌人工智能主管的杰夫·迪恩（Jeff Dean）向员工宣布了一项的政策转变：他们只有在实验室工作变成产品后才能分享论文。&#xA;Google shared AI knowledge with the world — until ChatGPT caught up</description>
+    </item>
+  </channel>
+</rss>
