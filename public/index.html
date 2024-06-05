@@ -8,11 +8,13 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/images/fav/favicon-16x16.png">
     <link rel="manifest" href="/images/fav/site.webmanifest">
     <title>散步周刊</title><link rel="stylesheet" href="/css/main.css" >
+    <link rel="stylesheet" href="https://gw.alipayobjects.com/os/k/font/lxgwwenkaiscreenr.css" as="font"
+        crossorigin="anonymous">
     
     <script src="/js/main.js" defer></script>
 </head>
 <body>
-<header class="mt-6 mb-4">
+<header class="mt-6">
     <nav class="nav-x flex mx-16 items-center">
         <div class="flex items-center gap-4">
             <a href="http://localhost:1313/">
@@ -32,11 +34,32 @@
     </nav>
 </header>
 
-<main class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mx-16">
+<main class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mx-16 mt-4">
     
     
     
-<a href="/202403/" class="flex flex-col justify-between rounded-md shadow-md overflow-hidden card-content">
+<a href="/about/" class="flex flex-col justify-between rounded-md shadow-md  overflow-hidden card-content">
+    
+    <div class="p-3">
+        <div class="flex justify-between items-center leading-tight">
+            <div class="text-gray-800 line-clamp-1">关于散步周刊</div>
+            <div class="text-grey-darker text-sm text-gray-600">2024/05/26</div>
+        </div>
+        <p class="text-gray-600 text-sm overflow-hidden line-clamp-2 mt-2 ">
+            这个周刊起名叫散步。
+散步两字来源于很多东西，比如 my little airport 一句歌词：「散步才是正经事」；少楠在博客中提到的一句话「选择什么都不做其实就是做了一件事」；再比如「伟大不能被计划」一书中所提倡的状态。
+散步对于这个周刊而言就是没有主题，就是瞎逛瞎写。
+网站灵感最初来源于 Tw93，阮一峰。界面布局也是主要模仿 Tw93 的周刊。
+logo 来源 my little airport 的「今夜雪糕」。
+当然，虽说是周刊，但是我不想给自己很大的压力，所以也可能会月更，也可能双周更。
+如果你想看我瞎聊，或许你可以使用 「RSS 订阅」此周刊。
+        </p>
+    </div>
+</a>
+
+    
+    
+<a href="/202403/" class="flex flex-col justify-between rounded-md shadow-md  overflow-hidden card-content">
     
     <div class="p-3">
         <div class="flex justify-between items-center leading-tight">
@@ -44,18 +67,21 @@
             <div class="text-grey-darker text-sm text-gray-600">2024/04/11</div>
         </div>
         <p class="text-gray-600 text-sm overflow-hidden line-clamp-2 mt-2 ">
-            o&quot;,&ldquo;alias&rdquo;,&ldquo;nuxt&rdquo;,&ldquo;English Buddy&rdquo;,&ldquo;PR&rdquo;,&ldquo;follow&rdquo;,&ldquo;happiness&rdquo;,&ldquo;ARTS&rdquo;,&ldquo;FuZhou&rdquo;,&ldquo;左耳听风&rdquo;,&ldquo;Japan Visa&rdquo;,&ldquo;delete Chinese input method&rdquo;,&ldquo;first PR&rdquo;,&ldquo;cancel follow&rdquo;,&ldquo;ARTS Weekly challenge&rdquo;,&ldquo;ARTS1] 本月阅读 《笑场》：2024-03-05 21:26:14 看完。2 星。原本以为是李诞关于工作内容的书籍，没想到是小说。刚开始看没继续看下去，今天中午从 Kindle 偶然翻出来，看到澈丹的故事，被感动了到了，然后接着读完了。内容还挺有意思的。&gt;在听《文化有限》一期播客的时候介绍四本书，其中有一句讲到，李诞的这几本书进步之巨大。好奇后面几本书的内容是什么样的。 2024-03-04 21:15:14 看了同年龄段的小孙同学的应聘，感觉自己是有点菜了。
+            本月阅读 《笑场》
+2024-03-05 21:26:14 看完，2 星。
+原本以为是李诞关于工作内容的书籍，没想到是小说。刚开始看没继续看下去，今天中午从 Kindle 偶然翻出来，看到澈丹的故事，被感动到了，然后接着读完了。内容还挺有意思的。在听《文化有限》播客的时候有一期是介绍李诞的这四本书。其中有一句讲到，李诞的这几本书进步之巨大令人惊奇，也好奇后面几本书的内容是什么样的。
 Tokio Tutorial 2024-03-06 22:27:01 发现 Tokio 的 Tutorial 真不错。通过指导你搭建一个 mini-redis 来学习 tokio。
 alias do 2024-03-09 12:57:14 今天尝试 nuxt 的时候，在 zshrc 配置文件中设置了一个别名，用来快速启动应用。
 alias do = &#34;nr run dev&#34; 在激活 zshrc 的时候，遇到两个错误 刚开始以为是环境问题，重新安装了几次都无法解决。于是尝试查看这两处的源码，也没有发现什么问题。 然后开始 google，发现一个 issue 原来是把保留字设置为别名导致 bash 命令行函数执行的时候误解了。
-Bash 中的一些保留字： if，then，else，elif，fi：用于条件判断。 case，esac：用于模式匹配和条件选择。 for，in，do，done：用于 for 循环。 while，until：用于 while 和 until 循环。 select：用于生成简单的菜单。 {，}：代码块的开始和结束。 function：函数定义的开始。 !
+Bash 中的一些保留字 if，then，else，elif，fi：用于条件判断。 case，esac：用于模式匹配和条件选择。 for，in，do，done：用于 for 循环。 while，until：用于 while 和 until 循环。 select：用于生成简单的菜单。 {，}：代码块的开始和结束。 function：函数定义的开始。 !：逻辑 NOT 操作符。 [[，]]：用于高级条件表达式。 time：用于计时命令执行时间。
+Migrate Vue/Cli to vite 2024-03-12 Today, Migrate the project of work from vue/cli to vite.
         </p>
     </div>
 </a>
 
     
     
-<a href="/202402/" class="flex flex-col justify-between rounded-md shadow-md overflow-hidden card-content">
+<a href="/202402/" class="flex flex-col justify-between rounded-md shadow-md  overflow-hidden card-content">
     
     <div class="p-3">
         <div class="flex justify-between items-center leading-tight">
@@ -63,7 +89,7 @@ Bash 中的一些保留字： if，then，else，elif，fi：用于条件判断�
             <div class="text-grey-darker text-sm text-gray-600">2024/03/01</div>
         </div>
         <p class="text-gray-600 text-sm overflow-hidden line-clamp-2 mt-2 ">
-            本月总结 这次的更新拖了整整一个月，并且内容也不多。 这一个月的时间大部分花在 Apple 开发的学习还有 Rust 开发的学习。此外有三天左右的时间在研究韩国民主化的进程，看了很多相关的影片资料。因为这个月都在过年，所以也有一些时间在玩以及参加家里的元宵活动，因为不知道明年或者以后还能不能继续在家里过元宵，所以尽量全部参与。从回来上班开始，因为看了《精力管理》这本书也开始调整自己的作息与饮食，将睡眠时间调整为：23:00-07:30, 13:00-13:30。上班时间这个睡眠时间还是遵守的挺好的，但是还是会在 11 点以及 16 点左右出现没有精力的现象。但是明明睡眠时间已经足够并且专家提倡的 7-8 小时。此外还看了 Harvard 的 CS50，真的是很不错的课程。完整看了其中 SQL 课，后续有需要应该能很快捡起来。另外深入了解了李诞，超级厉害。
+            本月总结 这次的更新拖了整整一个月，并且内容也不多。 这一个月的时间大部分花在 Apple 开发的学习还有 Rust 开发的学习。此外有三天左右的时间在研究韩国民主化的进程，看了很多相关的影片资料。 因为这个月都在过年，所以也有一些时间在玩以及参加家里的元宵活动。不知道明年或者以后还能不能继续在家里过元宵，所以尽量全部参与。 从回来上班开始，因为看了《精力管理》这本书也开始调整自己的作息与饮食，将睡眠时间调整为：23:00-07:30, 13:00-13:30。上班时间这个睡眠时间还是遵守的挺好的，但是还是会在 11 点以及 16 点左右出现没有精力的现象。但是自己的睡眠时间明明已经足够并且达到专家提倡的 7-8 小时。此外还看了 Harvard 的 CS50，真的是很不错的课程。完整看了其中 SQL 课，后续有需要的话希望能很快捡起来。 另外深入了解了李诞，超级厉害。
 本月阅读 这个月看了 10 本书，也有一些只翻了一点的
 《负动产时代》：看了 10% 《西方现代思想讲义》于 2024-02-03 13:07:51 读完 《正见》于 2024-02-04 20:53:58 看到 59%。「实相：不是寓言，不是魔术，不会致命」 《人人都是产品经理》：简单翻阅了一下，对产品经理这个岗位有一些了解。 《民主的细节》： 《牛津通识读本 - 民主》：简单翻阅 《可能性的艺术》：于 2024-02-19 06:09 看完，3 星。 《精力管理》 2024-02-20 17:41:45 下载，2024-02-21 13:53:12 看完，1 星。 《THE ART OF LEARNING》 2024-02-22 18:43:23 在麦当劳翻完，0 星。通篇在讲作者的经历，对我没有收获。看的是双语版。 《上帝掷骰子吗？》 3 星。李诞在播客中推荐，对量子的发现历史有了一个大概的了解。了解了很多相关的知识历史等。 《你是你吃出来的》与《你是你吃出来的 2》：两本营养学书籍，Randy 的读书乐园中提到。其实这两本书都有相关的电子书，但是我还是买了实体书寄回家里。我希望将这两本书放在一些比较显眼的地方，或许我家人也能随手去翻一翻。 《李诞脱口秀工作手册》：2024-02-29 13:47:37 看完本书。 本月观影 智利说不 我的评分：2 星 赢得很懵逼，没有了解过相关历史可能很难看懂。 首尔之春 我的评分：4 星 蝙蝠侠 看了 50 分钟，感觉没啥内容，没继续看下去。 年会不能停 我的评分：1 星 今天中午看了年会不能停。电影前面还是挺好笑的，后面就比较差劲了，老套的情节。 大可不必搞一些童话故事一样的结尾，没什么意思。女主长得还挺好看的。 南山的部长们 我的评分：2 星 主要刻画了主角的抵抗的心路历程。主要的部分其实就一点。 出租车司机 我的评分：3 星 以出租车司机与记者来切入讲述故事，个人观感更好一点。 华丽的假期 我的评分：2 星 出租车与华丽的假期对残忍程度的刻画挺不错的。没有人能置身事外。主角以及相关人物 辩护人 我的评分：4 星 1987 我的评分：3.
         </p>
@@ -72,7 +98,7 @@ Bash 中的一些保留字： if，then，else，elif，fi：用于条件判断�
 
     
     
-<a href="/replay-2023/" class="flex flex-col justify-between rounded-md shadow-md overflow-hidden card-content">
+<a href="/replay-2023/" class="flex flex-col justify-between rounded-md shadow-md  overflow-hidden card-content">
     
     <div class="p-3">
         <div class="flex justify-between items-center leading-tight">
@@ -87,7 +113,7 @@ Bash 中的一些保留字： if，then，else，elif，fi：用于条件判断�
 
     
     
-<a href="/weekly-39/" class="flex flex-col justify-between rounded-md shadow-md overflow-hidden card-content">
+<a href="/weekly-39/" class="flex flex-col justify-between rounded-md shadow-md  overflow-hidden card-content">
     
     <div class="p-3">
         <div class="flex justify-between items-center leading-tight">
@@ -111,7 +137,7 @@ Bash 中的一些保留字： if，then，else，elif，fi：用于条件判断�
 
     
     
-<a href="/weekly-38/" class="flex flex-col justify-between rounded-md shadow-md overflow-hidden card-content">
+<a href="/weekly-38/" class="flex flex-col justify-between rounded-md shadow-md  overflow-hidden card-content">
     
     <div class="p-3">
         <div class="flex justify-between items-center leading-tight">
@@ -134,7 +160,7 @@ React 文档的 二八定律 2024-01-22 21:03:04 下午看了一会 React 文档
 
     
     
-<a href="/weekly-37/" class="flex flex-col justify-between rounded-md shadow-md overflow-hidden card-content">
+<a href="/weekly-37/" class="flex flex-col justify-between rounded-md shadow-md  overflow-hidden card-content">
     
     <div class="p-3">
         <div class="flex justify-between items-center leading-tight">
@@ -167,7 +193,7 @@ Owen 的这一篇博客[收集一些给人灵感的东西] (https://www.owenyoun
 
     
     
-<a href="/technical-writing-guide/" class="flex flex-col justify-between rounded-md shadow-md overflow-hidden card-content">
+<a href="/technical-writing-guide/" class="flex flex-col justify-between rounded-md shadow-md  overflow-hidden card-content">
     
     <div class="p-3">
         <div class="flex justify-between items-center leading-tight">
@@ -202,7 +228,7 @@ Owen 的这一篇博客[收集一些给人灵感的东西] (https://www.owenyoun
 
     
     
-<a href="/ryuichisakamoto/" class="flex flex-col justify-between rounded-md shadow-md overflow-hidden card-content">
+<a href="/ryuichisakamoto/" class="flex flex-col justify-between rounded-md shadow-md  overflow-hidden card-content">
     
     <div class="p-3">
         <div class="flex justify-between items-center leading-tight">
@@ -230,17 +256,17 @@ commmon commong schola：儿子想学贝斯，坂本龙一推荐的一些曲目 
 
     
     
-<a href="/journal-36/" class="flex flex-col justify-between rounded-md shadow-md overflow-hidden card-content">
+<a href="/journal-36/" class="flex flex-col justify-between rounded-md shadow-md  overflow-hidden card-content">
     
     <div class="p-3">
         <div class="flex justify-between items-center leading-tight">
-            <div class="text-gray-800 line-clamp-1">2024年1月上：楠溪江跨年音乐节、坂本龙一、我的笔记本不能合盖</div>
+            <div class="text-gray-800 line-clamp-1">楠溪江芒禾跨年</div>
             <div class="text-grey-darker text-sm text-gray-600">2024/01/16</div>
         </div>
         <p class="text-gray-600 text-sm overflow-hidden line-clamp-2 mt-2 ">
             周记断更了，这篇应该叫作半月记。大概从 23 年 12 月 29 去楠溪江开始，一直到今天 1 月 16 日。感觉篇幅差不多了发出来。
-楠溪江跨年 认识了一群小伙伴。音乐节志愿者如果可以的话，其实还是组员较少比较好，较少的组员更能玩到一起，如果在组员较多的组大家往往关系不会那么密切。在 19 年福州草莓服务站，和几个朋友到现在也有一些联系，如果有一起去音乐节也会合照之类的。
-今年音乐节体验最差的是广州的超级草莓，体验最好的应该就是这次芒禾跨年了。另外江西真的好吃，明年有江西的音乐节应该也会继续去，边听歌边吃吃吃。很幸运所在的一个小组是比较闲的，并且组长人也很好，这么久了我们小组还是在经常在微信群里聊天。
+楠溪江跨年 在楠溪江认识了一群好玩的小伙伴。音乐节志愿者如果可以的话，其实还是组员较少比较好，较少的组员更能玩到一起，如果在组员较多的组大家往往关系不会那么密切。在 19 年参加的福州草莓服务站，和几个朋友到现在也有一些联系，如果有一起去音乐节也会一起玩然后合照之类的。
+今年音乐节体验最差的是广州的超级草莓，体验最好的应该就是这次芒禾跨年了。另外江西真的有好多好吃的，太想念江西了。明年有江西的音乐节应该也会继续去，边听歌边吃吃吃。很幸运所在的一个小组是比较闲的，并且组长人也很好，这么久了我们小组还是在经常在微信群里聊天。
 跨年完可能感染了甲流，同行的五个人全部生病。回来生了一场病，请假了一天半。第一天的时候以为自己状态还能坚持工作，所以撑着去上班了。到后面实在不行了，只好请假会去睡觉，也是在床上躺了整整一天半，几乎没怎么吃东西，一直在睡。
 这场音乐节认识了很多新的艺人。比如陈婧霏，重新听了房东的猫。
 另外焦迈奇的《哗啦啦少年再见》这首歌词也很戳我。
@@ -253,12 +279,12 @@ commmon commong schola：儿子想学贝斯，坂本龙一推荐的一些曲目 
 终于碰到了在铁门上的篮球框
 实现梦想开始狂吃冰淇淋
 半价的第二份却没有人来陪我
-还记得前段时间喜茶活动，一个人喝了两杯，就跟舍友发过这样一句话：
+还记得前段时间喜茶活动，一个人喝了两杯，也跟舍友发过类似的一句话：
 哈哈哈，或许我也能来给歌曲作词。
 Weekly 格式化 Mon Jan 8 00:09, 2024
 将原网站上的所有 Weekly 周记提取出来，重新给所有标题命名，并且转换成统一的格式之后放置到 Blog 中。
 今年的第一本书《我还能看到多少次满月升起》 2024-01-11 17:06:08
-2024 年看完的第一本书「坂本龍一」的《我还能看到多少次满月升起》。这本书最初是在豆瓣年度榜单上看到，因为看到 Justin 也在关注坂本龍一，所以马上去 zlib 找书，因为这本书刚出版，所以网站上似乎还有没资源。第二次看到 Justin 的 Twitter 上发了正在看这本书，于是又去 zlib 上找，这次有资源了，也是慢慢看了近一周才看完。（不过不推荐这种看盗版的做法，我是因为贫穷。不过也买了《音乐即自由》的原书）
+2024 年看完的第一本书「坂本龍一」的《我还能看到多少次满月升起》。这本书最初是在豆瓣年度榜单上看到，因为看到 Justin 也在关注坂本龍一，所以马上去 zlib 找书。因为这本书刚出版，所以网站上还没有资源。第二次又看到 Justin 的 Twitter 上发了正在看这本书。于是又去 zlib 上找，这次有资源了，也是慢慢看了近一周才看完。（不过不推荐这种看盗版的做法，我是因为贫穷。不过后面也买了坂本龙一另一本书《音乐即自由》）
 边看书耳机边播放坂本龍一的各张专辑，音乐大部分比较轻柔舒缓，很享受。
 这本书算是坂本龍一生命后期生活的自述，主要是几次与癌症抗争的经历。
 因为不知死何时将至，我们仍将生命视为无穷无尽，取之不竭的源泉。然而，一生所遇之事也许就只发生那么几次。曾经左右我们人生的童年回忆浮现在心头的时刻还能有多少次呢？也许还能有四五次。目睹满月升起的时刻有还能有多少次呢？或许最多还能有二十次。但人们总是深信这些机会将无穷无尽。
@@ -272,7 +298,7 @@ Debug 其实编程最重要的能力还是 Debug 的能力。如何去定位问�
 
     
     
-<a href="/weekly-35/" class="flex flex-col justify-between rounded-md shadow-md overflow-hidden card-content">
+<a href="/weekly-35/" class="flex flex-col justify-between rounded-md shadow-md  overflow-hidden card-content">
     
     <div class="p-3">
         <div class="flex justify-between items-center leading-tight">
@@ -289,7 +315,7 @@ Debug 其实编程最重要的能力还是 Debug 的能力。如何去定位问�
 
     
     
-<a href="/weekly-34/" class="flex flex-col justify-between rounded-md shadow-md overflow-hidden card-content">
+<a href="/weekly-34/" class="flex flex-col justify-between rounded-md shadow-md  overflow-hidden card-content">
     
     <div class="p-3">
         <div class="flex justify-between items-center leading-tight">
@@ -307,7 +333,7 @@ Wed Dec 20 23:21, 2023 浅浅看了一下 UnoCSS。挺不错的，比现在用�
 
     
     
-<a href="/weekly-33/" class="flex flex-col justify-between rounded-md shadow-md overflow-hidden card-content">
+<a href="/weekly-33/" class="flex flex-col justify-between rounded-md shadow-md  overflow-hidden card-content">
     
     <div class="p-3">
         <div class="flex justify-between items-center leading-tight">
@@ -323,7 +349,7 @@ name: Generate Weekly Post on: schedule: - cron: &#39;0 0 * * 6&#39; jobs: build
 
     
     
-<a href="/weekly-32/" class="flex flex-col justify-between rounded-md shadow-md overflow-hidden card-content">
+<a href="/weekly-32/" class="flex flex-col justify-between rounded-md shadow-md  overflow-hidden card-content">
     
     <div class="p-3">
         <div class="flex justify-between items-center leading-tight">
@@ -350,7 +376,7 @@ NeoDB 的封面有一些并不是我想要的，需要进行修改 还有一些�
 
     
     
-<a href="/weekly-31/" class="flex flex-col justify-between rounded-md shadow-md overflow-hidden card-content">
+<a href="/weekly-31/" class="flex flex-col justify-between rounded-md shadow-md  overflow-hidden card-content">
     
     <div class="p-3">
         <div class="flex justify-between items-center leading-tight">
@@ -395,7 +421,7 @@ Apple 的椅子 我需要的 VS 我看到的｜互联网真的可以满足我们
 
     
     
-<a href="/weekly-30/" class="flex flex-col justify-between rounded-md shadow-md overflow-hidden card-content">
+<a href="/weekly-30/" class="flex flex-col justify-between rounded-md shadow-md  overflow-hidden card-content">
     
     <div class="p-3">
         <div class="flex justify-between items-center leading-tight">
@@ -442,7 +468,7 @@ Mon Dec 4 23:15, 2023: 睡觉了,下次有空继续更新
 
     
     
-<a href="/weekly-29/" class="flex flex-col justify-between rounded-md shadow-md overflow-hidden card-content">
+<a href="/weekly-29/" class="flex flex-col justify-between rounded-md shadow-md  overflow-hidden card-content">
     
     <div class="p-3">
         <div class="flex justify-between items-center leading-tight">
@@ -471,7 +497,7 @@ Ant Design 色板生成算法演进之路 Ant Design 设计原则 链接
 
     
     
-<a href="/weekly-28/" class="flex flex-col justify-between rounded-md shadow-md overflow-hidden card-content">
+<a href="/weekly-28/" class="flex flex-col justify-between rounded-md shadow-md  overflow-hidden card-content">
     
     <div class="p-3">
         <div class="flex justify-between items-center leading-tight">
@@ -501,7 +527,7 @@ Fri Nov 10 23:37, 2023 这周一直在忙活公司的项目，都没怎么看书
 
     
     
-<a href="/weekly-27/" class="flex flex-col justify-between rounded-md shadow-md overflow-hidden card-content">
+<a href="/weekly-27/" class="flex flex-col justify-between rounded-md shadow-md  overflow-hidden card-content">
     
     <div class="p-3">
         <div class="flex justify-between items-center leading-tight">
@@ -535,7 +561,7 @@ Fri Nov 10 23:37, 2023 这周一直在忙活公司的项目，都没怎么看书
 
     
     
-<a href="/weekly-26/" class="flex flex-col justify-between rounded-md shadow-md overflow-hidden card-content">
+<a href="/weekly-26/" class="flex flex-col justify-between rounded-md shadow-md  overflow-hidden card-content">
     
     <div class="p-3">
         <div class="flex justify-between items-center leading-tight">
@@ -569,7 +595,7 @@ GI 血糖生成指数 简要介绍：食物的血糖生成指数越高，某种�
 
     
     
-<a href="/weekly-25/" class="flex flex-col justify-between rounded-md shadow-md overflow-hidden card-content">
+<a href="/weekly-25/" class="flex flex-col justify-between rounded-md shadow-md  overflow-hidden card-content">
     
     <div class="p-3">
         <div class="flex justify-between items-center leading-tight">
@@ -609,7 +635,7 @@ Wed Oct 18 13:53，2023 现有的教育体系最大的好处是方便管理，�
 
     
     
-<a href="/weekly-24/" class="flex flex-col justify-between rounded-md shadow-md overflow-hidden card-content">
+<a href="/weekly-24/" class="flex flex-col justify-between rounded-md shadow-md  overflow-hidden card-content">
     
     <div class="p-3">
         <div class="flex justify-between items-center leading-tight">
@@ -624,7 +650,7 @@ Wed Oct 18 13:53，2023 现有的教育体系最大的好处是方便管理，�
 
     
     
-<a href="/weekly-23/" class="flex flex-col justify-between rounded-md shadow-md overflow-hidden card-content">
+<a href="/weekly-23/" class="flex flex-col justify-between rounded-md shadow-md  overflow-hidden card-content">
     
     <div class="p-3">
         <div class="flex justify-between items-center leading-tight">
@@ -650,7 +676,7 @@ Wed Oct 18 13:53，2023 现有的教育体系最大的好处是方便管理，�
 
     
     
-<a href="/weekly-22/" class="flex flex-col justify-between rounded-md shadow-md overflow-hidden card-content">
+<a href="/weekly-22/" class="flex flex-col justify-between rounded-md shadow-md  overflow-hidden card-content">
     
     <div class="p-3">
         <div class="flex justify-between items-center leading-tight">
@@ -695,7 +721,7 @@ Fri Sep 22 00:55, 2023 最近的这几个夜晚，每晚躺在床上都会冒出
 
     
     
-<a href="/weekly-21/" class="flex flex-col justify-between rounded-md shadow-md overflow-hidden card-content">
+<a href="/weekly-21/" class="flex flex-col justify-between rounded-md shadow-md  overflow-hidden card-content">
     
     <div class="p-3">
         <div class="flex justify-between items-center leading-tight">
@@ -722,7 +748,7 @@ var scrollTop = document.documentElement.scrollTop || document.body.scrollTop; v
 
     
     
-<a href="/weekly-20/" class="flex flex-col justify-between rounded-md shadow-md overflow-hidden card-content">
+<a href="/weekly-20/" class="flex flex-col justify-between rounded-md shadow-md  overflow-hidden card-content">
     
     <div class="p-3">
         <div class="flex justify-between items-center leading-tight">
@@ -767,7 +793,7 @@ anger: Talking to Jihadists | Episode 3: Dying Inside | Chai Jing 谈到
 
     
     
-<a href="/weekly-19/" class="flex flex-col justify-between rounded-md shadow-md overflow-hidden card-content">
+<a href="/weekly-19/" class="flex flex-col justify-between rounded-md shadow-md  overflow-hidden card-content">
     
     <div class="p-3">
         <div class="flex justify-between items-center leading-tight">
@@ -806,7 +832,7 @@ anger: Talking to Jihadists | Episode 3: Dying Inside | Chai Jing 谈到
 
     
     
-<a href="/weekly-18/" class="flex flex-col justify-between rounded-md shadow-md overflow-hidden card-content">
+<a href="/weekly-18/" class="flex flex-col justify-between rounded-md shadow-md  overflow-hidden card-content">
     
     <div class="p-3">
         <div class="flex justify-between items-center leading-tight">
@@ -830,7 +856,7 @@ You are only showing the world how stupid you are. If what you say is not better
 
     
     
-<a href="/weekly-17/" class="flex flex-col justify-between rounded-md shadow-md overflow-hidden card-content">
+<a href="/weekly-17/" class="flex flex-col justify-between rounded-md shadow-md  overflow-hidden card-content">
     
     <div class="p-3">
         <div class="flex justify-between items-center leading-tight">
@@ -864,7 +890,7 @@ You are only showing the world how stupid you are. If what you say is not better
 
     
     
-<a href="/weekly-16/" class="flex flex-col justify-between rounded-md shadow-md overflow-hidden card-content">
+<a href="/weekly-16/" class="flex flex-col justify-between rounded-md shadow-md  overflow-hidden card-content">
     
     <div class="p-3">
         <div class="flex justify-between items-center leading-tight">
@@ -880,7 +906,7 @@ You are only showing the world how stupid you are. If what you say is not better
 
     
     
-<a href="/weekly-15/" class="flex flex-col justify-between rounded-md shadow-md overflow-hidden card-content">
+<a href="/weekly-15/" class="flex flex-col justify-between rounded-md shadow-md  overflow-hidden card-content">
     
     <div class="p-3">
         <div class="flex justify-between items-center leading-tight">
@@ -896,7 +922,7 @@ You are only showing the world how stupid you are. If what you say is not better
 
     
     
-<a href="/weekly-14/" class="flex flex-col justify-between rounded-md shadow-md overflow-hidden card-content">
+<a href="/weekly-14/" class="flex flex-col justify-between rounded-md shadow-md  overflow-hidden card-content">
     
     <div class="p-3">
         <div class="flex justify-between items-center leading-tight">
@@ -912,7 +938,7 @@ You are only showing the world how stupid you are. If what you say is not better
 
     
     
-<a href="/weekly-13/" class="flex flex-col justify-between rounded-md shadow-md overflow-hidden card-content">
+<a href="/weekly-13/" class="flex flex-col justify-between rounded-md shadow-md  overflow-hidden card-content">
     
     <div class="p-3">
         <div class="flex justify-between items-center leading-tight">
@@ -928,7 +954,7 @@ You are only showing the world how stupid you are. If what you say is not better
 
     
     
-<a href="/weekly-12/" class="flex flex-col justify-between rounded-md shadow-md overflow-hidden card-content">
+<a href="/weekly-12/" class="flex flex-col justify-between rounded-md shadow-md  overflow-hidden card-content">
     
     <div class="p-3">
         <div class="flex justify-between items-center leading-tight">
@@ -944,7 +970,7 @@ You are only showing the world how stupid you are. If what you say is not better
 
     
     
-<a href="/weekly-11/" class="flex flex-col justify-between rounded-md shadow-md overflow-hidden card-content">
+<a href="/weekly-11/" class="flex flex-col justify-between rounded-md shadow-md  overflow-hidden card-content">
     
     <div class="p-3">
         <div class="flex justify-between items-center leading-tight">
@@ -960,7 +986,7 @@ You are only showing the world how stupid you are. If what you say is not better
 
     
     
-<a href="/weekly-10/" class="flex flex-col justify-between rounded-md shadow-md overflow-hidden card-content">
+<a href="/weekly-10/" class="flex flex-col justify-between rounded-md shadow-md  overflow-hidden card-content">
     
     <div class="p-3">
         <div class="flex justify-between items-center leading-tight">
@@ -976,7 +1002,7 @@ You are only showing the world how stupid you are. If what you say is not better
 
     
     
-<a href="/weekly-9/" class="flex flex-col justify-between rounded-md shadow-md overflow-hidden card-content">
+<a href="/weekly-9/" class="flex flex-col justify-between rounded-md shadow-md  overflow-hidden card-content">
     
     <div class="p-3">
         <div class="flex justify-between items-center leading-tight">
@@ -992,7 +1018,7 @@ You are only showing the world how stupid you are. If what you say is not better
 
     
     
-<a href="/weekly-8/" class="flex flex-col justify-between rounded-md shadow-md overflow-hidden card-content">
+<a href="/weekly-8/" class="flex flex-col justify-between rounded-md shadow-md  overflow-hidden card-content">
     
     <div class="p-3">
         <div class="flex justify-between items-center leading-tight">
@@ -1008,7 +1034,7 @@ You are only showing the world how stupid you are. If what you say is not better
 
     
     
-<a href="/weekly-7/" class="flex flex-col justify-between rounded-md shadow-md overflow-hidden card-content">
+<a href="/weekly-7/" class="flex flex-col justify-between rounded-md shadow-md  overflow-hidden card-content">
     
     <div class="p-3">
         <div class="flex justify-between items-center leading-tight">
@@ -1024,7 +1050,7 @@ You are only showing the world how stupid you are. If what you say is not better
 
     
     
-<a href="/weekly-6/" class="flex flex-col justify-between rounded-md shadow-md overflow-hidden card-content">
+<a href="/weekly-6/" class="flex flex-col justify-between rounded-md shadow-md  overflow-hidden card-content">
     
     <div class="p-3">
         <div class="flex justify-between items-center leading-tight">
@@ -1048,7 +1074,7 @@ Git Magic
 
     
     
-<a href="/weekly-5/" class="flex flex-col justify-between rounded-md shadow-md overflow-hidden card-content">
+<a href="/weekly-5/" class="flex flex-col justify-between rounded-md shadow-md  overflow-hidden card-content">
     
     <div class="p-3">
         <div class="flex justify-between items-center leading-tight">
@@ -1069,7 +1095,7 @@ Step 1: 在你的头脑中用英语命名周围的物体。 Step 2: 用简单的
 
     
     
-<a href="/weekly-4/" class="flex flex-col justify-between rounded-md shadow-md overflow-hidden card-content">
+<a href="/weekly-4/" class="flex flex-col justify-between rounded-md shadow-md  overflow-hidden card-content">
     
     <div class="p-3">
         <div class="flex justify-between items-center leading-tight">
@@ -1099,11 +1125,11 @@ Stack Overflow 发布了今年的开发者调查问卷，可以去填一填。�
 
     
     
-<a href="/weekly-3/" class="flex flex-col justify-between rounded-md shadow-md overflow-hidden card-content">
+<a href="/weekly-3/" class="flex flex-col justify-between rounded-md shadow-md  overflow-hidden card-content">
     
     <div class="p-3">
         <div class="flex justify-between items-center leading-tight">
-            <div class="text-gray-800 line-clamp-1">Weekly 3：最好的时代</div>
+            <div class="text-gray-800 line-clamp-1">最好的时代</div>
             <div class="text-grey-darker text-sm text-gray-600">2023/05/12</div>
         </div>
         <p class="text-gray-600 text-sm overflow-hidden line-clamp-2 mt-2 ">
@@ -1116,7 +1142,7 @@ AI 极大提高了个人单兵作战的能力。使用 ChatGPT 可以更快获�
 未来的时代，个人机会可能更大。因为 AI 可以逐步替代团队人力。原本五个人十个人需要干的事，未来可能只需要两三个人。目前的智力/人力密集的商业模式，可能能被算法+资本密集所代替。
 这个时代个人的上限更高了，但是同时人的下限也更低了。善于利用工具帮助自己工作学习，个人成长的加速度将越来越快。
 动态 Claude 宣布上下文窗口从 9K 扩展到 100K tokens，相当于 75,000 个单词。与此同时 GPT-4 的 tokens 只有 32K 。
-链接：https://www.anthropic.com/index/100k-context-windows?continueFlag=b1f3d285ec55b445f56f508334b2d067
+原文链接
 技术团队将《了不起的盖茨比》的全文加载到 Claude-Instant（72K tokens）中，并修改了一行，“Mr. Carraway was “a software engineer that works on machine learning tooling at Anthropic.”。Claude 在 22 秒内就找出了不同之处。
 谷歌人工智能主管的杰夫·迪恩（Jeff Dean）向员工宣布了一项的政策转变：他们只有在实验室工作变成产品后才能分享论文。
 Google shared AI knowledge with the world — until ChatGPT caught up
@@ -1126,18 +1152,18 @@ Google shared AI knowledge with the world — until ChatGPT caught up
 
     
     
-<a href="/weekly-2/" class="flex flex-col justify-between rounded-md shadow-md overflow-hidden card-content">
+<a href="/weekly-2/" class="flex flex-col justify-between rounded-md shadow-md  overflow-hidden card-content">
     
     <div class="p-3">
         <div class="flex justify-between items-center leading-tight">
-            <div class="text-gray-800 line-clamp-1">Weekly 2：系统的知识来源于对碎片的整理和思考</div>
+            <div class="text-gray-800 line-clamp-1">系统与碎片</div>
             <div class="text-grey-darker text-sm text-gray-600">2023/05/05</div>
         </div>
         <p class="text-gray-600 text-sm overflow-hidden line-clamp-2 mt-2 ">
             系统的知识来源于对碎片的整理和思考。为了更好地输出系统知识，我在这里记录本周的发现和思考，为构建系统知识做准备。
 动态 1. ChatGPT Prompt Engineering for Developers 吴恩达和 OpenAI 合作推出了免费的 Prompt Engineering（提示工程）课程。课程主要内容为指导开发者如何构建 Prompt 并基于 OpenAI API 构建新的、基于 LLM 的应用。
 《面向开发者的 ChatGPT 提示词工程》非官方版中英双语字幕
-开源笔记分享： AlexZ的课程内容的思维导图
+开源笔记分享 AlexZ的课程内容的思维导图
 Eric Kung 的笔记
 课程内容文字版
 向阳乔木的分享
@@ -1151,17 +1177,17 @@ Eric Kung 的笔记
 
     
     
-<a href="/weekly-1/" class="flex flex-col justify-between rounded-md shadow-md overflow-hidden card-content">
+<a href="/weekly-1/" class="flex flex-col justify-between rounded-md shadow-md  overflow-hidden card-content">
     
     <div class="p-3">
         <div class="flex justify-between items-center leading-tight">
-            <div class="text-gray-800 line-clamp-1">Weekly 1：启动启动启动</div>
+            <div class="text-gray-800 line-clamp-1">启动</div>
             <div class="text-grey-darker text-sm text-gray-600">2023/04/24</div>
         </div>
         <p class="text-gray-600 text-sm overflow-hidden line-clamp-2 mt-2 ">
-            动态 使用微信扫描上面这张二维码之后，微信APP就会闪退，并报告“三方应用异常分析”。
+            动态 使用微信扫描上面这张二维码之后，微信 APP 就会闪退，并报告“三方应用异常分析”。
 根据 Github 用户 **Konano **分析，这一 Bug 出现在了微信的扫码引擎中（微信团队于 2021 年在 OpenCV 开源其扫码引擎）。
-如果攻击者在数据的末尾添加了一段内容为空的数据，程序就会出错。这是因为程序在读取数据时，会读取这段数据的长度（也就是字节数），但是攻击者在末尾添加的这段数据的长度为0，这就导致了程序出错。为了解决这个问题，开发者需要在读取数据的长度后再初始化变量，以确保程序能够正确读取数据。详细内容
+如果攻击者在数据的末尾添加了一段内容为空的数据，程序就会出错。这是因为程序在读取数据时，会读取这段数据的长度（也就是字节数），但是攻击者在末尾添加的这段数据的长度为 0，这就导致了程序出错。为了解决这个问题，开发者需要在读取数据的长度后再初始化变量，以确保程序能够正确读取数据。详细内容
 文章 Moore&rsquo;s Law for Everything - Sam Altman This revolution will create phenomenal wealth. The price of many kinds of labor (which drives the costs of goods and services) will fall toward zero once sufficiently powerful AI “joins the workforce.” The world will change so rapidly and drastically that an equally drastic change in policy will be needed to distribute this wealth and enable more people to pursue the life they want.
         </p>
     </div>
@@ -1169,6 +1195,13 @@ Eric Kung 的笔记
 
     
 </main>
+<footer class="mx-16 my-4">
+    <p class="text-right">
+        <a href="https://huyixi.com" class="text-black">huyixi</a>
+        &copy; 2024 散步周刊
+    </p>
+</footer>
+
 
 </body>
 

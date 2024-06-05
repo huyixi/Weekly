@@ -7,207 +7,256 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/images/fav/favicon-16x16.png">
     <link rel="manifest" href="/images/fav/site.webmanifest">
     <title>散步周刊</title><link rel="stylesheet" href="/css/main.css" >
+    <link rel="stylesheet" href="https://gw.alipayobjects.com/os/k/font/lxgwwenkaiscreenr.css" as="font"
+        crossorigin="anonymous">
     
     <script src="/js/main.js" defer></script>
 </head>
 <body>
-<main
-    class="article-layout grid lg:grid-cols-[20rem_minmax(0,_var(--max-width))_13rem] md:grid-cols-[20rem_minmax(0,_var(--max-width))_]">
-    <aside class="grid-left sticky top-0 pl-16 pt-6 h-screen hidden md:block">
-    <div class=" h-[52px] flex items-center gap-4">
-        <a href="http://localhost:1313/">
-            <img src="/images/logo.png" alt="Site Logo" width="40" height="40" class="object-cover">
-        </a>
-        <a href="http://localhost:1313/">
-            <h1 class="text-gray-800 decorate-none">
-                散步周刊
-            </h1>
-        </a>
-    </div>
-    <nav class="sidebar-nav pr-16 mb-4 scrolls-sidebar ">
-        <ul class="p-0">
-            
-            <li class="line-clamp-1 m-1px py-1.2 px-2.8">
-                <a href="/202403/">2024年3月</a>
-            </li>
-            
-            <li class="line-clamp-1 m-1px py-1.2 px-2.8">
-                <a href="/202402/">2024年2月：过年、Apple Develop、Rust、韩国历史、我的Chrome主题上架啦</a>
-            </li>
-            
-            <li class="line-clamp-1 m-1px py-1.2 px-2.8">
-                <a href="/replay-2023/">Replay 2023：我的 2023 年终总结</a>
-            </li>
-            
-            <li class="line-clamp-1 m-1px py-1.2 px-2.8">
-                <a href="/weekly-39/">第39期 - Refactor Everything</a>
-            </li>
-            
-            <li class="line-clamp-1 m-1px py-1.2 px-2.8">
-                <a href="/weekly-38/">Weekly 38：咖啡机、涨薪、《邓小平时代》</a>
-            </li>
-            
-            <li class="line-clamp-1 m-1px py-1.2 px-2.8">
-                <a href="/weekly-37/">Weekly 37：马歇尔、shadcn/ui、锤子钉子</a>
-            </li>
-            
-            <li class="line-clamp-1 m-1px py-1.2 px-2.8">
-                <a href="/technical-writing-guide/">《技术写作指南》张鑫旭</a>
-            </li>
-            
-            <li class="line-clamp-1 m-1px py-1.2 px-2.8">
-                <a href="/ryuichisakamoto/">坂本龙一：《我还能看到多少次满月升起》与《音乐即自由》</a>
-            </li>
-            
-            <li class="line-clamp-1 m-1px py-1.2 px-2.8">
-                <a href="/journal-36/">24 年 1 月上：楠溪江跨年音乐节、坂本龙一、我的笔记本不能合盖</a>
-            </li>
-            
-            <li class="line-clamp-1 m-1px py-1.2 px-2.8">
-                <a href="/weekly-35/">Weekly 35：第一次 CTF</a>
-            </li>
-            
-            <li class="line-clamp-1 m-1px py-1.2 px-2.8">
-                <a href="/weekly-34/">Weekly 34：我好菜啊🎅🏻🎁🎄 </a>
-            </li>
-            
-            <li class="line-clamp-1 m-1px py-1.2 px-2.8">
-                <a href="/weekly-33/">Weekly 33：活在现在。不是活在未来，也不是活在过去</a>
-            </li>
-            
-            <li class="line-clamp-1 m-1px py-1.2 px-2.8">
-                <a href="/weekly-32/">Weekly 32：聚焦</a>
-            </li>
-            
-            <li class="line-clamp-1 m-1px py-1.2 px-2.8">
-                <a href="/weekly-31/">Weekly 31：天哪，这个世界上怎么会有这么多好玩的东西！</a>
-            </li>
-            
-            <li class="line-clamp-1 m-1px py-1.2 px-2.8">
-                <a href="/weekly-30/">Weekly 30：香港, 深圳, 广州草莓音乐节</a>
-            </li>
-            
-            <li class="line-clamp-1 m-1px py-1.2 px-2.8">
-                <a href="/weekly-29/">Weekly 29：关于 B 端产品设计</a>
-            </li>
-            
-            <li class="line-clamp-1 m-1px py-1.2 px-2.8">
-                <a href="/weekly-28/">Weekly 28：忙</a>
-            </li>
-            
-            <li class="line-clamp-1 m-1px py-1.2 px-2.8">
-                <a href="/weekly-27/">Weekly 27：我能控制我的身体，那么，我自然也能控制我的脑子🧠</a>
-            </li>
-            
-            <li class="line-clamp-1 m-1px py-1.2 px-2.8">
-                <a href="/weekly-26/">Weekly 26：健身</a>
-            </li>
-            
-            <li class="line-clamp-1 m-1px py-1.2 px-2.8">
-                <a href="/weekly-25/">Weekly 25：复习扼杀创新</a>
-            </li>
-            
-            <li class="line-clamp-1 m-1px py-1.2 px-2.8">
-                <a href="/weekly-24/">Weekly 24：玩</a>
-            </li>
-            
-            <li class="line-clamp-1 m-1px py-1.2 px-2.8">
-                <a href="/weekly-23/">Weekly 23：岸上未必安全，真正精彩的都在海里</a>
-            </li>
-            
-            <li class="line-clamp-1 m-1px py-1.2 px-2.8">
-                <a href="/weekly-22/">Weekly 22：行歌</a>
-            </li>
-            
-            <li class="line-clamp-1 m-1px py-1.2 px-2.8">
-                <a href="/weekly-21/">Weekly 21：不要成为一个等待喂养的躯壳</a>
-            </li>
-            
-            <li class="line-clamp-1 m-1px py-1.2 px-2.8">
-                <a href="/weekly-20/">Weekly 20：“时间”是对所有现代人都最公平的东西</a>
-            </li>
-            
-            <li class="line-clamp-1 m-1px py-1.2 px-2.8">
-                <a href="/weekly-19/">Weekly 19：每个人每天都只有24小时，希望我的选择真的是我的选择</a>
-            </li>
-            
-            <li class="line-clamp-1 m-1px py-1.2 px-2.8">
-                <a href="/weekly-18/">Weekly 18：与美国亚马逊客服的交手经历</a>
-            </li>
-            
-            <li class="line-clamp-1 m-1px py-1.2 px-2.8">
-                <a href="/weekly-17/">Weekly 17：停止在博客上碎碎念!但在周报上可以😜</a>
-            </li>
-            
-            <li class="line-clamp-1 m-1px py-1.2 px-2.8">
-                <a href="/weekly-16/">Weekly 16：乐观与悲观</a>
-            </li>
-            
-            <li class="line-clamp-1 m-1px py-1.2 px-2.8">
-                <a href="/weekly-15/">Weekly 15：VIM 作者逝世</a>
-            </li>
-            
-            <li class="line-clamp-1 m-1px py-1.2 px-2.8">
-                <a href="/weekly-14/">Weekly 14：英语</a>
-            </li>
-            
-            <li class="line-clamp-1 m-1px py-1.2 px-2.8">
-                <a href="/weekly-13/">Weekly 13：停止在博客上碎碎念！</a>
-            </li>
-            
-            <li class="line-clamp-1 m-1px py-1.2 px-2.8">
-                <a href="/weekly-12/">Weekly 12：历史上最热的一天</a>
-            </li>
-            
-            <li class="line-clamp-1 m-1px py-1.2 px-2.8">
-                <a href="/weekly-11/">Weekly 11：去冒险吧，带着勇气</a>
-            </li>
-            
-            <li class="line-clamp-1 m-1px py-1.2 px-2.8">
-                <a href="/weekly-10/">Weekly 10：如何活得更久？</a>
-            </li>
-            
-            <li class="line-clamp-1 m-1px py-1.2 px-2.8">
-                <a href="/weekly-9/">Weekly 9：生命短暂，贪得无厌！ - How to Live</a>
-            </li>
-            
-            <li class="line-clamp-1 m-1px py-1.2 px-2.8">
-                <a href="/weekly-8/">Weekly 8：我的自动化生活</a>
-            </li>
-            
-            <li class="line-clamp-1 m-1px py-1.2 px-2.8">
-                <a href="/weekly-7/">Weekly 7：周刊记录内容的改进</a>
-            </li>
-            
-            <li class="line-clamp-1 m-1px py-1.2 px-2.8">
-                <a href="/weekly-6/">Weekly 6：水周刊</a>
-            </li>
-            
-            <li class="line-clamp-1 m-1px py-1.2 px-2.8">
-                <a href="/weekly-5/">Weekly 5：英语</a>
-            </li>
-            
-            <li class="line-clamp-1 m-1px py-1.2 px-2.8">
-                <a href="/weekly-4/">Weekly 4：陈皓逝世</a>
-            </li>
-            
-            <li class="line-clamp-1 m-1px py-1.2 px-2.8">
-                <a href="/weekly-3/">Weekly 3：最好的时代</a>
-            </li>
-            
-            <li class="line-clamp-1 m-1px py-1.2 px-2.8">
-                <a href="/weekly-2/">Weekly 2：系统的知识来源于对碎片的整理和思考</a>
-            </li>
-            
-            <li class="line-clamp-1 m-1px py-1.2 px-2.8">
-                <a href="/weekly-1/">Weekly 1：启动启动启动</a>
-            </li>
-            
-        </ul>
-    </nav>
-</aside>
-
-    <article class="grid-main py-6 px-14">
+<main class="grid md:grid-cols-[18rem_minmax(0,1fr)] xl:grid-cols-[20rem_minmax(0,1fr)_13rem]">
+    <aside class="grid-sidebar sticky top-0 left-0 pl-8 pt-6 h-screen hidden md:block md:sticky md:left-0 md:pl-24 ">
+        <nav class="overflow-hidden">
+            <div class="h-[52px] flex items-center gap-4">
+                <a href="http://localhost:1313/">
+                    <img src="/images/logo.png" alt="Site Logo" width="40" height="40" class="object-cover">
+                </a>
+                <a href="http://localhost:1313/">
+                    <h1 class="text-gray-800 no-underline">
+                        散步周刊
+                    </h1>
+                </a>
+            </div>
+            <ul class="scrolls-sidebar p0 m0 overflow-y-auto">
+                
+                <li class=" my-1 py-1.5 pl-3 pr-4 overflow-hidden">
+                    <a href="/about/"
+                        class="block w-full overflow-hidden text-ellipsis whitespace-nowrap">关于散步周刊</a>
+                </li>
+                
+                <li class=" my-1 py-1.5 pl-3 pr-4 overflow-hidden">
+                    <a href="/202403/"
+                        class="block w-full overflow-hidden text-ellipsis whitespace-nowrap">2024年3月</a>
+                </li>
+                
+                <li class=" my-1 py-1.5 pl-3 pr-4 overflow-hidden">
+                    <a href="/202402/"
+                        class="block w-full overflow-hidden text-ellipsis whitespace-nowrap">2024年2月</a>
+                </li>
+                
+                <li class=" my-1 py-1.5 pl-3 pr-4 overflow-hidden">
+                    <a href="/replay-2023/"
+                        class="block w-full overflow-hidden text-ellipsis whitespace-nowrap">Replay 2023：我的 2023 年终总结</a>
+                </li>
+                
+                <li class=" my-1 py-1.5 pl-3 pr-4 overflow-hidden">
+                    <a href="/weekly-39/"
+                        class="block w-full overflow-hidden text-ellipsis whitespace-nowrap">第39期 - Refactor Everything</a>
+                </li>
+                
+                <li class=" my-1 py-1.5 pl-3 pr-4 overflow-hidden">
+                    <a href="/weekly-38/"
+                        class="block w-full overflow-hidden text-ellipsis whitespace-nowrap">Weekly 38：咖啡机、涨薪、《邓小平时代》</a>
+                </li>
+                
+                <li class=" my-1 py-1.5 pl-3 pr-4 overflow-hidden">
+                    <a href="/weekly-37/"
+                        class="block w-full overflow-hidden text-ellipsis whitespace-nowrap">Weekly 37：马歇尔、shadcn/ui、锤子钉子</a>
+                </li>
+                
+                <li class=" my-1 py-1.5 pl-3 pr-4 overflow-hidden">
+                    <a href="/technical-writing-guide/"
+                        class="block w-full overflow-hidden text-ellipsis whitespace-nowrap">《技术写作指南》张鑫旭</a>
+                </li>
+                
+                <li class=" my-1 py-1.5 pl-3 pr-4 overflow-hidden">
+                    <a href="/ryuichisakamoto/"
+                        class="block w-full overflow-hidden text-ellipsis whitespace-nowrap">坂本龙一：《我还能看到多少次满月升起》与《音乐即自由》</a>
+                </li>
+                
+                <li class=" my-1 py-1.5 pl-3 pr-4 overflow-hidden">
+                    <a href="/journal-36/"
+                        class="block w-full overflow-hidden text-ellipsis whitespace-nowrap">2024年1月上</a>
+                </li>
+                
+                <li class=" my-1 py-1.5 pl-3 pr-4 overflow-hidden">
+                    <a href="/weekly-35/"
+                        class="block w-full overflow-hidden text-ellipsis whitespace-nowrap">Weekly 35：第一次 CTF</a>
+                </li>
+                
+                <li class=" my-1 py-1.5 pl-3 pr-4 overflow-hidden">
+                    <a href="/weekly-34/"
+                        class="block w-full overflow-hidden text-ellipsis whitespace-nowrap">Weekly 34：我好菜啊🎅🏻🎁🎄 </a>
+                </li>
+                
+                <li class=" my-1 py-1.5 pl-3 pr-4 overflow-hidden">
+                    <a href="/weekly-33/"
+                        class="block w-full overflow-hidden text-ellipsis whitespace-nowrap">Weekly 33：活在现在。不是活在未来，也不是活在过去</a>
+                </li>
+                
+                <li class=" my-1 py-1.5 pl-3 pr-4 overflow-hidden">
+                    <a href="/weekly-32/"
+                        class="block w-full overflow-hidden text-ellipsis whitespace-nowrap">Weekly 32：聚焦</a>
+                </li>
+                
+                <li class=" my-1 py-1.5 pl-3 pr-4 overflow-hidden">
+                    <a href="/weekly-31/"
+                        class="block w-full overflow-hidden text-ellipsis whitespace-nowrap">Weekly 31：天哪，这个世界上怎么会有这么多好玩的东西！</a>
+                </li>
+                
+                <li class=" my-1 py-1.5 pl-3 pr-4 overflow-hidden">
+                    <a href="/weekly-30/"
+                        class="block w-full overflow-hidden text-ellipsis whitespace-nowrap">Weekly 30：香港, 深圳, 广州草莓音乐节</a>
+                </li>
+                
+                <li class=" my-1 py-1.5 pl-3 pr-4 overflow-hidden">
+                    <a href="/weekly-29/"
+                        class="block w-full overflow-hidden text-ellipsis whitespace-nowrap">Weekly 29：关于 B 端产品设计</a>
+                </li>
+                
+                <li class=" my-1 py-1.5 pl-3 pr-4 overflow-hidden">
+                    <a href="/weekly-28/"
+                        class="block w-full overflow-hidden text-ellipsis whitespace-nowrap">Weekly 28：忙</a>
+                </li>
+                
+                <li class=" my-1 py-1.5 pl-3 pr-4 overflow-hidden">
+                    <a href="/weekly-27/"
+                        class="block w-full overflow-hidden text-ellipsis whitespace-nowrap">Weekly 27：我能控制我的身体，那么，我自然也能控制我的脑子🧠</a>
+                </li>
+                
+                <li class=" my-1 py-1.5 pl-3 pr-4 overflow-hidden">
+                    <a href="/weekly-26/"
+                        class="block w-full overflow-hidden text-ellipsis whitespace-nowrap">Weekly 26：健身</a>
+                </li>
+                
+                <li class=" my-1 py-1.5 pl-3 pr-4 overflow-hidden">
+                    <a href="/weekly-25/"
+                        class="block w-full overflow-hidden text-ellipsis whitespace-nowrap">Weekly 25：复习扼杀创新</a>
+                </li>
+                
+                <li class=" my-1 py-1.5 pl-3 pr-4 overflow-hidden">
+                    <a href="/weekly-24/"
+                        class="block w-full overflow-hidden text-ellipsis whitespace-nowrap">Weekly 24：玩</a>
+                </li>
+                
+                <li class=" my-1 py-1.5 pl-3 pr-4 overflow-hidden">
+                    <a href="/weekly-23/"
+                        class="block w-full overflow-hidden text-ellipsis whitespace-nowrap">Weekly 23：岸上未必安全，真正精彩的都在海里</a>
+                </li>
+                
+                <li class=" my-1 py-1.5 pl-3 pr-4 overflow-hidden">
+                    <a href="/weekly-22/"
+                        class="block w-full overflow-hidden text-ellipsis whitespace-nowrap">Weekly 22：行歌</a>
+                </li>
+                
+                <li class=" my-1 py-1.5 pl-3 pr-4 overflow-hidden">
+                    <a href="/weekly-21/"
+                        class="block w-full overflow-hidden text-ellipsis whitespace-nowrap">Weekly 21：不要成为一个等待喂养的躯壳</a>
+                </li>
+                
+                <li class=" my-1 py-1.5 pl-3 pr-4 overflow-hidden">
+                    <a href="/weekly-20/"
+                        class="block w-full overflow-hidden text-ellipsis whitespace-nowrap">Weekly 20：“时间”是对所有现代人都最公平的东西</a>
+                </li>
+                
+                <li class=" my-1 py-1.5 pl-3 pr-4 overflow-hidden">
+                    <a href="/weekly-19/"
+                        class="block w-full overflow-hidden text-ellipsis whitespace-nowrap">Weekly 19：每个人每天都只有24小时，希望我的选择真的是我的选择</a>
+                </li>
+                
+                <li class=" my-1 py-1.5 pl-3 pr-4 overflow-hidden">
+                    <a href="/weekly-18/"
+                        class="block w-full overflow-hidden text-ellipsis whitespace-nowrap">Weekly 18：与美国亚马逊客服的交手经历</a>
+                </li>
+                
+                <li class=" my-1 py-1.5 pl-3 pr-4 overflow-hidden">
+                    <a href="/weekly-17/"
+                        class="block w-full overflow-hidden text-ellipsis whitespace-nowrap">Weekly 17：停止在博客上碎碎念!但在周报上可以😜</a>
+                </li>
+                
+                <li class=" my-1 py-1.5 pl-3 pr-4 overflow-hidden">
+                    <a href="/weekly-16/"
+                        class="block w-full overflow-hidden text-ellipsis whitespace-nowrap">Weekly 16：乐观与悲观</a>
+                </li>
+                
+                <li class=" my-1 py-1.5 pl-3 pr-4 overflow-hidden">
+                    <a href="/weekly-15/"
+                        class="block w-full overflow-hidden text-ellipsis whitespace-nowrap">Weekly 15：VIM 作者逝世</a>
+                </li>
+                
+                <li class=" my-1 py-1.5 pl-3 pr-4 overflow-hidden">
+                    <a href="/weekly-14/"
+                        class="block w-full overflow-hidden text-ellipsis whitespace-nowrap">Weekly 14：英语</a>
+                </li>
+                
+                <li class=" my-1 py-1.5 pl-3 pr-4 overflow-hidden">
+                    <a href="/weekly-13/"
+                        class="block w-full overflow-hidden text-ellipsis whitespace-nowrap">Weekly 13：停止在博客上碎碎念！</a>
+                </li>
+                
+                <li class=" my-1 py-1.5 pl-3 pr-4 overflow-hidden">
+                    <a href="/weekly-12/"
+                        class="block w-full overflow-hidden text-ellipsis whitespace-nowrap">Weekly 12：历史上最热的一天</a>
+                </li>
+                
+                <li class=" my-1 py-1.5 pl-3 pr-4 overflow-hidden">
+                    <a href="/weekly-11/"
+                        class="block w-full overflow-hidden text-ellipsis whitespace-nowrap">Weekly 11：去冒险吧，带着勇气</a>
+                </li>
+                
+                <li class=" my-1 py-1.5 pl-3 pr-4 overflow-hidden">
+                    <a href="/weekly-10/"
+                        class="block w-full overflow-hidden text-ellipsis whitespace-nowrap">Weekly 10：如何活得更久？</a>
+                </li>
+                
+                <li class=" my-1 py-1.5 pl-3 pr-4 overflow-hidden">
+                    <a href="/weekly-9/"
+                        class="block w-full overflow-hidden text-ellipsis whitespace-nowrap">Weekly 9：生命短暂，贪得无厌！ - How to Live</a>
+                </li>
+                
+                <li class=" my-1 py-1.5 pl-3 pr-4 overflow-hidden">
+                    <a href="/weekly-8/"
+                        class="block w-full overflow-hidden text-ellipsis whitespace-nowrap">Weekly 8：我的自动化生活</a>
+                </li>
+                
+                <li class=" my-1 py-1.5 pl-3 pr-4 overflow-hidden">
+                    <a href="/weekly-7/"
+                        class="block w-full overflow-hidden text-ellipsis whitespace-nowrap">Weekly 7：周刊记录内容的改进</a>
+                </li>
+                
+                <li class=" my-1 py-1.5 pl-3 pr-4 overflow-hidden">
+                    <a href="/weekly-6/"
+                        class="block w-full overflow-hidden text-ellipsis whitespace-nowrap">Weekly 6：水周刊</a>
+                </li>
+                
+                <li class=" my-1 py-1.5 pl-3 pr-4 overflow-hidden">
+                    <a href="/weekly-5/"
+                        class="block w-full overflow-hidden text-ellipsis whitespace-nowrap">Weekly 5：英语</a>
+                </li>
+                
+                <li class=" my-1 py-1.5 pl-3 pr-4 overflow-hidden">
+                    <a href="/weekly-4/"
+                        class="block w-full overflow-hidden text-ellipsis whitespace-nowrap">Weekly 4：陈皓逝世</a>
+                </li>
+                
+                <li class=" my-1 py-1.5 pl-3 pr-4 overflow-hidden">
+                    <a href="/weekly-3/"
+                        class="block w-full overflow-hidden text-ellipsis whitespace-nowrap">Weekly 3：最好的时代</a>
+                </li>
+                
+                <li class=" my-1 py-1.5 pl-3 pr-4 overflow-hidden">
+                    <a href="/weekly-2/"
+                        class="block w-full overflow-hidden text-ellipsis whitespace-nowrap">Weekly 2：系统的知识来源于对碎片的整理和思考</a>
+                </li>
+                
+                <li class=" my-1 py-1.5 pl-3 pr-4 overflow-hidden">
+                    <a href="/weekly-1/"
+                        class="block w-full overflow-hidden text-ellipsis whitespace-nowrap">Weekly 1：启动启动启动</a>
+                </li>
+                
+            </ul>
+        </nav>
+    </aside>
+    <article class="col-span-3 p-8 md:col-start-2 md:p-8 md:p-8">
         <h1 id="textOverlay">Weekly 4：陈皓逝世</h1>
         
         <main class="post-content">
@@ -350,7 +399,7 @@
         <footer class="post-footer mt-4 py-4">
   <div class="flex justify-between md:flex-row flex-col ">
     <div class=" flex-1">
-      发布日期：<a href="http://localhost:1313/weekly-4/" target="_blank" data-pagefind-sort="date" title="Edit">2023/05/13</a>
+      发布日期：2023/05/13
     </div>
     <div class="md:mt-0 mt-4 flex-1 text-right">
       

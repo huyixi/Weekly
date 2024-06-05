@@ -9,13 +9,6 @@
     --max-width: calc(100% - 1rem)
 }
 
-@font-face {
-    font-family: 'LXGWWenKaiScreenR';
-    src: url('/fonts/LXGWWenKaiScreenR.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
 /* Base Elements Styles */
 html {
     line-height: 1.15;
@@ -50,7 +43,7 @@ nav li {
     list-style-type: none;
 }
 
-.line-clamp-1 a {
+.line-clamp-1 {
     display: -webkit-box;
     -webkit-box-orient: vertical;
     overflow: hidden;
@@ -126,12 +119,4 @@ nav li {
 .post-content a {
     text-decoration: none;
     color: var(--link-color);
-}
-
-.grid-left {
-    grid-column: 1;
-}
-
-.grid-main {
-    grid-column: 2;
 }

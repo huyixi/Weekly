@@ -12,6 +12,8 @@
     {{ end -}}
     <link rel="stylesheet" href="{{ $unocss.RelPermalink }}" {{ if hugo.IsProduction }}
         integrity="{{ $unocss.Data.Integrity }}" {{ end }}>
+    <link rel="stylesheet" href="https://gw.alipayobjects.com/os/k/font/lxgwwenkaiscreenr.css" as="font"
+        crossorigin="anonymous">
     {{ $js := resources.Get "js/main.js" | js.Build }}
     <script src="{{ $js.RelPermalink }}" defer></script>
 </head>

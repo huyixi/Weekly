@@ -1,5 +1,5 @@
 {{define "main"}}
-<header class="mt-6 mb-4">
+<header class="mt-6">
     <nav class="nav-x flex mx-16 items-center">
         <div class="flex items-center gap-4">
             <a href="{{ .Site.Home.Permalink }}">
@@ -19,10 +19,11 @@
     </nav>
 </header>
 
-<main class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mx-16">
+<main class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mx-16 mt-4">
     {{ $posts := .Site.RegularPages }}
     {{ range $posts }}
     {{ partial "post-card" . }}
     {{ end }}
 </main>
+{{partial "home-footer" .}}
 {{end}}

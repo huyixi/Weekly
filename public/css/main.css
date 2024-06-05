@@ -9,13 +9,6 @@
     --max-width: calc(100% - 1rem)
 }
 
-@font-face {
-    font-family: 'LXGWWenKaiScreenR';
-    src: url('/fonts/LXGWWenKaiScreenR.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
 /* Base Elements Styles */
 html {
     line-height: 1.15;
@@ -50,7 +43,7 @@ nav li {
     list-style-type: none;
 }
 
-.line-clamp-1 a {
+.line-clamp-1 {
     display: -webkit-box;
     -webkit-box-orient: vertical;
     overflow: hidden;
@@ -127,14 +120,6 @@ nav li {
     text-decoration: none;
     color: var(--link-color);
 }
-
-.grid-left {
-    grid-column: 1;
-}
-
-.grid-main {
-    grid-column: 2;
-}
 /* layer: preflights */
 *,::before,::after{--un-rotate:0;--un-rotate-x:0;--un-rotate-y:0;--un-rotate-z:0;--un-scale-x:1;--un-scale-y:1;--un-scale-z:1;--un-skew-x:0;--un-skew-y:0;--un-translate-x:0;--un-translate-y:0;--un-translate-z:0;--un-pan-x: ;--un-pan-y: ;--un-pinch-zoom: ;--un-scroll-snap-strictness:proximity;--un-ordinal: ;--un-slashed-zero: ;--un-numeric-figure: ;--un-numeric-spacing: ;--un-numeric-fraction: ;--un-border-spacing-x:0;--un-border-spacing-y:0;--un-ring-offset-shadow:0 0 rgb(0 0 0 / 0);--un-ring-shadow:0 0 rgb(0 0 0 / 0);--un-shadow-inset: ;--un-shadow:0 0 rgb(0 0 0 / 0);--un-ring-inset: ;--un-ring-offset-width:0px;--un-ring-offset-color:#fff;--un-ring-width:0px;--un-ring-color:rgb(147 197 253 / 0.5);--un-blur: ;--un-brightness: ;--un-contrast: ;--un-drop-shadow: ;--un-grayscale: ;--un-hue-rotate: ;--un-invert: ;--un-saturate: ;--un-sepia: ;--un-backdrop-blur: ;--un-backdrop-brightness: ;--un-backdrop-contrast: ;--un-backdrop-grayscale: ;--un-backdrop-hue-rotate: ;--un-backdrop-invert: ;--un-backdrop-opacity: ;--un-backdrop-saturate: ;--un-backdrop-sepia: ;}::backdrop{--un-rotate:0;--un-rotate-x:0;--un-rotate-y:0;--un-rotate-z:0;--un-scale-x:1;--un-scale-y:1;--un-scale-z:1;--un-skew-x:0;--un-skew-y:0;--un-translate-x:0;--un-translate-y:0;--un-translate-z:0;--un-pan-x: ;--un-pan-y: ;--un-pinch-zoom: ;--un-scroll-snap-strictness:proximity;--un-ordinal: ;--un-slashed-zero: ;--un-numeric-figure: ;--un-numeric-spacing: ;--un-numeric-fraction: ;--un-border-spacing-x:0;--un-border-spacing-y:0;--un-ring-offset-shadow:0 0 rgb(0 0 0 / 0);--un-ring-shadow:0 0 rgb(0 0 0 / 0);--un-shadow-inset: ;--un-shadow:0 0 rgb(0 0 0 / 0);--un-ring-inset: ;--un-ring-offset-width:0px;--un-ring-offset-color:#fff;--un-ring-width:0px;--un-ring-color:rgb(147 197 253 / 0.5);--un-blur: ;--un-brightness: ;--un-contrast: ;--un-drop-shadow: ;--un-grayscale: ;--un-hue-rotate: ;--un-invert: ;--un-saturate: ;--un-sepia: ;--un-backdrop-blur: ;--un-backdrop-brightness: ;--un-backdrop-contrast: ;--un-backdrop-grayscale: ;--un-backdrop-hue-rotate: ;--un-backdrop-invert: ;--un-backdrop-opacity: ;--un-backdrop-saturate: ;--un-backdrop-sepia: ;}
 /* layer: default */
@@ -146,10 +131,12 @@ nav li {
 .line-clamp-1{overflow:hidden;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1;line-clamp:1;}
 .line-clamp-2{overflow:hidden;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;line-clamp:2;}
 .grid{display:grid;}
+.col-span-3{grid-column:span 3/span 3;}
 .grid-cols-1{grid-template-columns:repeat(1,minmax(0,1fr));}
-.m-1px{margin:1px;}
+.m0{margin:0;}
 .mx-16{margin-left:4rem;margin-right:4rem;}
-.mb-4{margin-bottom:1rem;}
+.my-1{margin-top:0.25rem;margin-bottom:0.25rem;}
+.my-4{margin-top:1rem;margin-bottom:1rem;}
 .mt-2{margin-top:0.5rem;}
 .mt-4{margin-top:1rem;}
 .mt-6{margin-top:1.5rem;}
@@ -168,40 +155,49 @@ nav li {
 .justify-between{justify-content:space-between;}
 .gap-4{gap:1rem;}
 .overflow-hidden{overflow:hidden;}
+.overflow-y-auto{overflow-y:auto;}
+.text-ellipsis{text-overflow:ellipsis;}
+.whitespace-nowrap{white-space:nowrap;}
 .rounded-md{border-radius:0.375rem;}
 .object-cover{object-fit:cover;}
-.p-0{padding:0;}
 .p-3{padding:0.75rem;}
-.px-14{padding-left:3.5rem;padding-right:3.5rem;}
-.px-2\.8{padding-left:0.7rem;padding-right:0.7rem;}
-.py-1\.2{padding-top:0.3rem;padding-bottom:0.3rem;}
+.p-8{padding:2rem;}
+.p0{padding:0;}
+.py-1\.5{padding-top:0.375rem;padding-bottom:0.375rem;}
 .py-4{padding-top:1rem;padding-bottom:1rem;}
-.py-6{padding-top:1.5rem;padding-bottom:1.5rem;}
-.pl-16{padding-left:4rem;}
-.pr-16{padding-right:4rem;}
+.pl-3{padding-left:0.75rem;}
+.pl-8{padding-left:2rem;}
+.pr-4{padding-right:1rem;}
 .pt-6{padding-top:1.5rem;}
 .text-right{text-align:right;}
 .text-sm{font-size:0.875rem;line-height:1.25rem;}
 .text-xl{font-size:1.25rem;line-height:1.75rem;}
 .text-\[\#0076d1\]{--un-text-opacity:1;color:rgb(0 118 209 / var(--un-text-opacity));}
+.text-black{--un-text-opacity:1;color:rgb(0 0 0 / var(--un-text-opacity));}
 .text-gray-600{--un-text-opacity:1;color:rgb(75 85 99 / var(--un-text-opacity));}
 .text-gray-800{--un-text-opacity:1;color:rgb(31 41 55 / var(--un-text-opacity));}
 .leading-tight{line-height:1.25;}
+.no-underline{text-decoration:none;}
 .shadow-md{--un-shadow:var(--un-shadow-inset) 0 4px 6px -1px var(--un-shadow-color, rgb(0 0 0 / 0.1)),var(--un-shadow-inset) 0 2px 4px -2px var(--un-shadow-color, rgb(0 0 0 / 0.1));box-shadow:var(--un-ring-offset-shadow), var(--un-ring-shadow), var(--un-shadow);}
 @media (min-width: 640px){
 .sm\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr));}
 }
 @media (min-width: 768px){
-.md\:grid-cols-\[20rem_minmax\(0\,_var\(--max-width\)\)_\]{grid-template-columns:20rem minmax(0, var(--max-width)) ;}
+.md\:sticky{position:sticky;}
+.md\:left-0{left:0;}
+.md\:col-start-2{grid-column-start:2;}
+.md\:grid-cols-\[18rem_minmax\(0\,1fr\)\]{grid-template-columns:18rem minmax(0,1fr);}
 .md\:grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr));}
 .md\:mt-0{margin-top:0;}
 .md\:block{display:block;}
 .md\:flex-row{flex-direction:row;}
+.md\:p-8{padding:2rem;}
+.md\:pl-24{padding-left:6rem;}
 }
 @media (min-width: 1024px){
-.lg\:grid-cols-\[20rem_minmax\(0\,_var\(--max-width\)\)_13rem\]{grid-template-columns:20rem minmax(0, var(--max-width)) 13rem;}
 .lg\:grid-cols-4{grid-template-columns:repeat(4,minmax(0,1fr));}
 }
 @media (min-width: 1280px){
+.xl\:grid-cols-\[20rem_minmax\(0\,1fr\)_13rem\]{grid-template-columns:20rem minmax(0,1fr) 13rem;}
 .xl\:inline-block{display:inline-block;}
 }

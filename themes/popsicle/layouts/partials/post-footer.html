@@ -1,9 +1,9 @@
 <footer class="post-footer mt-4 py-4">
   <div class="flex justify-between md:flex-row flex-col ">
     <div class=" flex-1">
-      发布日期：<a href="{{ .Permalink }}" target="_blank" data-pagefind-sort="date" title="Edit">{{ .Date.Format
-        "2006/01/02"
-        }}</a>
+      发布日期：{{ .Date.Format
+      "2006/01/02"
+      }}
     </div>
     <div class="md:mt-0 mt-4 flex-1 text-right">
       {{ if .Next }}

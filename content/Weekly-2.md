@@ -1,5 +1,5 @@
 ---
-title: "Weekly 2：系统的知识来源于对碎片的整理和思考"
+title: "系统与碎片"
 date: 2023-05-05T08:00:00+08:00
 lastmod: 2023-05-05T08:00:00+08:00
 category: [Weekly]
@@ -17,7 +17,7 @@ draft: false
 
 [《面向开发者的 ChatGPT 提示词工程》非官方版中英双语字幕](https://github.com/GitHubDaily/ChatGPT-Prompt-Engineering-for-Developers-in-Chinese)
 
-#### 开源笔记分享：
+#### 开源笔记分享
 
 [AlexZ](https://twitter.com/blackanger)的课程内容的[思维导图](https://twitter.com/blackanger/status/1651825435049865216?s=20)
 

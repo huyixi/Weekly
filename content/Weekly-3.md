@@ -1,5 +1,5 @@
 ---
-title: "Weekly 3：最好的时代"
+title: "最好的时代"
 date: 2023-05-12T08:00:00+08:00
 lastmod: 2023-05-12T08:00:00+08:00
 category: [Weekly]
@@ -29,7 +29,7 @@ AI 极大提高了个人单兵作战的能力。使用 ChatGPT 可以更快获�
 
 1. Claude 宣布上下文窗口从 9K 扩展到 100K tokens，相当于 75,000 个单词。与此同时 GPT-4 的 tokens 只有 32K 。
 
-   链接：https://www.anthropic.com/index/100k-context-windows?continueFlag=b1f3d285ec55b445f56f508334b2d067
+   [原文链接](https://www.anthropic.com/index/100k-context-windows?continueFlag=b1f3d285ec55b445f56f508334b2d067)
 
    技术团队将《了不起的盖茨比》的全文加载到 Claude-Instant（72K tokens）中，并修改了一行，“Mr. Carraway was “a software engineer that works on machine learning tooling at Anthropic.”。Claude 在 22 秒内就找出了不同之处。
 
@@ -43,142 +43,142 @@ AI 极大提高了个人单兵作战的能力。使用 ChatGPT 可以更快获�
 
 ## 文章
 
-1. ### [GPT-4 - How does it work, and how do I build apps with it? - CS50 Tech Talk](https://www.youtube.com/watch?v=vw-KWfKwvTQ)
+### [GPT-4 - How does it work, and how do I build apps with it? - CS50 Tech Talk](https://www.youtube.com/watch?v=vw-KWfKwvTQ)
 
-   讲诉了 GPT-4 的工作原理以及为什么人类语言在计算中发挥着如此关键的作用。之后介绍了您将看到 AI 原生软件是如何制作的。其中一位主讲 [@Sil Hamilton](https://srhm.ca/) 很帅。
+讲诉了 GPT-4 的工作原理以及为什么人类语言在计算中发挥着如此关键的作用。之后介绍了您将看到 AI 原生软件是如何制作的。其中一位主讲 [@Sil Hamilton](https://srhm.ca/) 很帅。
 
-2. ### [How To Be Successful](https://blog.samaltman.com/how-to-be-successful)
+### [How To Be Successful](https://blog.samaltman.com/how-to-be-successful)
 
-   Sam Altman 写的关于如何成功的几个要点和建议。
+Sam Altman 写的关于如何成功的几个要点和建议。
 
-   个人总结了一下，包括以下几点：
+个人总结了一下，包括以下几点：
 
-   1. 选择复利增长：寻找具有复合效应的职业，让自己的增长越来越快，优势越来越大。线性的人生是恐怖的，你可以预测到 30 年后你在哪里做什么。
+1.  选择复利增长：寻找具有复合效应的职业，让自己的增长越来越快，优势越来越大。线性的人生是恐怖的，你可以预测到 30 年后你在哪里做什么。
 
-   2. 绝对的自信：
+2.  绝对的自信：
 
-      - 如果你不相信自己，就很难让自己对未来产生相反的想法。但这是创造最大价值的地方。
-      - 管理自己的士气和团队的士气是大多数努力的最大挑战之一。没有很多自信几乎是不可能的。不幸的是，你越有野心，世界就越会试图摧毁你。
-      - 大多数非常成功的人对未来的看法至少有一次在人们认为自己错的时候是正确的。否则，他们将面临更多的竞争。
+    - 如果你不相信自己，就很难让自己对未来产生相反的想法。但这是创造最大价值的地方。
+    - 管理自己的士气和团队的士气是大多数努力的最大挑战之一。没有很多自信几乎是不可能的。不幸的是，你越有野心，世界就越会试图摧毁你。
+    - 大多数非常成功的人对未来的看法至少有一次在人们认为自己错的时候是正确的。否则，他们将面临更多的竞争。
 
-   3. 学会独立思考
+3.  学会独立思考
 
-   4. 做好一个“销售”：仅有自信是不够的——你还必须能够说服别人相信你。你需要把自己销售给投资人、员工、客户，让他们加入你支持你。
+4.  做好一个“销售”：仅有自信是不够的——你还必须能够说服别人相信你。你需要把自己销售给投资人、员工、客户，让他们加入你支持你。
 
-   5. 让自己习惯风险：在职业生涯早期冒险可失去的较少。当人们习惯了舒适的生活、可预测的工作以及无论做什么都取得成功的声誉时，就很难抛弃它
+5.  让自己习惯风险：在职业生涯早期冒险可失去的较少。当人们习惯了舒适的生活、可预测的工作以及无论做什么都取得成功的声誉时，就很难抛弃它
 
-   6. 保持专注：做正确的事情比工作很多小时重要得多。
+6.  保持专注：做正确的事情比工作很多小时重要得多。
 
-   7. 努力工作
+7.  努力工作
 
-   8. 大胆决定
+8.  大胆决定
 
-   9. 执拗一点
+9.  执拗一点
 
-   10. 寻找自己的独特竞争性：让他人难以与你竞争。
+10. 寻找自己的独特竞争性：让他人难以与你竞争。
 
-       如果你所的事情很容易被别人模仿，那未来一定会有一个更便宜的人去做同样的事情。
+    如果你所的事情很容易被别人模仿，那未来一定会有一个更便宜的人去做同样的事情。
 
-       解决方法就是找到你的独特竞争力：跨学科知识、跨领域经验、人脉关系、个人品牌都可以帮助你。
+    解决方法就是找到你的独特竞争力：跨学科知识、跨领域经验、人脉关系、个人品牌都可以帮助你。
 
-   11. 构建人际网络：
+11. 构建人际网络：
 
-       - 帮助他人
-       - 发挥自己的长处，避免短处
-       - 善于发现未被发现的人才
+    - 帮助他人
+    - 发挥自己的长处，避免短处
+    - 善于发现未被发现的人才
 
-   12. 资产决定财富：通过生产资料致富，而不是时间。
+12. 资产决定财富：通过生产资料致富，而不是时间。
 
-       单纯上班或者做业务出卖自己的时间换钱是很难变富有的。变富有的方式是拥有真正的资产 - 公司、地产、知识产权等。
+    单纯上班或者做业务出卖自己的时间换钱是很难变富有的。变富有的方式是拥有真正的资产 - 公司、地产、知识产权等。
 
-       变富有最简单的方式是找到一个大多数人仍未被解决的痛点，然后大规模去解决这个需求。
+    变富有最简单的方式是找到一个大多数人仍未被解决的痛点，然后大规模去解决这个需求。
 
-   13. 要有内驱力：做你真正感兴趣的事情。
+13. 要有内驱力：做你真正感兴趣的事情。
 
-3. ### [Rebuilding a featured news section with modern CSS: Vox news](https://ishadeed.com/article/rebuild-featured-news-modern-css/)
+### [Rebuilding a featured news section with modern CSS: Vox news](https://ishadeed.com/article/rebuild-featured-news-modern-css/)
 
-   作者详细分析了 Vox news 网站构建的思路
+作者详细分析了 Vox news 网站构建的思路
 
-4. ### [如何成为一名黑客](https://translations.readthedocs.io/en/latest/hacker_howto.html#id61)
+### [如何成为一名黑客](https://translations.readthedocs.io/en/latest/hacker_howto.html#id61)
 
-5. ### [「随机播放」用 40 年统治了世界，值得我们反思一下？](https://mp.weixin.qq.com/s/y0AMvxt1zfyKa9FfB_Jo5g)
+### [「随机播放」用 40 年统治了世界，值得我们反思一下？](https://mp.weixin.qq.com/s/y0AMvxt1zfyKa9FfB_Jo5g)
 
-   如果我们将一切的选择都交付出去，交给算法和机器，最终的那个「决策权」，或许也会逐渐变得摇摇欲坠。
+如果我们将一切的选择都交付出去，交给算法和机器，最终的那个「决策权」，或许也会逐渐变得摇摇欲坠。
 
-6. ### [如何提升学习能力和效率](https://mp.weixin.qq.com/s/aYhIsav9_qu8tuuqu8BcHg)
+### [如何提升学习能力和效率](https://mp.weixin.qq.com/s/aYhIsav9_qu8tuuqu8BcHg)
 
-   - 学习的本质是神经元的改变
-   - 犯错是学习的最佳时机
-     - 犯错同时可能导致沮丧，但如果**『赋予错误积极意义**』，把错误看成是一次学习的机会。大脑也将释放多巴胺促使进步。
-   - 追求增量学习：如果我们对自己的期待和要求超出了实际能力，那么我们肯定会因为各种“做不到”而产生极大的挫败感，并开始自我怀疑，觉得是自己能力不行，动力也会因此下降。
-   - 学会休息，养成良好睡眠习惯：高质量的睡眠和休息也是高效学习非常重要的一部分，因为神经系统最终的改变发生在睡眠阶段。
+- 学习的本质是神经元的改变
+- 犯错是学习的最佳时机
+- 犯错同时可能导致沮丧，但如果**『赋予错误积极意义**』，把错误看成是一次学习的机会。大脑也将释放多巴胺促使进步。
+- 追求增量学习：如果我们对自己的期待和要求超出了实际能力，那么我们肯定会因为各种“做不到”而产生极大的挫败感，并开始自我怀疑，觉得是自己能力不行，动力也会因此下降。
+- 学会休息，养成良好睡眠习惯：高质量的睡眠和休息也是高效学习非常重要的一部分，因为神经系统最终的改变发生在睡眠阶段。
 
 ## 设计
 
-1. ### [THE BLAST EFFECT - This is how bullets from an AR-15 blow the body apart](https://www.washingtonpost.com/nation/interactive/2023/ar-15-damage-to-human-body/)
+### [THE BLAST EFFECT - This is how bullets from an AR-15 blow the body apart](https://www.washingtonpost.com/nation/interactive/2023/ar-15-damage-to-human-body/)
 
-   华盛顿邮报发表的一篇文章。使用网页 3D 动画交互的效果，展示枪支在人体中的破坏力，让人不寒而栗。文中还通过两名在枪战袭击中遇难的小男孩的身体被子弹击穿的案例让读者更深入理解子弹通过人体时产生的巨大威力。两位男孩的家庭拒绝接受采访，但是他们同意邮报发表这篇文章，因为他们想让更多的人了解真相。
+华盛顿邮报发表的一篇文章。使用网页 3D 动画交互的效果，展示枪支在人体中的破坏力，让人不寒而栗。文中还通过两名在枪战袭击中遇难的小男孩的身体被子弹击穿的案例让读者更深入理解子弹通过人体时产生的巨大威力。两位男孩的家庭拒绝接受采访，但是他们同意邮报发表这篇文章，因为他们想让更多的人了解真相。
 
-2. 一个设计十分精美的应用。视觉上采用拟物化的风格。功能十分简单甚至只有很少的音乐播放选项。再次验证了一个观点：一个服务的可能并不需要背后有多么复杂的技术实现，只需要满足特定人群的特定需求（视觉感观的享受）。
+### 一个设计十分精美的应用。视觉上采用拟物化的风格。功能十分简单甚至只有很少的音乐播放选项。再次验证了一个观点：一个服务的可能并不需要背后有多么复杂的技术实现，只需要满足特定人群的特定需求（视觉感观的享受）。
 
-   ![LEMO FM](https://github.com/huyixi/Pic/raw/main/lemo-fm.56xmy31d6mc0.png)
+![LEMO FM](https://github.com/huyixi/Pic/raw/main/lemo-fm.56xmy31d6mc0.png)
 
-3. [An Update on the Lock Icon](https://blog.chromium.org/2023/05/an-update-on-lock-icon.html)
+### [An Update on the Lock Icon](https://blog.chromium.org/2023/05/an-update-on-lock-icon.html)
 
-   谷歌要在浏览器地址栏放弃目前 HTTPS 所采用的 “小锁”图标。他们认为锁定图标现在不再是不是网站安全的指标。
+谷歌要在浏览器地址栏放弃目前 HTTPS 所采用的 “小锁”图标。他们认为锁定图标现在不再是不是网站安全的指标。
 
-   ![site-controls](https://github.com/huyixi/Pic/raw/main/site-controls.fobao2y0sx4.png)
+![site-controls](https://github.com/huyixi/Pic/raw/main/site-controls.fobao2y0sx4.png)
 
-   将锁定图标替换为指示器可防止将锁定图标与页面的可信度相关联。
-   ![new-site-controls](https://github.com/huyixi/Pic/raw/main/new-site-controls.34c88aow17k0.png)
+将锁定图标替换为指示器可防止将锁定图标与页面的可信度相关联。
+![new-site-controls](https://github.com/huyixi/Pic/raw/main/new-site-controls.34c88aow17k0.png)
 
-   新图标计划在 2023 年 9 月初发布的 Chrome 117 中启动。
+新图标计划在 2023 年 9 月初发布的 Chrome 117 中启动。
 
-5) 麦当劳 APP 在使用优惠券的时候，加入了拟物化的动画效果，给人一种撕券的感觉
+### 麦当劳 APP 在使用优惠券的时候，加入了拟物化的动画效果，给人一种撕券的感觉
 
-   ![McDonald-coupon](https://github.com/huyixi/Pic/raw/main/McDonald-coupon.4wxr1wu0nde0.gif)
+![McDonald-coupon](https://github.com/huyixi/Pic/raw/main/McDonald-coupon.4wxr1wu0nde0.gif)
 
-6) 流水线生成 logo，每个 logo 生成的过程都是不一样的，总能超出我的想象，很有意思
+### 流水线生成 logo，每个 logo 生成的过程都是不一样的，总能超出我的想象，很有意思
 
-   链接：https://weibo.com/1773655610/N07QOoLr3?from=page_1005051773655610_profile&wvr=6&mod=weibotime
+链接：https://weibo.com/1773655610/N07QOoLr3?from=page_1005051773655610_profile&wvr=6&mod=weibotime
 
 ## 工具
 
-1. [News Minimalist](https://www.newsminimalist.com/)
+### [News Minimalist](https://www.newsminimalist.com/)
 
-   极简新闻网站，每天用 GPT-4 阅读 1000 篇重要新闻，并按量级、规模、潜力和新闻来源可信度来给新闻打分，最后推荐“重要性”大于 6 的新闻。比如今天的新闻（Thursday, May 11）：
+极简新闻网站，每天用 GPT-4 阅读 1000 篇重要新闻，并按量级、规模、潜力和新闻来源可信度来给新闻打分，最后推荐“重要性”大于 6 的新闻。比如今天的新闻（Thursday, May 11）：
 
-   1. [Yellen says it should be ‘unthinkable’ for the U.S. to default on its debt](https://www.cnbc.com/2023/05/11/yellen-g7-debt-ceiling-unthinkable.html) - 7.1
-   2. [Number of internally displaced people hits record due to war, climate change](https://www.reuters.com/world/number-internally-displaced-people-hits-record-due-war-climate-change-2023-05-11/) - 6.9
-   3. [US default would make Cyclone Roller Coaster ‘look like a kiddie ride’](https://www.ft.com/content/12aebec5-a9b0-4c22-92fd-fbaa699763d1) - 6.2
+1.  [Yellen says it should be ‘unthinkable’ for the U.S. to default on its debt](https://www.cnbc.com/2023/05/11/yellen-g7-debt-ceiling-unthinkable.html) - 7.1
+2.  [Number of internally displaced people hits record due to war, climate change](https://www.reuters.com/world/number-internally-displaced-people-hits-record-due-war-climate-change-2023-05-11/) - 6.9
+3.  [US default would make Cyclone Roller Coaster ‘look like a kiddie ride’](https://www.ft.com/content/12aebec5-a9b0-4c22-92fd-fbaa699763d1) - 6.2
 
-   网站下方提供了邮件订阅服务，将每日重要性六分以上的新闻发送到你的邮箱
+网站下方提供了邮件订阅服务，将每日重要性六分以上的新闻发送到你的邮箱
 
-2) [Bypass Paywalls](https://github.com/iamadamdev/bypass-paywalls-chrome)
+### [Bypass Paywalls](https://github.com/iamadamdev/bypass-paywalls-chrome)
 
-   _Bypass Paywalls is a web browser extension to help bypass paywalls for selected sites._
+_Bypass Paywalls is a web browser extension to help bypass paywalls for selected sites._
 
 ## 资源
 
-1. ### [lablabai](https://lablab.ai/apps)
+### [lablabai](https://lablab.ai/apps)
 
-   创客社区，帮助开发者快速搭建应用。有目前最大规模的 AI 黑客马拉松比赛。
+创客社区，帮助开发者快速搭建应用。有目前最大规模的 AI 黑客马拉松比赛。
 
-2. ### [Google Fonts](https://fonts.google.com/)
+### [Google Fonts](https://fonts.google.com/)
 
-   谷歌官方的字体工具，包含各种字体资源与 Icons。
+谷歌官方的字体工具，包含各种字体资源与 Icons。
 
-3. ### [The Pudding](https://pudding.cool/)
+### [The Pudding](https://pudding.cool/)
 
-   一本数字出版物，通过视觉文章解释文化中争论的想法。网站中的许多文章都有一些很有意思的交互效果，可以进行模仿创造。
+一本数字出版物，通过视觉文章解释文化中争论的想法。网站中的许多文章都有一些很有意思的交互效果，可以进行模仿创造。
 
-4. ### [东方财富网数据中心](https://data.eastmoney.com/center/)
+### [东方财富网数据中心](https://data.eastmoney.com/center/)
 
-   查看一些指数的数据，例如最近讨论热门的 CPI 和 PPI
+查看一些指数的数据，例如最近讨论热门的 CPI 和 PPI
 
-5. ### [Speak.com](speak.com)
+### [Speak.com](speak.com)
 
-   OpenAI 投资的语言学习 App，目前上线了繁体中文版
+OpenAI 投资的语言学习 App，目前上线了繁体中文版
 
 ## 言论
 
