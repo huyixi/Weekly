@@ -1,5 +1,5 @@
 ---
-title: "Refactor Everything"
+title: "Refactor"
 date: 2024-02-04T21:17:04+08:00
 lastmod: 2024-02-04T21:17:04+08:00
 draft: false

@@ -12,18 +12,21 @@
                     </h1>
                 </a>
             </div>
+
             <ul class="scrolls-sidebar p0 m0 overflow-y-auto">
-                {{ range .Site.RegularPages }}
-                <li class=" my-1 py-1.5 pl-3 pr-4 overflow-hidden">
+                {{ $counter := len .Site.RegularPages }}
+                {{ range sort .Site.RegularPages "Date" "desc" }}
+                <li class="my-1 py-1.5 pl-3 pr-4 overflow-hidden">
                     <a href="{{ .RelPermalink }}"
-                        class="block w-full overflow-hidden text-ellipsis whitespace-nowrap">{{ .Title
-                        }}</a>
+                        class="block w-full overflow-hidden text-ellipsis whitespace-nowrap text-#252627 {{ if eq .RelPermalink $.RelPermalink }}text-#87CBB9 {{ end }}">
+                        第{{ $counter }}期 - {{ .Title }}</a>
                 </li>
+                {{ $counter = sub $counter 1 }}
                 {{ end }}
             </ul>
         </nav>
     </aside>
-    <article class="col-span-3 p-8 md:col-start-2 md:p-8 md:p-8">
+    <article class="col-span-3 p-8 md:col-start-2 md:col-span-1 md:p-8 md:p-8">
         <h1 id="textOverlay">{{ .Title }}</h1>
         {{ if .Params.cover_image }}
         <img src="{{ .Params.cover_image }}" alt="{{ .Title }}" class="cover-image">

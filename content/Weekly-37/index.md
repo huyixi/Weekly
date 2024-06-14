@@ -1,6 +1,5 @@
 ---
-title: "Weekly 37：马歇尔、shadcn/ui、锤子钉子"
-subtitle: ""
+title: "马歇尔音箱"
 date: 2024-01-21T21:02:40+08:00
 lastmod: 2024-01-21T21:02:40+08:00
 draft: false

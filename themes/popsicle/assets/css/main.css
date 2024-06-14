@@ -82,10 +82,6 @@ nav li {
     scrollbar-color: #d1d5db #ffffff;
 }
 
-.scrolls-sidebar a {
-    color: var(--secondary-text);
-}
-
 .scrolls-sidebar::-webkit-scrollbar {
     width: 2px;
 }

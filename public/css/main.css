@@ -82,10 +82,6 @@ nav li {
     scrollbar-color: #d1d5db #ffffff;
 }
 
-.scrolls-sidebar a {
-    color: var(--secondary-text);
-}
-
 .scrolls-sidebar::-webkit-scrollbar {
     width: 2px;
 }
@@ -177,6 +173,8 @@ nav li {
 .text-sm{font-size:0.875rem;line-height:1.25rem;}
 .text-xl{font-size:1.25rem;line-height:1.75rem;}
 .text-\[\#0076d1\]{--un-text-opacity:1;color:rgb(0 118 209 / var(--un-text-opacity));}
+.text-\#252627{--un-text-opacity:1;color:rgb(37 38 39 / var(--un-text-opacity));}
+.text-\#87CBB9{--un-text-opacity:1;color:rgb(135 203 185 / var(--un-text-opacity));}
 .text-black{--un-text-opacity:1;color:rgb(0 0 0 / var(--un-text-opacity));}
 .text-gray-600{--un-text-opacity:1;color:rgb(75 85 99 / var(--un-text-opacity));}
 .text-gray-800{--un-text-opacity:1;color:rgb(31 41 55 / var(--un-text-opacity));}
@@ -189,6 +187,7 @@ nav li {
 @media (min-width: 768px){
 .md\:sticky{position:sticky;}
 .md\:left-0{left:0;}
+.md\:col-span-1{grid-column:span 1/span 1;}
 .md\:col-start-2{grid-column-start:2;}
 .md\:grid-cols-\[18rem_minmax\(0\,1fr\)\]{grid-template-columns:18rem minmax(0,1fr);}
 .md\:grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr));}
