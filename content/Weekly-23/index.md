@@ -1,12 +1,11 @@
 ---
-title: "Weekly 23：岸上未必安全，真正精彩的都在海里"
-subtitle: "与月车哥的一次交流"
+title: "岸上未必安全，真正精彩的都在海里"
 date: 2023-09-27T13:48:06+08:00
 lastmod: 2023-09-27T13:48:06+08:00
 draft: false
 tags: [月车哥]
 category: [Weekly]
-summary: 
+summary:
 ---
 
 ## 动态

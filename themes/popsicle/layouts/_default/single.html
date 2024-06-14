@@ -28,6 +28,14 @@
         {{ if .Params.cover_image }}
         <img src="{{ .Params.cover_image }}" alt="{{ .Title }}" class="cover-image">
         {{ end }}
+        {{ with .Resources.GetMatch "cover.*"}}
+        <div class="relative w-full aspect-video overflow-hidden">
+            <img data-placeholder-background="linear-gradient(to bottom, #ece9e6, #ffffff)" alt="{{ $.Title }}"
+                class="lozad absolute top-0 left-0 w-full h-full object-cover"
+                style="background: linear-gradient(rgb(236, 233, 230), rgb(255, 255, 255));"
+                src="{{ .RelPermalink }}?x-oss-process=image/resize,w_640/format,webp" loading="lazy">
+        </div>
+        {{ end }}
         <main class="post-content">
             {{ .Content }}
         </main>

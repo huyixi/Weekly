@@ -1,13 +1,8 @@
 ---
-title: Weekly 14：英语
+title: 英语
 date: 2023-07-24T00:00:00+08:00
 lastmod: 2023-07-24T00:00:00+08:00
-category: [Weekly]
-tags: [weekly]
 draft: false
-summary: |
- 主题：英语<br>
- 时间：20230723 - 20230729
 ---
 
 ## 动态
@@ -24,7 +19,7 @@ git lg
 
 ### 《GRE & GMAT 阅读难句教程》 - 杨鹏
 
-##### 好的阅读习惯：
+#### 好的阅读习惯
 
 - 不要默读
 

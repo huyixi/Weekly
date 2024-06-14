@@ -1,5 +1,5 @@
 ---
-title: 'Weekly 33：活在现在。不是活在未来，也不是活在过去'
+title: "Weekly 33：活在现在。不是活在未来，也不是活在过去"
 date: 2023-12-10T08:00:00+08:00
 start_date: 2023-12-10
 end_date: 2023-12-16
@@ -59,7 +59,6 @@ jobs:
             echo "这是自动生成的第 ${WEEKLY_NUMBER} 期周刊内容。"
           } > "./content/posts/${FOLDER_NAME}/index.md"
 
-
     - name: Commit and Push
       run: |
         git config --global user.name '${{ secrets.GIT_USER_NAME }}'
@@ -91,30 +90,26 @@ https://stackoverflow.com/questions/58816676/failed-to-connect-to-github-com-por
 
 ## 前端
 
-#### CSS 绘制三角形
+### CSS 绘制三角形
 
 参考：如何用 CSS 繪製三角形
 
 https://medium.com/ui-ux%E7%B7%B4%E5%8A%9F%E5%9D%8A/%E5%A6%82%E4%BD%95%E7%94%A8css%E7%B9%AA%E8%A3%BD%E4%B8%89%E8%A7%92%E5%BD%A2-71478539fb1b
 
-#### v-else 与 v-for
-
-在使用的时候遇到了一个问题。
-
 ## 人物
 
-#### Jiang 的数字花园
+### Jiang 的数字花园
 
 https://notes.dabing.one
 一个喜欢摇滚，热衷于提升学习与工作效率的人。可以学习他的学习和工作的方法。
 ![](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/iEQGLh.jpg)
 
-#### 和菜头
+### 和菜头
 
 ![](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/sR8qjQ.jpg)
 一个在当地较为英俊的人…
 
-#### Innei/拾一
+### Innei/拾一
 
 about 页面的自我介绍也很有意思。
 ![](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/jgm5eW.jpg)
@@ -128,11 +123,11 @@ about 页面的自我介绍也很有意思。
 
 ## 文章
 
-#### 2022 年学习前端需要学点什么
+### 2022 年学习前端需要学点什么
 
 https://innei.in/posts/technology/2022-frontend-is-so-juan
 
-#### 当我们在旅游的时候，到底是在游什么？
+### 当我们在旅游的时候，到底是在游什么？
 
 https://sspai.com/post/84809
 
@@ -142,12 +137,12 @@ https://sspai.com/post/84809
 > 但即便如此，陈晓卿的话让我意识到了，实际上我对于新的环境仍然是有着明显不适的。而这种不适是通过各种对于「北京的抱怨」表现出来的。
 > 我似乎也很少有这种感觉。
 
-#### 个人信息获取与知识管理系统（Heptabase + Logseq + Readwise）
+### 个人信息获取与知识管理系统（Heptabase + Logseq + Readwise）
 
 https://www.pseudoyu.com/zh/2023/09/05/my_personal_pkm_input_output_system/
 这三个工具只有 Logseq 是免费的。其他两个订阅费都有点高。放弃了。
 
-#### 周报 #46 - 告别长发、周报初心与合约开发 - PSEUDOYU
+### 周报 #46 - 告别长发、周报初心与合约开发 - PSEUDOYU
 
 https://www.pseudoyu.com/zh/2023/09/13/weekly_review_20230913/
 推荐了这两篇文章
@@ -156,7 +151,7 @@ https://www.pseudoyu.com/zh/2023/09/13/weekly_review_20230913/
 - 写作入门
   https://hanyang.wtf/p/c7a
 
-#### 写作入门
+### 写作入门
 
 https://hanyang.wtf/p/c7a
 
@@ -186,14 +181,15 @@ https://hanyang.wtf/p/c7a
 
 - 试图用「万字长文」和「深度好文」来吸引读者，与开盖有奖一样是宣传手段。这是一种对文字的不自信，作者不相信自己可以依靠文字本身来吸引读者。
 
-#### 学习科研缺乏有效反馈怎么办？
+### 学习科研缺乏有效反馈怎么办？
 
 方法： 看电影的时候，当人物说出一句话，暂停播放，猜回复，然后查看是否一致。
 
 #### 双十一到双十二，大家是不是都冷静了？
 
 https://wufazhuce.com/question/4005
-笑死，文中一句话：婚姻对他们的诱惑力，远远小于发财的诱惑力，发财和脱单中间选一样，犹豫一秒都是对财神爷的不尊重。
+
+文中一句话：婚姻对他们的诱惑力，远远小于发财的诱惑力，发财和脱单中间选一样，犹豫一秒都是对财神爷的不尊重。
 
 #### App+1 | AeroSpace：消除窗口重叠，世界属于平铺
 
@@ -227,7 +223,7 @@ https://crypto4.wtf/p/8fd
   参考：
 - https://zhuanlan.zhihu.com/p/504922912
 
-#### App 还是 APP
+#### App 还是 app
 
 在正式的文章中出现「app」时应如何大小写？应该写 App 还是 app 还是 APP ？其复数形式应该是怎样的？ - 隔壁老楼的回答 - 知乎
 https://www.zhihu.com/question/20264852/answer/154189841
@@ -245,7 +241,7 @@ App Store 等特定词汇必须使用 App
 
 ## 音乐
 
-#### my little airport
+### my little airport
 
 好多歌词都挺有意思，就像
 
@@ -260,22 +256,22 @@ App Store 等特定词汇必须使用 App
 
 ## 视频
 
-#### 关于一场酣畅淋漓的求婚
+### 关于一场酣畅淋漓的求婚
 
 https://www.bilibili.com/video/BV1UH4y1k7H5/?spm_id_from=333.1007.tianma.1-1-1.click&vd_source=e7b677bc31fcf107b6c6689167aae9d9
 
-#### study vlog #40 | 感谢 GPT 教我写前端 🍻 ｜我是如何保持专注的｜那些我做完的事情，都有什么共性｜对
+### study vlog #40 | 感谢 GPT 教我写前端 🍻 ｜我是如何保持专注的｜那些我做完的事情，都有什么共性｜对
 
 https://www.bilibili.com/video/BV1ww411t77B/?vd_source=e7b677bc31fcf107b6c6689167aae9d9
 获取我们并不是渴望退休，而是渴望做自己想做的工作。
 
-#### Life is easy. Why do we make it so hard? | Jon Jandai | TEDxDoiSuthep
+### Life is easy. Why do we make it so hard? | Jon Jandai | TEDxDoiSuthep
 
 https://www.youtube.com/watch?v=21j_OCNLuYg
 
 没有攀比，没有欲望。我们的生活方式本应这样。
 
-#### 老高
+### 老高
 
 - 近期吃过最棒的面馆之一，水平足以碾压一众大馆子
 
@@ -344,6 +340,6 @@ https://x.com/Tisoga/status/1734737408703517041?s=20
 
 ## 其他
 
-#### 谷歌浏览器 恐龙游戏
+### 谷歌浏览器 恐龙游戏
 
 在地址栏输入 `chrome://dino/`。一个小彩蛋。

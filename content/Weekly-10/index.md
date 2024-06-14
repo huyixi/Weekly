@@ -1,13 +1,10 @@
 ---
-title: Weekly 10：如何活得更久？
+title: 如何活得更久
 date: 2023-06-25T20:00:00+08:00
 lastmod: 2023-06-25T20:00:00+08:00
 category: [Weekly]
 tags: [weekly]
 draft: false
-summary: |
- 主题：live longer, git commit, 智齿<br>
- 时间：20230625 - 20230701
 ---
 
 ## 文章
@@ -24,7 +21,7 @@ summary: |
 > docs: Everything related to documentation
 > chore: Regular code maintenance
 
-#### 相关命令
+### 相关命令
 
 - 设置提交消息模板
 

@@ -1,6 +1,5 @@
 ---
-title: "Weekly 27：我能控制我的身体，那么，我自然也能控制我的脑子🧠"
-subtitle: "学习的同时应该伴随认知效率的提高"
+title: 学习与认知效率
 date: 2023-10-28T00:35:59+08:00
 lastmod: 2023-11-03
 draft: false
@@ -8,11 +7,13 @@ tags: []
 category: [Weekly]
 ---
 
-#### Sat Oct 28 00:36, 2023
+## 学习与认知
 
-与月车哥的再一次交流。
+Sat Oct 28 00:36, 2023
 
-- 学习应该同时伴随认知效率的提高。我是最近几天才开始意识到这个问题，今晚跟月车哥再次强调了一下，后面更该去注意。
+与月车哥的再一次交流。聊到的一些观点：
+
+- 学习应该同时伴随认知效率的提高。
 - 在一条路上的积累并非不能迁移。
 - 追求更大量级的事情。
 - 所有人都在动，但总有人前进的更快。
@@ -32,11 +33,17 @@ category: [Weekly]
 - 提高认知效率，持续迭代认知方法
 - 谋其上、舍我其谁的自信
 
-#### Sun Oct 29 23:03, 2023
+## 一天工作 4 小时
+
+Sun Oct 29 23:03, 2023
 
 “长时间工作根本没有生产力，如果你工作 8 小时，那就试着工作 5 小时，或者只工作 4 小时。如果你只有这些时间工作，你就没有时间在工作的同时刷推了”
 
 ![F9mrgGWasAA4yZk](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/F9mrgGWasAA4yZk.jpeg)
+
+[原文链接](http://plumshell.com/2016/03/10/work-for-only-3-hours-a-day-but-everyday/)
+
+[owen 翻译链接](https://clip.owenyoung.com/2023/10/29/work-for-only-3-hours-a-day-but-everyday-plumshell/)
 
 ## 文章
 
@@ -116,48 +123,39 @@ category: [Weekly]
 
 - 为啥说领域大牛的 blog 必看，因为他们往往不是为了告诉你结论而写这篇文章。在文章中经常会看到问题的产生背景，常见解决方案存在哪些弊端，他是如何分析，拆解，定位问题，在最后给出自己的方案。这就是经验学习，可以让你快速找到学习技术的门路和方法，换个高级点说法，我觉得这就是编程思维！
 
-### HTML/CSS 命名规则
+### BEM: CSS 命名规则
 
-#### BEM 命名规则
+BEM 的全称是 Block（块）、Element（元素）、Modifier（修饰符） 它的主要目的是通过这些规则来增强样式表的可维护性和可读性
 
-BEM 的全称是 Block（块）, Element（元素）, Modifier（修饰符），它的主要目的是通过这些规则来增强样式表的可维护性和可读性。
+1. **Block（块）**
 
-1. Block（块）
+   - **块**是独立的实体，代表页面上的一块区域或一个组件
+   - 块的名称应该是有意义的，能够描述它的功能或内容，而不是它的状态或外观
+   - 例如：`header`、`menu`、`button`
 
-- **块**是独立的实体，它代表了一个页面上的一块区域或一个组件。
-- 块的名称应该是有意义的，能够描述它的功能或内容，而不是它的状态或外观。
-- 例如：`header`、`menu`、`button`。
+2. **Element（元素）**
 
-2. Element（元素）
+   - **元素**是块的一部分，不能脱离块单独存在
+   - 元素的名称由块的名称和元素的名称组成，中间用双下划线 `__` 连接
+   - 例如：`header__logo`、`menu__item`、`button__text`
 
-- **元素**是块的一部分，它不能脱离块单独存在。
-- 元素的名称是由块的名称和元素的名称组成，中间用双下划线 `__` 连接。
-- 例如：`header__logo`、`menu__item`、`button__text`。
+3. **Modifier（修饰符）**
+   - **修饰符**用来描述块或元素的一种状态或变种
+   - 修饰符的名称由它所修饰的块或元素的名称和修饰符的名称组成，中间用双短线 `--` 连接
+   - 例如：`button--large`、`menu__item--active`
 
-3. Modifier（修饰符）
-
-- **修饰符**用来描述块或元素的一种状态或变种。
-- 修饰符的名称是由它所修饰的块或元素的名称和修饰符的名称组成，中间用双短线 `--` 连接。
-- 例如：`button--large`、`menu__item--active`。
-
-#### 谷歌的风格指南
+### 谷歌的 HTML、CSS 风格指南
 
 [链接](https://google.github.io/styleguide/htmlcssguide.html#CSS)
 
 ### 为什么技术总是被轻视？国内做技术能不能有较大发展？
 
 为什么技术总是被轻视？国内做技术能不能有较大发展？ - 韦易笑的回答 - 知乎
-https://www.zhihu.com/question/24829997/answer/57587186
+[链接](https://www.zhihu.com/question/24829997/answer/57587186)
 
 ### 2023 年每个软件开发者都必须知道的关于 Unicode 的最基本的知识（仍然不准找借口！）
 
 [链接](https://blog.xinshijiededa.men/unicode/)
-
-#### Work for only 3 hours a day, but everyday
-
-[原文链接](http://plumshell.com/2016/03/10/work-for-only-3-hours-a-day-but-everyday/)
-
-[owen 翻译链接](https://clip.owenyoung.com/2023/10/29/work-for-only-3-hours-a-day-but-everyday-plumshell/)
 
 #### 生育率降低，未来的年轻人会更累还是更轻松？
 
@@ -179,9 +177,13 @@ https://www.zhihu.com/question/24829997/answer/57587186
 
 ## 日记
 
-#### Mon Oct 30 09:34, 2023
+### 输出当前路径下所有文本文件的内容
 
-输出当前路径下所有文本文件的内容：
+Mon Oct 30 09:34, 2023
+
+使用 ChatGPT 的时候，有时候要喂给模型多个代码文件让它阅读。一个一个复制粘贴太麻烦了，写了下面这个 PowerShell 脚本，输出当前路径下所有文本文件的内容。
+
+````bash
 
 **Windows:**
 
@@ -201,7 +203,6 @@ foreach ($file in $txtFiles) {
     # 输出文件路径和文件名
     Write-Host "$($file.FullName)"
 
-
     # 指定文件编码为 UTF-8
     $content = "$(Get-Content -Path $file.FullName -Raw -Encoding UTF8)"
     Write-Host $content
@@ -209,7 +210,7 @@ foreach ($file in $txtFiles) {
     # 添加一个空行作为文件之间的分隔
     Write-Host
 }
-```
+````
 
 #### Tue Oct 31 21:55, 2023
 
@@ -221,17 +222,15 @@ foreach ($file in $txtFiles) {
 
 #### Thu Nov 2 01:21, 2023
 
-<img src="https://raw.githubusercontent.com/huyixi/Pics/main/uPic/image-20231102012156476.png" alt="image-20231102012156476" style="zoom:50%;" />
+!()[https://raw.githubusercontent.com/huyixi/Pics/main/uPic/image-20231102012156476.png]
 
 健身 2 周，在没有明显改变体型/变胖的前提下，体重从 135 -> 140，并且肱二头肌三头肌有变大的感觉，算是比较成功了。
-
-我能控制我的身体，那么，我自然也能控制我的脑子 🧠。也就是要做好精力管理。
 
 #### Thu Nov 2 01:24, 2023
 
 今天尝试了 Forest 应用，番茄钟冲刺任务。
 
-<img src="https://raw.githubusercontent.com/huyixi/Pics/main/uPic/image-20231102012655671.png" alt="image-20231102012655671" style="zoom: 33%;" />
+!()[https://raw.githubusercontent.com/huyixi/Pics/main/uPic/image-20231102012655671.png]
 
 第一天，完成的任务还算多。
 
@@ -241,7 +240,7 @@ foreach ($file in $txtFiles) {
 
 #### Thu Nov 2 14:06, 2023
 
-时间管理不算什么，只要你愿意割舍，总会分配出时间给一些事情的。更难的，更重要的是精力的管理。每个人每天都只有 24 小时，但是每个人每天的精力是不一样的，所以有的人可能活到 80 ，死在 23。
+时间管理不算什么，只要你愿意割舍，总会分配出时间给一些事情的。更难的，更重要的是精力的管理。每个人每天都只有 24 小时，但是每个人每天的精力是不一样的。如何管理精力是要比管理时间更困难的事情。
 
 生命的质量 = 时长 \* 单位时间的质量
 

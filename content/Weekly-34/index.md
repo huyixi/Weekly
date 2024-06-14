@@ -1,5 +1,5 @@
 ---
-title: "Weekly 34：我好菜啊🎅🏻🎁🎄 "
+title: "我好菜啊 "
 date: 2023-12-18 00:43:47
 start_date: 2023-12-18
 end_date: 2023-12-24
@@ -27,16 +27,14 @@ Wed Dec 20 23:21, 2023
 UnoCSS 的文档挺有意思的，所有的链接颜色都会一直变动，刚开始还以为我眼花了，第一次见到这种设计。
 这次 UnoCSS 的文档通篇使用英文原文阅读，还不算吃力，可能跟文档所用的词汇比较基础也有关系。要坚持下来，尽量使用英文来阅读了，以后看懂更难的文档。
 今天看了 Justin 哥的 23 年读书总结，真的佩服。工作，健身，休闲，读书，音乐…一样都没落下。不过我今年读的书应该也不少，后续可以找找记录。24 年就要到了，争取模仿各位大佬写一个年终总结。
-另外，发现 MiaoYan 笔记中，省略号的显示 `…` 是有问题的，正常打出应该是在下方的，而 MiaoYan 中是在中间的。
 
 Thu Dec 21 09:40, 2023
 使用 dotfiles 管理工具 chezmoi 来管理 `.zshrc`, `.gitconfig` 等点文件。还不太会用。
 
-
-#### 我太菜了。
+### 我太菜了
 
 Thu Dec 21 12:38, 2023
-今天中午吃饭的时候看了 Justin 的这篇文章：[凯文·凯利 70 岁生日写的 103 条人生忠告（中文翻译）](https://justinyan.me/post/4911)。突然觉得，我写的周报毫无意义。原本目的是为了模仿阮一峰的周刊，记录一些这周看到的文章有趣的资源等等。但是到现在好像变味了：无论这篇文章对我有没有启发，我都会记录到周刊中，以增加周刊的长度。好像这样让让自己看起来很厉害？？？（什么鬼心理）。
+今天中午吃饭的时候看了 Justin 的这篇文章：[凯文·凯利 70 岁生日写的 103 条人生忠告（中文翻译）](https://justinyan.me/post/4911)。突然觉得，我写的周报毫无意义。原本目的是为了模仿阮一峰的周刊，记录一些这周看到的文章有趣的资源等等。但是到现在好像变味了：无论这篇文章对我有没有启发，我都会记录到周刊中，以增加周刊的长度。。
 ![](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/XKGOAi.jpg)
 上周在看 Bruce.Hu 的周报的时候，上面写着这样一段话，心里就已经有所触动了。
 ![](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/co2JAj.jpg)
@@ -112,22 +110,22 @@ Justin 看来今年很关注投资理财以及禅方面的内容。
 
 ## 资源
 
-#### [read.cv](https://read.cv/)
+### [read.cv](https://read.cv/)
 
-#### [中文播客榜](https://xyzrank.com/#/)
+### [中文播客榜](https://xyzrank.com/#/)
 
 数据取自小宇宙和 Apple Podcast， 非全平台数据
 
-#### [Songfacts](https://songfacts.com)
+### [Songfacts](https://songfacts.com)
 
 提供音乐背后的一些故事
 
-## 其他
-
-#### [开往的致谢名单](https://www.travellings.cn/docs/thanks)
+### [开往的致谢名单](https://www.travellings.cn/docs/thanks)
 
 写出每一笔捐赠以及捐赠的最终去向。
 
-#### yt-dlp: Sign in to confirm your ge. This video may be inappropriate for some users. 的解决方法
+### yt-dlp: Sign in to confirm your age. This video may be inappropriate for some users
+
+解决方法:
 
 ![image-20231218122857158](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/image-20231218122857158.png)

@@ -1,6 +1,6 @@
 {{/* layouts/partials/post-card.html */}}
 <a href="{{ .RelPermalink }}" class="flex flex-col justify-between rounded-md shadow-md  overflow-hidden card-content">
-    {{ with .Resources.GetMatch "cover.*" }}
+    {{ with .Resources.GetMatch "cover.*"}}
     <div class="relative w-full aspect-video overflow-hidden">
         <img data-placeholder-background="linear-gradient(to bottom, #ece9e6, #ffffff)" alt="{{ $.Title }}"
             class="lozad absolute top-0 left-0 w-full h-full object-cover"

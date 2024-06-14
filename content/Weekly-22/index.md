@@ -1,19 +1,15 @@
 ---
-title: "Weekly 22：行歌"
-subtitle: ""
+title: 行歌
 date: 2023-09-16T14:01:55+08:00
 lastmod: 2023-09-16T14:01:55+08:00
 draft: false
-tags: []
-category: [Weekly]
-summary: 
 ---
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3jHjAjjrjyNjfJgVARNIzE?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 ## 日记
 
-##### 为什么要读书？
+### 为什么要读书？
 
 这里不是指的是应时考试上的读书，而且阅读书籍。
 

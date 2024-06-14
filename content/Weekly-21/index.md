@@ -1,17 +1,13 @@
 ---
-title: "Weekly 21：不要成为一个等待喂养的躯壳"
+title: "不要成为一个等待喂养的躯壳"
 subtitle: "当一个人同时接受许多影像听觉的巨量信息刺激的时候，是否已经反击了思考，成为一个等待喂养的躯壳呢？"
 date: 2023-09-09T10:32:11+08:00
-lastmod: 2023-09-09T10:32:11+08:00
 draft: false
-tags: []
-category: [Weekly]
-summary: 
 ---
 
 ## 动态
 
-#### 生活碎片
+### 生活碎片
 
 #### Sep 12
 
@@ -44,10 +40,10 @@ summary:
 主要代码如下：
 
 ```javascript
- var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
- var scrollHeight = document.documentElement.scrollHeight || document.body.scrollHeight;
- var clientHeight = document.documentElement.clientHeight || document.body.clientHeight;
- var scrolled = (scrollTop / (scrollHeight - clientHeight)) * 100;
+var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+var scrollHeight = document.documentElement.scrollHeight || document.body.scrollHeight;
+var clientHeight = document.documentElement.clientHeight || document.body.clientHeight;
+var scrolled = (scrollTop / (scrollHeight - clientHeight)) * 100;
 ```
 
 #### Sep 15

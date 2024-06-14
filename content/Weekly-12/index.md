@@ -1,13 +1,8 @@
 ---
-title: Weekly 12：历史上最热的一天
+title: 历史上最热的一天
 date: 2023-07-08T03:36:00+08:00
 lastmod: 2023-07-08T03:36:00+08:00
-category: [Weekly]
-tags: [weekly]
 draft: false
-summary: |
- 主题：高温、《我在北京送快递》、Mac文件的默认打开方式<br>
- 时间：20230708 - 20230715
 ---
 
 ## 动态

@@ -1,11 +1,8 @@
 ---
-title: "Weekly 18：与美国亚马逊客服的交手经历"
+title: "与美国亚马逊客服的交手经历"
 date: 2023-08-21T14:37:13+08:00
 lastmod: 2023-08-21T14:37:13+08:00
 draft: false
-tags: []
-category: [Weekly]
-summary: 
 ---
 
 ## 与亚马逊客服交手的经历

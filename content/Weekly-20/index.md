@@ -1,11 +1,11 @@
 ---
-title: "Weekly 20：“时间”是对所有现代人都最公平的东西"
+title: "公平的时间"
 date: 2023-09-02T21:40:04+08:00
 lastmod: 2023-09-02T21:40:04+08:00
 draft: false
 tags: [婚礼]
 category: [Weekly]
-summary: 
+summary:
 ---
 
 上一期推荐的这篇文章只是看过，下面做了一些笔记。

@@ -1,13 +1,8 @@
 ---
-title: Weekly 13：停止在博客上碎碎念！
+title: 停止在博客上碎碎念
 date: 2023-07-16T03:36:00+08:00
 lastmod: 2023-07-16T03:36:00+08:00
-category: [Weekly]
-tags: [weekly]
 draft: false
-summary: |
- 主题：<br>
- 时间：20230716 - 20230723
 ---
 
 ## 动态

@@ -1,13 +1,8 @@
 ---
-title: Weekly 8：我的自动化生活
+title: 我的自动化生活
 date: 2023-06-12T22:46:00+08:00
 lastmod: 2023-06-12T22:46:00+08:00
-category: [Weekly]
-tags: [weekly]
 draft: false
-summary: |
- 主题：自动化生活，上网<br>
- 时间：20230611 - 20230617 
 ---
 
 ## 生活碎片

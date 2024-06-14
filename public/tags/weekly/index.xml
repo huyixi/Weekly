@@ -6,87 +6,31 @@
     <description>Recent content in Weekly on 散步周刊</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 06 Aug 2023 22:36:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 25 Jun 2023 20:00:00 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/weekly/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Weekly 16：乐观与悲观</title>
-      <link>http://localhost:1313/weekly-16/</link>
-      <pubDate>Sun, 06 Aug 2023 22:36:00 +0800</pubDate>
-      <guid>http://localhost:1313/weekly-16/</guid>
-      <description>主题：&lt;!-- raw HTML omitted --&gt;&#xA;时间：20230806 - 20230813</description>
-    </item>
-    <item>
-      <title>Weekly 15：VIM 作者逝世</title>
-      <link>http://localhost:1313/weekly-15/</link>
-      <pubDate>Mon, 31 Jul 2023 22:29:00 +0800</pubDate>
-      <guid>http://localhost:1313/weekly-15/</guid>
-      <description>主题：VIM 作者逝世&lt;!-- raw HTML omitted --&gt;&#xA;时间：20230729 - 20230804</description>
-    </item>
-    <item>
-      <title>Weekly 14：英语</title>
-      <link>http://localhost:1313/weekly-14/</link>
-      <pubDate>Mon, 24 Jul 2023 00:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/weekly-14/</guid>
-      <description>主题：英语&lt;!-- raw HTML omitted --&gt;&#xA;时间：20230723 - 20230729</description>
-    </item>
-    <item>
-      <title>Weekly 13：停止在博客上碎碎念！</title>
-      <link>http://localhost:1313/weekly-13/</link>
-      <pubDate>Sun, 16 Jul 2023 03:36:00 +0800</pubDate>
-      <guid>http://localhost:1313/weekly-13/</guid>
-      <description>主题：&lt;!-- raw HTML omitted --&gt;&#xA;时间：20230716 - 20230723</description>
-    </item>
-    <item>
-      <title>Weekly 12：历史上最热的一天</title>
-      <link>http://localhost:1313/weekly-12/</link>
-      <pubDate>Sat, 08 Jul 2023 03:36:00 +0800</pubDate>
-      <guid>http://localhost:1313/weekly-12/</guid>
-      <description>主题：高温、《我在北京送快递》、Mac文件的默认打开方式&lt;!-- raw HTML omitted --&gt;&#xA;时间：20230708 - 20230715</description>
-    </item>
-    <item>
-      <title>Weekly 11：去冒险吧，带着勇气</title>
-      <link>http://localhost:1313/weekly-11/</link>
-      <pubDate>Sun, 02 Jul 2023 12:15:00 +0800</pubDate>
-      <guid>http://localhost:1313/weekly-11/</guid>
-      <description>主题：&lt;!-- raw HTML omitted --&gt;&#xA;时间：20230625 - 20230701</description>
-    </item>
-    <item>
-      <title>Weekly 10：如何活得更久？</title>
+      <title>如何活得更久</title>
       <link>http://localhost:1313/weekly-10/</link>
       <pubDate>Sun, 25 Jun 2023 20:00:00 +0800</pubDate>
       <guid>http://localhost:1313/weekly-10/</guid>
-      <description>主题：live longer, git commit, 智齿&lt;!-- raw HTML omitted --&gt;&#xA;时间：20230625 - 20230701</description>
+      <description>文章 1.如何写一个好的 git commit ? Type of commit feat: The new feature being added to a particular application fix: A bug fix (this correlates with PATCH in SemVer) style: Feature and updates related to styling refactor: Refactoring a specific section of the codebase test: Everything related to testing docs: Everything related to documentation chore: Regular code maintenance&#xA;相关命令 设置提交消息模板&#xA;在主目录中创建一个名为 .gitmessage 的文件，并添加以下内容：&#xA;[summary] [details] 运行以下命令告诉 Git 使用此文件作为提交消息的模板：&#xA;git config --global commit.</description>
     </item>
     <item>
-      <title>Weekly 9：生命短暂，贪得无厌！ - How to Live</title>
-      <link>http://localhost:1313/weekly-9/</link>
-      <pubDate>Tue, 20 Jun 2023 15:53:00 +0800</pubDate>
-      <guid>http://localhost:1313/weekly-9/</guid>
-      <description>主题：How to Live，&lt;!-- raw HTML omitted --&gt;&#xA;时间：20230618 - 20230624</description>
-    </item>
-    <item>
-      <title>Weekly 8：我的自动化生活</title>
-      <link>http://localhost:1313/weekly-8/</link>
-      <pubDate>Mon, 12 Jun 2023 22:46:00 +0800</pubDate>
-      <guid>http://localhost:1313/weekly-8/</guid>
-      <description>主题：自动化生活，上网&lt;!-- raw HTML omitted --&gt;&#xA;时间：20230611 - 20230617</description>
-    </item>
-    <item>
-      <title>Weekly 7：周刊记录内容的改进</title>
+      <title>我毕业啦</title>
       <link>http://localhost:1313/weekly-7/</link>
       <pubDate>Wed, 07 Jun 2023 01:00:00 +0800</pubDate>
       <guid>http://localhost:1313/weekly-7/</guid>
-      <description>主题：周刊的记录内容，毕业，RSI &lt;!-- raw HTML omitted --&gt;&#xA;时间：20230603 - 20230610</description>
+      <description>记录了几期周刊下来，发现如果只是单纯记录所体验的一些事物的话，周刊内容质量的有点半衰期太短了。并且如果想要完整的消化吸收体验过的事物，时间上远远不够，毕竟除了博客还有很多的事情要做。所以接下来的周刊内容会往以下一些方向改进：&#xA;在原有的，记录本周所体验的事物的基础上，进行更多的筛选。在周刊上应该只展示对我有影响的一些事物； 不追求周刊的内容长度，而是尽量保证周刊的质量与半衰期； 记录一些自己本周学习到的一些新东西，在这些东西还没能独立成为一篇完整的博客前分享在周刊里； 修改周刊的发布时间：原本的周刊发布时间是每周的周五早晨。由于经常看阮一峰的博客，想与他保持一致的更新频率，根据此来对比我每周所接触到的一些新鲜事物与大佬接触到的有什么区别。由于现在保持在周五更新，需要我在周四晚上进行总结（这个总结需要花费掉大量的时间）。但是由于后续参与工作，可能周四晚上并没有很多的时间来给我整理资料。所以把更新日期改为每周六。 可能会增加一个 Memos 板块，直接将体验内容放进 Memos 版块，Blog 版块专注于某个完整的内容。&#xA;生活碎片 关于我的毕业季的一些记录。&#xA;Sun, Jun 3 早上顺利通过了毕业设计的答辩，美中不足的是老师提的一个小问题被我理解错了，不过最后还是顺利通过了～～～&#xA;晚上和同学去聚了个餐，然后回来的时候跟舍友抱了一个大西瓜回来。不知道为什么，就感觉很开心。&#xA;Mon, Jun 4 毕业典礼的一天，拍照的时候乱跑不小心错过了专业合照，有点小遗憾。不过人生哪能一直完美呢。拍完照墨迹墨迹到下午快一点。然后舍友突然提议海底捞冲冲冲，可能是最后一次用上海底捞的学生优惠了。&#xA;我的一个账号被 ChatGPT 封了！猜测可能是由于之前使用代充的原因。 现在有了 Apple Pay 支付流程相对于我来说就方便多了。希望不会再被封号了吧， 毕竟还是要面向 ChatGPT 编程的（笑）。&#xA;资源 积薪：独立博客导航站 积薪是一个独立博客导航站。与其他导航在不同的是，这个站点使用 AI 进行博客的打标签分类等。内容大部分都是中文播客，十分推荐。&#xA;一些相关的链接：&#xA;独立博客导航站“积薪”正式发布&#xA;积薪的技术架构&#xA;作者的个人博客：可可托海没有海&#xA;文章 德克萨斯州一位软件工程师的一天 Chill &amp;amp; Productive Office Day | Day In The Life of a Software Engineer&#xA;算了一下他的一天的在办公室的时长，只有六个半小时并且包含有早餐，看书等。真是羡慕啊。&#xA;Resource 孙燕姿的独立博客&#xA;发现了孙燕姿的独立博客，没想到这么小众的东西孙燕姿居然也在玩。网站的设计挺不错的，但是我找不到她的导航目录。如果你想看他写的最新的文章可以点击这个链接。博客里面还写了一些她对 AI 的见解，比如之前大火的 《我的 AI》 这篇文章，写了她对网络上出现的 AI 孙燕姿的看法。&#xA;空白生活&#xA;使用 hugo 搭建的一个个人博客，网站设计很 nice。相形见绌了，日后可以逐渐进行模仿。</description>
     </item>
     <item>
-      <title>Weekly 6：水周刊</title>
+      <title>周刊 6</title>
       <link>http://localhost:1313/weekly-6/</link>
       <pubDate>Mon, 29 May 2023 08:00:00 +0800</pubDate>
       <guid>http://localhost:1313/weekly-6/</guid>
       <description>本期：20230527 - 20230602&#xA;文章 DeepL Api 设计中的欺骗战术&#xA;工具 Vite 太快了，烦死了，是时候该小睡一会了 vite-plugin-sleepvite is too fast, we need to rest.&#xA;Vite 构建速度太快,减少了打工人的摸鱼时间,作者写了这个插件增加 Vite 的加载时间.&#xA;资源 1.Hello 算法 适合新手入门「数据结构与算法」的开源书《Hello 算法》，通过动画图解结构化地讲解数据结构和算法知识。代码上支持 Java,C++, Python, Go, JS, TS, C#, Swift&#xA;2.Git 学习资源 [Git 图表速查命令](Git 图表 https://ndpsoftware.com/git-cheatsheet.html#loc=index;)&#xA;ProGit Git 官方推荐书籍&#xA;猴子都能懂的 Git 入门&#xA;Git Magic&#xA;人物 1.DeeKay 一位来自韩国的数字艺术家.他的个人网站上面有许多很有意思的动画.这是他的推特上面会经常更新一些他的工作内容.</description>
     </item>
     <item>
-      <title>Weekly 5：英语</title>
+      <title>周刊 5</title>
       <link>http://localhost:1313/weekly-5/</link>
       <pubDate>Sat, 20 May 2023 08:00:00 +0800</pubDate>
       <guid>http://localhost:1313/weekly-5/</guid>

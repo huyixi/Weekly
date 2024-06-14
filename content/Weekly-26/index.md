@@ -1,11 +1,7 @@
 ---
-title: "Weekly 26：健身"
-subtitle: "本期的主题是关于健身，并且周刊的内容也要进一步升级"
+title: "健身"
 date: 2023-10-22T21:21:09+08:00
-lastmod: 2023-10-29
 draft: false
-tags: []
-category: [Weekly]
 ---
 
 ## 关于周刊内容的再次改进

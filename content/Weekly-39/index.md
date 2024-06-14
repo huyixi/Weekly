@@ -1,11 +1,8 @@
 ---
-title: "第39期 - Refactor Everything"
-subtitle: ""
+title: "Refactor Everything"
 date: 2024-02-04T21:17:04+08:00
 lastmod: 2024-02-04T21:17:04+08:00
 draft: false
-tags: []
-category: [Weekly]
 ---
 
 2024-01-29 至 2024-02-04
@@ -54,11 +51,6 @@ category: [Weekly]
 ## 小蒜头与《河流》
 
 在看 Apple 的贺岁片，今年的主题是「做自己」。惊喜地发现 Tim 入镜，还有蛙池的《河流》。晚上也循环听了好多遍这首歌。Bilibili 上有个新疆石河子大学吉他社姐姐也翻唱了，真好看。
-
-## 过审
-
-![](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/t5pr4W.jpg)
-看到影视飓风的标题，不经感慨，不能过审的是什么样的。
 
 ## 为什么要养宠物
 

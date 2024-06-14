@@ -1,19 +1,15 @@
 ---
-title: Weekly 15：VIM 作者逝世
+title: VIM 作者逝世
 date: 2023-07-31T22:29:00+08:00
 lastmod: 2023-07-31T22:29:00+08:00
-category: [Weekly]
-tags: [weekly]
 draft: false
-summary: |
- 主题：VIM 作者逝世<br>
- 时间：20230729 - 20230804
 ---
-## R.I.P.
 
-### VIM 作者 Bram Moolenaar 逝世
+## VIM 作者 Bram Moolenaar 逝世
 
-![](https://raw.githubusercontent.com/huyixi/Pics/main/VIM.JPG)
+![i](https://raw.githubusercontent.com/huyixi/Pics/main/VIM.JPG)
+
+又是一位天天用的软件的作者去世。
 
 ## 技巧
 
