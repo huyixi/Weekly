@@ -1,0 +1,16 @@
+# Theme config. Your config (yoursite/hugo.toml) overrides this one.
+
+paginate = 4       # Number of posts to show on a list page
+summaryLength = 20 # Number of characters in your card summaries
+
+[params]
+css = ["css/custom.css"] # Your custom CSS overrides, stored in yoursite/static/
+numImages = 10           # Number of random images to choose from for banners (in themes/quint/static/images)
+
+[[params.social]] # Customize your social links below!
+url = "https://github.com/huyixi"
+name = "Github"
+
+[[params.social]]
+url = "mailto:hi@huyixi.com"
+name = "Email"
