@@ -1,0 +1,19 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/fav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/fav/favicon-16x16.png">
+    <link rel="manifest" href="/images/fav/site.webmanifest">
+    <title>{{ .Site.Title }}</title>
+    {{- $maincss := resources.Match "css/*.css" | resources.Concat "css/main.css" -}}
+    {{- if hugo.IsProduction }}
+    {{ $maincss = $maincss | minify | fingerprint }}
+    {{ end -}}
+    <link rel="stylesheet" href="{{ $maincss.RelPermalink }}" {{ if hugo.IsProduction }}
+        integrity="{{ $maincss.Data.Integrity }}" {{ end }}>
+    <link rel="stylesheet" href="https://gw.alipayobjects.com/os/k/font/lxgwwenkaiscreenr.css" as="font"
+        crossorigin="anonymous">
+    {{ $js := resources.Get "js/main.js" | js.Build }}
+    <script src="{{ $js.RelPermalink }}" defer></script>
+</head>

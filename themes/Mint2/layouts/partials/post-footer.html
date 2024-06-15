@@ -1,0 +1,19 @@
+<footer class="post-footer mt-4 py-4">
+  <div class="flex justify-between md:flex-row flex-col ">
+    <div class=" flex-1">
+      发布日期：{{ .Date.Format
+      "2006/01/02"
+      }}
+    </div>
+    <div class="md:mt-0 mt-4 flex-1 text-right">
+      {{ if .Next }}
+      <a href="{{ .Next.Permalink }}">下一篇 |</a>
+      {{ end }}
+      <a href="{{ .Site.BaseURL }}">去首页 |</a>
+      <a href="https://blog.huyixi.com">看博客 </a>
+      <a href="{{ .Site.BaseURL }}/index.xml" title="Subscribe" target="_blank" class="xl:inline-block hidden"> |
+        RSS</a>
+    </div>
+  </div>
+  <p class="text-right mt-4">huyixi &copy; 2022-{{ now.Year }}</p>
+</footer>
