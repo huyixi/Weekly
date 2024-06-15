@@ -1,10 +1,10 @@
 {
-  "name": "quint",
+  "name": "Mint",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "uno-dev": "unocss layouts/**/**/*.html --watch -o ./assets/css/uno.css",
+    "uno-dev": "unocss \"layouts/**/**/*.html\" --watch -o ./assets/css/uno.css",
     "uno-build": "unocss \"layouts/**/**/*.html\" -o ./assets/css/uno.css"
   },
   "keywords": [],

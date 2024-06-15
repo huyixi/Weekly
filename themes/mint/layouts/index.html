@@ -1,6 +1,6 @@
 {{define "main"}}
 <header class="mt-6">
-    <nav class="nav-x flex mx-16 items-center">
+    <nav class="nav-x flex mx-4 sm:mx-16 items-center">
         <div class="flex items-center gap-4">
             <a href="{{ .Site.Home.Permalink }}" class="flex">
                 <img src="/images/logo.png" alt="Site Logo" width="40" height="40" class="object-cover">
@@ -12,14 +12,14 @@
             </a>
         </div>
         <div class="flex-grow text-right text-xl items-center gap-4">
-            {{- range site.Menus.main }}
-            <a href="{{ .URL }}">{{ .Name }}</a>
-            {{- end }}
+            <a href="./index.xml">订阅</a>
+            <a href="https://blog.huyixi.com" class="hidden sm:block">博客</a>
+            <a href="/about">关于</a>
         </div>
     </nav>
 </header>
 
-<main class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mx-16 mt-4">
+<main class="grid grid-cols-1 m-4 sm:mx-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
     {{ $posts := .Site.RegularPages }}
     {{ range $posts }}
     {{ partial "post-card" . }}
