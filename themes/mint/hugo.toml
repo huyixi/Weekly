@@ -1,0 +1,9 @@
+paginate = 4
+summaryLength = 20
+
+[params]
+css = ["css/custom.css"]
+
+[[params.social]]
+url = "mailto:hi@huyixi.com"
+name = "Email"

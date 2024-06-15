@@ -1,0 +1,48 @@
+{{ define "main" }}
+<main class="grid md:grid-cols-[16rem_minmax(0,1fr)] xl:grid-cols-[20rem_minmax(0,1fr)_13rem]">
+    <aside
+        class="grid-sidebar sticky top-0 left-0 pl-6 pt-6 h-screen hidden md:block md:sticky md:left-0 md:pl-12 xl:pl-18">
+        <nav class="overflow-hidden">
+            <div class="h-[52px] flex items-center gap-4">
+                <a href="{{ .Site.Home.Permalink }}">
+                    <img src="/images/logo.png" alt="Site Logo" width="40" height="40" class="object-cover">
+                </a>
+                <a href="{{ .Site.Home.Permalink }}">
+                    <h1 class="text-gray-800 no-underline">
+                        {{ .Site.Title }}
+                    </h1>
+                </a>
+            </div>
+            <ul class="scrolls-sidebar p0 m0 overflow-y-auto">
+                {{ $counter := len .Site.RegularPages }}
+                {{ range sort .Site.RegularPages "Date" "desc" }}
+                <li class="my-1 py-1.5   overflow-hidden">
+                    <a href="{{ .RelPermalink }}"
+                        class="block w-full overflow-hidden text-ellipsis whitespace-nowrap text-#252627 {{ if eq .RelPermalink $.RelPermalink }}text-#3eb489 {{ end }}">
+                        第{{ $counter }}期 - {{ .Title }}</a>
+                </li>
+                {{ $counter = sub $counter 1 }}
+                {{ end }}
+            </ul>
+        </nav>
+    </aside>
+    <article class="col-span-3 p-8 md:col-start-2 md:col-span-1 md:p-8 md:pr-12">
+        <h1 id="textOverlay">{{ .Title }}</h1>
+        {{ if .Params.cover_image }}
+        <img src="{{ .Params.cover_image }}" alt="{{ .Title }}" class="cover-image">
+        {{ end }}
+        {{ with .Resources.GetMatch "cover.*"}}
+        <div class="relative w-full aspect-video overflow-hidden">
+            <img data-placeholder-background="linear-gradient(to bottom, #ece9e6, #ffffff)" alt="{{ $.Title }}"
+                class="lozad absolute top-0 left-0 w-full h-full object-cover"
+                style="background: linear-gradient(rgb(236, 233, 230), rgb(255, 255, 255));"
+                src="{{ .RelPermalink }}?x-oss-process=image/resize,w_640/format,webp" loading="lazy">
+        </div>
+        {{ end }}
+        <main class="post-content">
+            {{ .Content }}
+        </main>
+        {{ partial "post-footer" . }}
+    </article>
+</main>
+{{ end }}

@@ -1,7 +1,9 @@
 baseURL = 'https://weekly.huyixi.com/'
 languageCode = 'zh-cn'
 title = '散步周刊'
-theme = "popsicle"
+theme = "Mint"
+
+disableKinds = ["taxonomy", "term"]
 
 [menu]
 [[menu.main]]
