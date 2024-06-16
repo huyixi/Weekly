@@ -1,9 +1,13 @@
+{{define "main" }}
 <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
 <script src="/pagefind/pagefind-ui.js"></script>
-{{partial "home-header.html" .}}
-<div id="search"></div>
+<main class="mx-4 mt-4">
+  <div id="search"></div>
+</main>
 <script>
   window.addEventListener('DOMContentLoaded', (event) => {
     new PagefindUI({ element: "#search", showSubResults: true, sort: { date: "desc" }, showImages: false });
   });
 </script>
+
+{{ end }}

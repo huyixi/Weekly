@@ -1,29 +1,30 @@
-<script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+<!DOCTYPE html>
+<html><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/fav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/fav/favicon-16x16.png">
+    <link rel="manifest" href="/images/fav/site.webmanifest">
+    <title>search - 散步周刊</title><link rel="stylesheet" href="/css/main.css" >
+    <link rel="stylesheet" href="https://gw.alipayobjects.com/os/k/font/lxgwwenkaiscreenr.css" as="font"
+        crossorigin="anonymous">
+    
+    <script src="/js/main.js" defer></script>
+</head>
+<body>
+<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
 <script src="/pagefind/pagefind-ui.js"></script>
-<header class="mt-6">
-  <nav class="nav-x flex mx-4 sm:mx-16 items-center">
-    <div class="flex items-center gap-4">
-      <a href="http://localhost:1313/" class="flex">
-        <img src="/images/logo.png" alt="Site Logo" width="40" height="40" class="object-cover">
-      </a>
-      <a href="http://localhost:1313/">
-        <h1 class="text-gray-800 decorate-none">
-          散步周刊
-        </h1>
-      </a>
-    </div>
-    <div class="flex-grow text-right text-xl items-center gap-4">
-      <a href="/index.xml">订阅</a>
-      <a href="/search">搜索</a>
-      <a href="https://blog.huyixi.com" class="hidden sm:inline-block">博客</a>
-      <a href="/about">关于</a>
-    </div>
-  </nav>
-</header>
-
-<div id="search"></div>
+<main class="mx-4 mt-4">
+  <div id="search"></div>
+</main>
 <script>
   window.addEventListener('DOMContentLoaded', (event) => {
     new PagefindUI({ element: "#search", showSubResults: true, sort: { date: "desc" }, showImages: false });
   });
 </script>
+
+
+</body>
+
+</html>

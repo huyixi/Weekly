@@ -5,7 +5,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/images/fav/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/images/fav/favicon-16x16.png">
     <link rel="manifest" href="/images/fav/site.webmanifest">
-    <title>{{ .Site.Title }}</title>
+    <title>{{ if .Title }}{{ .Title }} - {{ .Site.Title }}{{ else }}{{ .Site.Title }}{{ end }}</title>
     {{- $maincss := resources.Match "css/*.css" | resources.Concat "css/main.css" -}}
     {{- if hugo.IsProduction }}
     {{ $maincss = $maincss | minify | fingerprint }}

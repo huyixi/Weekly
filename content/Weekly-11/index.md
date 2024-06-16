@@ -45,16 +45,14 @@ draft: false
 
 ## 文章
 
-### 1.[去冒险吧，带着勇气](https://subnooc.com/posts/take-risks-with-courage)
+### [去冒险吧，带着勇气](https://subnooc.com/posts/take-risks-with-courage)
 
 文章摘录：
 
 - 似乎太多人抱着成王败寇的观点，认为只有成功的人才是伟大的，只许成功，不许失败。长久的影响下来，一些人会过于惧怕失败，哪怕有时失败的代价仅仅是会被世人嘲笑一番。
 - 正如我向来不是很喜欢安定这个词，它仿佛在说，事情已经这样了，而且将永远这样下去。没有更多的可能，不再有活力，就像一个龙钟老态的将死之人，别无他求，只是在等待最后一刻的到来。
 
-### 2.
-
-利用二八法则快速入门新技术
+### 利用二八法则快速入门新技术
 
 [使用二八法则省力地学习 awk](https://vim0.com/post/awk/)
 
@@ -80,19 +78,19 @@ draft: false
 
 [在清迈冥想学习 7 天后，我不再「追求」幸福](https://lutaonan.com/blog/7-days-meditation/)
 
-### 不能自学的人，没有未来。
+### 不能自学的人，没有未来
 
 [the-craft-of-selfteaching](https://github.com/selfteaching/the-craft-of-selfteaching/tree/master#the-craft-of-selfteaching)
 
 Github 上开源的电子书，以 Python 为例教你如何进行自学。 本书观看的速度比较快，因为其中关于 Python 的代码部分大部分我已经了解，所以直接跳过就好了。倒是其中的一些思想观点的又去翻阅了一下。
 
-### 3. Netflix 低价区付费教程（ IP 代理池 + 指纹浏览器）
+### Netflix 低价区付费教程（ IP 代理池 + 指纹浏览器）
 
 [Netflix 转区之从土耳其到埃及（IP 代理池+指纹浏览器助攻）](https://www.typemylife.com/change-netflix-region-from-turkey-to-egypt/)
 
 看点好东西真的是太难了。
 
-### 4. 张洪 Heo 的博客文章封面升级史
+### 张洪 Heo 的博客文章封面升级史
 
 [博客文章封面的变迁，我是如何制作博客封面的](https://blog.zhheo.com/p/463d306b.html)
 
@@ -116,7 +114,7 @@ Github 上开源的电子书，以 Python 为例教你如何进行自学。 本�
 
 ## 资源
 
-### 1. Best Hacker News
+### Best Hacker News
 
 [Lindy Hacker News](https://hn.lindylearn.io)
 
@@ -124,13 +122,11 @@ Github 上开源的电子书，以 Python 为例教你如何进行自学。 本�
 
 [Post-Abstract-AI](https://github.com/zhheo/Post-Abstract-AI)
 
-### 2.
+### 浏览器扩展：分析网站所使用的前端技术栈
 
 [Wappalyzer](https://www.wappalyzer.com/)
 
-浏览器扩展：分析网站所使用的前端技术栈
-
-<img src="https://raw.githubusercontent.com/huyixi/Pics/main/20230702122010.png"/>
+![alt](https://raw.githubusercontent.com/huyixi/Pics/main/20230702122010.png)
 
 ### 说说
 
