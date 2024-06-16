@@ -664,10 +664,8 @@ legend.svelte-1v2r7ls.svelte-1v2r7ls {
 .grid-cols-1{grid-template-columns:repeat(1,minmax(0,1fr));}
 .m-4{margin:1rem;}
 .m0{margin:0;}
-.mx-16{margin-left:4rem;margin-right:4rem;}
 .mx-4{margin-left:1rem;margin-right:1rem;}
 .my-1{margin-top:0.25rem;margin-bottom:0.25rem;}
-.my-4{margin-top:1rem;margin-bottom:1rem;}
 .mt-2{margin-top:0.5rem;}
 .mt-3{margin-top:0.75rem;}
 .mt-4{margin-top:1rem;}
