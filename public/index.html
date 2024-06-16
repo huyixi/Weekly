@@ -14,25 +14,28 @@
     <script src="/js/main.js" defer></script>
 </head>
 <body>
+
 <header class="mt-6">
-    <nav class="nav-x flex mx-4 sm:mx-16 items-center">
-        <div class="flex items-center gap-4">
-            <a href="http://localhost:1313/" class="flex">
-                <img src="/images/logo.png" alt="Site Logo" width="40" height="40" class="object-cover">
-            </a>
-            <a href="http://localhost:1313/">
-                <h1 class="text-gray-800 decorate-none">
-                    散步周刊
-                </h1>
-            </a>
-        </div>
-        <div class="flex-grow text-right text-xl items-center gap-4">
-            <a href="./index.xml">订阅</a>
-            <a href="https://blog.huyixi.com" class="hidden sm:block">博客</a>
-            <a href="/about">关于</a>
-        </div>
-    </nav>
+  <nav class="nav-x flex mx-4 sm:mx-16 items-center">
+    <div class="flex items-center gap-4">
+      <a href="http://localhost:1313/" class="flex">
+        <img src="/images/logo.png" alt="Site Logo" width="40" height="40" class="object-cover">
+      </a>
+      <a href="http://localhost:1313/">
+        <h1 class="text-gray-800 decorate-none">
+          散步周刊
+        </h1>
+      </a>
+    </div>
+    <div class="flex-grow text-right text-xl items-center gap-4">
+      <a href="/index.xml">订阅</a>
+      <a href="/search">搜索</a>
+      <a href="https://blog.huyixi.com" class="hidden sm:inline-block">博客</a>
+      <a href="/about">关于</a>
+    </div>
+  </nav>
 </header>
+
 
 <main class="grid grid-cols-1 m-4 sm:mx-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
     
@@ -1286,6 +1289,21 @@ Eric Kung 的笔记
 根据 Github 用户 **Konano **分析，这一 Bug 出现在了微信的扫码引擎中（微信团队于 2021 年在 OpenCV 开源其扫码引擎）。
 如果攻击者在数据的末尾添加了一段内容为空的数据，程序就会出错。这是因为程序在读取数据时，会读取这段数据的长度（也就是字节数），但是攻击者在末尾添加的这段数据的长度为 0，这就导致了程序出错。为了解决这个问题，开发者需要在读取数据的长度后再初始化变量，以确保程序能够正确读取数据。详细内容
 文章 Moore&rsquo;s Law for Everything - Sam Altman This revolution will create phenomenal wealth. The price of many kinds of labor (which drives the costs of goods and services) will fall toward zero once sufficiently powerful AI “joins the workforce.” The world will change so rapidly and drastically that an equally drastic change in policy will be needed to distribute this wealth and enable more people to pursue the life they want.
+        </p>
+    </div>
+</a>
+
+    
+    
+<a href="/search/" class="flex flex-col justify-between rounded-md shadow-md  overflow-hidden card-content">
+    
+    <div class="p-3">
+        <div class="flex justify-between items-center leading-tight">
+            <div class="text-gray-800 line-clamp-1">search</div>
+            <div class="text-grey-darker text-sm text-gray-600">0001/01/01</div>
+        </div>
+        <p class="text-gray-600 text-sm overflow-hidden line-clamp-2 mt-2 ">
+            
         </p>
     </div>
 </a>

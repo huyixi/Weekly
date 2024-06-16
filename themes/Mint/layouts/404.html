@@ -4,10 +4,12 @@
     <h1 style="font-size: 5em; font-weight: bold;">404</h1>
     <p style="font-size: 1.5em;">啊哦！你要寻找的页面不存在</p>
     <a href="/"
-        style="padding: 10px 20px; background-color: #0076d1; color: white; text-decoration: none; border-radius: 5px; margin-top: 10px;">返回漫步周刊</a>
-    <p class="text-[#0076d1]">
-        <a href="https://huyixi.com">去个人网站 | </a>
-        <a href="https://blog.huyixi.com">去看看博客</a>
+        style="padding: 10px 20px; background-color: #0076d1; color: white; text-decoration: none; border-radius: 5px; margin-top: 12px;">返回{{
+        .Site.Title
+        }}</a>
+    <p class="mt-3">
+        <a href="https://huyixi.com" class="text-[#0076d1]">去个人网站 </a> |
+        <a href="https://blog.huyixi.com" class="text-[#0076d1]">去看看博客</a>
     </p>
 </main>
 {{ end }}

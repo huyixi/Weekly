@@ -309,5 +309,12 @@
       <guid>http://localhost:1313/weekly-1/</guid>
       <description>动态 使用微信扫描上面这张二维码之后，微信 APP 就会闪退，并报告“三方应用异常分析”。&#xA;根据 Github 用户 **Konano **分析，这一 Bug 出现在了微信的扫码引擎中（微信团队于 2021 年在 OpenCV 开源其扫码引擎）。&#xA;如果攻击者在数据的末尾添加了一段内容为空的数据，程序就会出错。这是因为程序在读取数据时，会读取这段数据的长度（也就是字节数），但是攻击者在末尾添加的这段数据的长度为 0，这就导致了程序出错。为了解决这个问题，开发者需要在读取数据的长度后再初始化变量，以确保程序能够正确读取数据。详细内容&#xA;文章 Moore&amp;rsquo;s Law for Everything - Sam Altman This revolution will create phenomenal wealth. The price of many kinds of labor (which drives the costs of goods and services) will fall toward zero once sufficiently powerful AI “joins the workforce.” The world will change so rapidly and drastically that an equally drastic change in policy will be needed to distribute this wealth and enable more people to pursue the life they want.</description>
     </item>
+    <item>
+      <title>search</title>
+      <link>http://localhost:1313/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/search/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
