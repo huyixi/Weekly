@@ -40,6 +40,10 @@ p {
     margin: 0;
 }
 
+mark {
+    background-color: var(--theme-color);
+}
+
 nav li {
     list-style-type: none;
 }

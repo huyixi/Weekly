@@ -1,11 +1,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ if .IsHome }}{{ .Title }}{{ else }}{{ if .Title }}{{ .Title }} - {{ .Site.Title }}{{ else }}{{ .Site.Title
+        }}{{ end }}{{ end }}</title>
     <link rel="apple-touch-icon" sizes="180x180" href="/images/fav/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/images/fav/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/images/fav/favicon-16x16.png">
     <link rel="manifest" href="/images/fav/site.webmanifest">
-    <title>{{ if .Title }}{{ .Title }} - {{ .Site.Title }}{{ else }}{{ .Site.Title }}{{ end }}</title>
     {{- $maincss := resources.Match "css/*.css" | resources.Concat "css/main.css" -}}
     {{- if hugo.IsProduction }}
     {{ $maincss = $maincss | minify | fingerprint }}
