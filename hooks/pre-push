@@ -1,0 +1,16 @@
+#!/bin/sh
+
+expect_script=$(cat <<'EOF'
+spawn npx -y pagefind --site public --serve
+expect "Choose the agent"
+send "pnpm\r"
+expect eof
+EOF
+)
+
+expect -c "$expect_script"
+
+if [ $? -ne 0 ]; then
+  echo "pagefind 命令失败，终止推送。"
+  exit 1
+fi
