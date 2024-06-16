@@ -1,15 +1,18 @@
 #!/bin/sh
 
+# 定义 expect 脚本
 expect_script=$(cat <<'EOF'
-spawn nlx -y pagefind --site public --serve
+spawn pnpx pagefind --site public
 expect "Choose the agent"
 send "pnpm\r"
 expect eof
 EOF
 )
 
+# 运行 expect 脚本
 expect -c "$expect_script"
 
+# 检查 pagefind 命令是否成功
 if [ $? -ne 0 ]; then
   echo "pagefind 命令失败，终止推送。"
   exit 1
