@@ -4,6 +4,8 @@ date = 2024-06-17T09:36:39+08:00
 draft = false
 +++
 
+封面图为 「[Air Travel Design Guide](https://airtraveldesign.guide)」 的首页
+
 本周：2024-05-26-2024-06-01
 
 ## 赵纯想
