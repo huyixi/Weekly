@@ -44,6 +44,18 @@ mark {
     background-color: var(--theme-color);
 }
 
+blockquote {
+    margin: 8px 0;
+    padding-left: 1em;
+    border-left: 2px solid var(--theme-color);
+}
+
+p img {
+    display: block;
+    margin: 4px 0;
+    border-radius: 4px;
+}
+
 nav li {
     list-style-type: none;
 }
