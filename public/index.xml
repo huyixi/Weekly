@@ -6,8 +6,15 @@
     <description>Recent content on 散步周刊</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 17 Jun 2024 09:46:40 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 17 Jun 2024 11:14:16 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>二八定律</title>
+      <link>http://localhost:1313/weekly-43/</link>
+      <pubDate>Mon, 17 Jun 2024 11:14:16 +0800</pubDate>
+      <guid>http://localhost:1313/weekly-43/</guid>
+      <description>我在看什么 WWDC 2024 2024-06-11 02:44:53 iPad 计算器还是来了。计算器上的这些功能还蛮有意思的，学生学习更加方便了。 对于这些笔记的加强，iPad 反而更像 iPad 了，而不是 Apple 所说的你的另一台 Mac。 哈哈哈，白头帅哥 Craig 还会跑酷。 MacOS 最终还是加入了屏幕吸附的功能。可以省下 Raycast 中的快捷键了。 我们是否在从应用时代，向另一个时代过渡。 新的机器交互方式可能只需要语言，而不需要触摸，这可能能让更多的人享受科技。 减少通知内容是一个非常重要的避免打扰的功能。 并没有带来十分令人激动的更新。 Thank you for join us. Let&amp;rsquo;s start WWDC&#xA;庆余年 2024-06-12 01:44:52 一个夜晚：陈岍的口琴与袁峥的吉他 solo 李志的 2019 跨年演唱会「洗心革面」，一个夜晚，陈岍的口琴与袁峥的吉他 solo。 一只小猫 在 Twitter 上刷到了一只藏在汽车发动机里的小猫，眼睛好有神。&#xA;北野武 - 首 周五晚在家看了最近很火的「北野武」监制的电影《首》。 画面异常血腥，开头就给了我一个震惊的无头尸首在河流上，一只螃蟹从里面钻出来的血型场面。很久都没有看到这么血腥的电影了。 感觉其中的一些人物好像并没有很厉害的样子。比如原本的信长，还有 感觉老谋深算的就是家康，以及主角。怪不得后面会有德川幕府。 乱世之中，人命如草芥。到处都是陷阱，到处都是敌人。&#xA;我发现了啥 CSS Scan 不用打开开发者工具就能查看网页元素的 CSS 样式，并且还可以一键转换成 TailwindCSS 代码。就是价格有点贵了，单买一个要近 600，先 Mark 住。&#xA;这个网站上还有几个相关的网页元素样式，都很漂亮。 Checkbox： 按钮： 盒子阴影： Rough Notation 一个只有 3.</description>
+    </item>
     <item>
       <title>Weekly 42</title>
       <link>http://localhost:1313/weekly-42/</link>
