@@ -61,6 +61,10 @@ pre {
     /* Opera */
     word-wrap: break-word;
     /* IE */
+    background: #EEE !important;
+    color: #000 !important;
+    padding: 1em;
+    border-radius: 4px;
 }
 
 p img {
