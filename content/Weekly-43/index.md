@@ -88,11 +88,19 @@ Checkbox：
 
 ### MacOS 上的文件扩展
 
+#### 查看 Mac 上的文件扩展
+
+System-Declared Uniform Type Identifiers：https://developer.apple.com/library/archive/documentation/Miscellaneous/Reference/UTIRef/Articles/System-DeclaredUniformTypeIdentifiers.html#//apple_ref/doc/uid/TP40009259
+
 #### 列出 Mac 上所有程序的 Bundle ID
 
 ```bash
 lsappinfo list | rg --multiline '("[^"]*?") ASN:.*\n.*bundleID=("[^"]*?")' --replace '$1 $2' --only-matching
 ```
+
+### 使用 duti 设置默认打开方式
+
+https://github.com/moretension/duti?tab=readme-ov-file
 
 #### 查看某个应用程序支持的扩展
 

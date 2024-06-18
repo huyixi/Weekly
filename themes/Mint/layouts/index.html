@@ -2,7 +2,7 @@
 
 {{partial "home-header" .}}
 
-<main class="grid grid-cols-1 m-4 sm:mx-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+<main class="grid grid-cols-1 m-4 sm:mx-12 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
     {{ $posts := .Site.RegularPages }}
     {{ range $posts }}
     {{ partial "post-card" . }}

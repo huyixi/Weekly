@@ -441,9 +441,13 @@ Checkbox：
 摘要的第一句话： 用户的偏好在一天中呈现动态模式，例如，早上 8 点，用户可能更喜欢阅读新闻，而晚上 8 点，他们可能更喜欢看电影。
 论文地址：https://arxiv.org/abs/2404.19357</p>
 <h3 id="macos-上的文件扩展">MacOS 上的文件扩展</h3>
+<h4 id="查看-mac-上的文件扩展">查看 Mac 上的文件扩展</h4>
+<p>System-Declared Uniform Type Identifiers：https://developer.apple.com/library/archive/documentation/Miscellaneous/Reference/UTIRef/Articles/System-DeclaredUniformTypeIdentifiers.html#//apple_ref/doc/uid/TP40009259</p>
 <h4 id="列出-mac-上所有程序的-bundle-id">列出 Mac 上所有程序的 Bundle ID</h4>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>lsappinfo list | rg --multiline <span style="color:#e6db74">&#39;(&#34;[^&#34;]*?&#34;) ASN:.*\n.*bundleID=(&#34;[^&#34;]*?&#34;)&#39;</span> --replace <span style="color:#e6db74">&#39;$1 $2&#39;</span> --only-matching
-</span></span></code></pre></div><h4 id="查看某个应用程序支持的扩展">查看某个应用程序支持的扩展</h4>
+</span></span></code></pre></div><h3 id="使用-duti-设置默认打开方式">使用 duti 设置默认打开方式</h3>
+<p><a href="https://github.com/moretension/duti?tab=readme-ov-file">https://github.com/moretension/duti?tab=readme-ov-file</a></p>
+<h4 id="查看某个应用程序支持的扩展">查看某个应用程序支持的扩展</h4>
 <p>以 Safari 为例：</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd /Applications/Safari.app/Contents
 </span></span><span style="display:flex;"><span>grep -A3 CFBundleTypeExtensions Info.plist  | grep string
