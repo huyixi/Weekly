@@ -40,10 +40,10 @@ Thank you for join us. Let's start WWDC
 
 ### 一个夜晚：陈岍的口琴与袁峥的吉他 solo
 李志的 2019 跨年演唱会「洗心革面」，一个夜晚，陈岍的口琴与袁峥的吉他 solo。
-![](/i/123.gif)
+![tt1](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/tt1.gif)
 
 ### 一只小猫
-![](/i/SaveTwitter.Net_1801234950609584128496p-ezgif.com-video-to-gif-converter.gif)
+![SaveTwitter.Net_1801234950609584128496p-ezgif.com-video-to-gif-converter](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/SaveTwitter.Net_1801234950609584128496p-ezgif.com-video-to-gif-converter.gif)
 在 Twitter 上刷到了一只藏在汽车发动机里的小猫，眼睛好有神。
 
 ### 北野武 - 首
