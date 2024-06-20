@@ -3,8 +3,8 @@
     --primary-bg: #fff;
     --primary-text: #353d49;
     --secondary-text: #252627;
-    --theme-color: #70d1b7;
-    --link-color: #0076d1;
+    --theme-color: #3eb489;
+    --link-color: #3eb489;
     --shadow-color: rgba(0, 0, 0, 0.15);
     --user-font-scale: 1rem - 16px;
     --max-width: calc(100% - 1rem);
@@ -54,7 +54,7 @@ mark {
 blockquote {
     margin: 8px 0;
     padding-left: 1em;
-    border-left: 2px solid var(--theme-color);
+    border-left: 2px solid #ccc;
 }
 
 pre {
