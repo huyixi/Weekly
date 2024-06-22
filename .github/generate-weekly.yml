@@ -2,7 +2,7 @@ name: Generate Weekly Post
 
 on:
   schedule:
-    - cron: '0 0 * * 6'
+    - cron: '0 0 * * 5'
   workflow_dispatch:
 
 jobs:
@@ -23,39 +23,25 @@ jobs:
           START_DATE="2023-12-10"
           TODAY=$(date +'%Y-%m-%d')
           # 计算周刊的期数
-          WEEKLY_NUMBER=$((($(date -d $TODAY +%s) - $(date -d $START_DATE +%s)) / 604800 + 1 +32))
-        
-          # 创建新的文件夹
-          FOLDER_NAME="Weekly-${WEEKLY_NUMBER}"
-          mkdir -p "./content/posts/${FOLDER_NAME}"
+          WEEKLY_NUMBER=$((($(date -d $TODAY +%s) - $(date -d $START_DATE +%s)) / 604800 + 1 +36))
+          FILE_NAME="Weekly-${WEEKLY_NUMBER}"
         
           # 创建 index.md 并写入内容
           {
             echo "---"
-            echo 'title: "Weekly ${WEEKLY_NUMBER}: "'
+            echo 'title: "Weekly"'
             CURRENT_TIME=$(date +'%Y-%m-%d %H:%M:%S')
             echo "date: ${CURRENT_TIME}"
-            echo "start_date: ${TODAY}"
-            END_DATE=$(date -d "${TODAY} + 6 days" +'%Y-%m-%d')
-            echo "end_date: ${END_DATE}"
-            echo "category: [Weekly]"
             echo "tags: []"
             echo "draft: true"
             echo "---"
-            echo "## 日记"
-            echo "## 文章"
-            echo "## 播客"
-            echo "## 视频"
-            echo "## 资源"
-            echo "## 说说"
-            echo "## 其他"
-          } > "./content/posts/${FOLDER_NAME}/index.md"
-          ls -l "./content/posts/${FOLDER_NAME}/index.md"
+          } > "./content/${FILE_NAME}.md"
+          ls -l "./content/${FILE_NAME}.md"
 
     - name: Commit and Push
       run: |
         git config --global user.name '${{ secrets.GIT_USER_NAME }}'
         git config --global user.email '${{ secrets.GIT_USER_EMAIL }}'
-        git add ./content/posts/${FOLDER_NAME}
+        git add ./content/${FILE_NAME}.md
         git commit -m "Add Weekly post"
         git push
