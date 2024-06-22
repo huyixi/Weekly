@@ -6,8 +6,8 @@
       }}
     </div>
     <div class="md:mt-0 mt-4 flex-1 text-right">
-      {{ if .Next }}
-      <a href="{{ .Next.Permalink }}">下一篇 </a>|
+      {{ if .Prev }}
+      <a href="{{ .Prev.Permalink }}">下一篇 </a>|
       {{ end }}
       <a href="{{ .Site.BaseURL }}">去首页 </a>|
       <a href="https://blog.huyixi.com">看博客 </a>|

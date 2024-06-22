@@ -19,7 +19,7 @@
                 <li class="my-1 py-1.5   overflow-hidden">
                     <a href="{{ .RelPermalink }}"
                         class="block w-full overflow-hidden text-ellipsis whitespace-nowrap text-#252627 {{ if eq .RelPermalink $.RelPermalink }}text-#3eb489 {{ end }}">
-                        第{{ $counter }}期 - {{ .Title }}</a>
+                        第{{ printf "%02d" $counter }}期 - {{ .Title }}</a>
                 </li>
                 {{ $counter = sub $counter 1 }}
                 {{ end }}
