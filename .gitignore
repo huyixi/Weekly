@@ -11,3 +11,4 @@ logs
 *-debug.log
 *-error.log
 *__pycache__/
+/public
