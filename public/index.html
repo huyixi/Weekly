@@ -41,6 +41,37 @@
     
     
     
+<a href="/weekly-44/" class="flex flex-col justify-between rounded-md shadow-md  overflow-hidden card-content">
+    
+    <div class="relative w-full aspect-video overflow-hidden">
+        <img data-placeholder-background="linear-gradient(to bottom, #ece9e6, #ffffff)" alt="重新上线"
+            class="lozad absolute top-0 left-0 w-full h-full object-cover"
+            style="background: linear-gradient(rgb(236, 233, 230), rgb(255, 255, 255));"
+            src="/weekly-44/cover.png?x-oss-process=image/resize,w_640/format,webp" loading="lazy">
+    </div>
+    
+    <div class="p-3">
+        <div class="flex justify-between items-center leading-tight">
+            <h2 class="m0 text-4 text-gray-800 line-clamp-1">重新上线</h2>
+            <div class="text-grey-darker text-sm text-gray-600">2024/06/24</div>
+        </div>
+        <p class="text-gray-600 text-sm overflow-hidden line-clamp-2 mt-2 ">
+            这周做了啥 重新上线周刊 周刊的评论系统 使用 giscus 作为评论系统。原本打算使用一个可以进行匿名评论的系统，后来想想，给评论提高一些门槛也是一个很好的选择。所以最后采用了 gitcus，也不需要我另外再搭建服务器，直接放置在 Github 仓库中。
+周刊的搜索 这里采用了 pagefind。刚好在搭建的时候发现一个推友推荐这个库，于是去尝试了一下，发现对于静态网站的搜索，这个库效果相当不错。于是最后决定使用这个库进行评论系统的搭建。 我的博客中并没有采用评论系统，因为博客的主题并没有很多，通过浏览基本可以获取到所有的信息。但是对于周刊，这里会收集一些用过的工具，所以搜索系统还是很有必要的一个工具。
+Biliblii 取关 发现 Bilibili 的关注数量已经有 800 多个，但是我并没有时间去看这么多的 UP 主的视频。所以这里决定取关一些 UP 主。但是一个一个取关实在是太麻烦了，于是我写了一个脚本来进行取关。
+$(&#34;.be-dropdown-item:contains(&#39;取消关注&#39;)&#34;).click(); location.replace(location.href); 通过查页面所有的取消关注按钮，然后点击这个按钮，最后刷新页面。
+不过 Bilibili 一页只能展示 10 个 UP 主，所以这里需要多次执行这个脚本。这里如果有人能实现一个 插件来实现这功能会更好。但是也有一个问题，就是有一些 UP 主是我不想取关的，这里就需要手动处理了。
+尽量减少关注的数量。留下来的 Up 主应该符合，发出的视频我观看的几率会超过 60%。没有很高的观看几率其实留下来并没有什么用。很多视频其实都是通过搜索发现的，而不是动态中发现的。
+还保留的一些 UP 主：
+影视飓风：应该是 B 站最强的 Up 主了吧。 亿点点不一样：影视飓风新推出的栏目，用超级放大镜或者超级慢放来看一东西。 林捂捂：科技类博主，跟其他的科技博主的单纯体验不同，会挖掘一些新的视角来介绍产品。而且笑点很多，基本上每期都追。 刘谦：无需多言，视频也相当有趣。 王者荣耀皓辰：看见张飞直接上。视频很短，拿来消遣。 陈婧霏：现在很喜欢的一个歌手。 许嵩：也是喜欢很久了。 稚晖君：科技类博主，一个人就是一个团队。现在应该搞创业，视频基本不更新了。 oooooohmygosh：设计类博主。 盗月社：看着下饭！ Bilibili 国际版 发现 Bilibili 国际版要比国内简洁太多了。两个版本的对比： 这周读了啥 搭讪的意义 https://stephenleng.com/cn/the-significance-of-approaching-someone/
+自信是搭讪的第一步。
+MIT 的黑客恶作剧画廊：http://hacks.mit.edu/ 国家优势 军事优势和经济优势 ，军事优势和经济优势又依靠人才优势，人才优势靠制度优势
+        </p>
+    </div>
+</a>
+
+    
+    
 <a href="/weekly-43/" class="flex flex-col justify-between rounded-md shadow-md  overflow-hidden card-content">
     
     <div class="relative w-full aspect-video overflow-hidden">
@@ -1397,37 +1428,6 @@ Eric Kung 的笔记
 根据 Github 用户 **Konano **分析，这一 Bug 出现在了微信的扫码引擎中（微信团队于 2021 年在 OpenCV 开源其扫码引擎）。
 如果攻击者在数据的末尾添加了一段内容为空的数据，程序就会出错。这是因为程序在读取数据时，会读取这段数据的长度（也就是字节数），但是攻击者在末尾添加的这段数据的长度为 0，这就导致了程序出错。为了解决这个问题，开发者需要在读取数据的长度后再初始化变量，以确保程序能够正确读取数据。详细内容
 文章 Moore&rsquo;s Law for Everything - Sam Altman This revolution will create phenomenal wealth. The price of many kinds of labor (which drives the costs of goods and services) will fall toward zero once sufficiently powerful AI “joins the workforce.” The world will change so rapidly and drastically that an equally drastic change in policy will be needed to distribute this wealth and enable more people to pursue the life they want.
-        </p>
-    </div>
-</a>
-
-    
-    
-<a href="/weekly-44/" class="flex flex-col justify-between rounded-md shadow-md  overflow-hidden card-content">
-    
-    <div class="relative w-full aspect-video overflow-hidden">
-        <img data-placeholder-background="linear-gradient(to bottom, #ece9e6, #ffffff)" alt=""
-            class="lozad absolute top-0 left-0 w-full h-full object-cover"
-            style="background: linear-gradient(rgb(236, 233, 230), rgb(255, 255, 255));"
-            src="/weekly-44/cover.png?x-oss-process=image/resize,w_640/format,webp" loading="lazy">
-    </div>
-    
-    <div class="p-3">
-        <div class="flex justify-between items-center leading-tight">
-            <h2 class="m0 text-4 text-gray-800 line-clamp-1"></h2>
-            <div class="text-grey-darker text-sm text-gray-600">0001/01/01</div>
-        </div>
-        <p class="text-gray-600 text-sm overflow-hidden line-clamp-2 mt-2 ">
-            这周做了啥 重新上线周刊 周刊的评论系统 使用 giscus 作为评论系统。原本打算使用一个可以进行匿名评论的系统，后来想想，给评论提高一些门槛也是一个很好的选择。所以最后采用了 gitcus，也不需要我另外再搭建服务器，直接放置在 Github 仓库中。
-周刊的搜索 这里采用了 pagefind。刚好在搭建的时候发现一个推友推荐这个库，于是去尝试了一下，发现对于静态网站的搜索，这个库效果相当不错。于是最后决定使用这个库进行评论系统的搭建。 我的博客中并没有采用评论系统，因为博客的主题并没有很多，通过浏览基本可以获取到所有的信息。但是对于周刊，这里会收集一些用过的工具，所以搜索系统还是很有必要的一个工具。
-Biliblii 取关 发现 Bilibili 的关注数量已经有 800 多个，但是我并没有时间去看这么多的 UP 主的视频。所以这里决定取关一些 UP 主。但是一个一个取关实在是太麻烦了，于是我写了一个脚本来进行取关。
-$(&#34;.be-dropdown-item:contains(&#39;取消关注&#39;)&#34;).click(); location.replace(location.href); 通过查页面所有的取消关注按钮，然后点击这个按钮，最后刷新页面。
-不过 Bilibili 一页只能展示 10 个 UP 主，所以这里需要多次执行这个脚本。这里如果有人能实现一个 插件来实现这功能会更好。但是也有一个问题，就是有一些 UP 主是我不想取关的，这里就需要手动处理了。
-尽量减少关注的数量。留下来的 Up 主应该符合，发出的视频我观看的几率会超过 60%。没有很高的观看几率其实留下来并没有什么用。很多视频其实都是通过搜索发现的，而不是动态中发现的。
-还保留的一些 UP 主：
-影视飓风：应该是 B 站最强的 Up 主了吧。 亿点点不一样：影视飓风新推出的栏目，用超级放大镜或者超级慢放来看一东西。 林捂捂：科技类博主，跟其他的科技博主的单纯体验不同，会挖掘一些新的视角来介绍产品。而且笑点很多，基本上每期都追。 刘谦：无需多言，视频也相当有趣。 王者荣耀皓辰：看见张飞直接上。视频很短，拿来消遣。 陈婧霏：现在很喜欢的一个歌手。 许嵩：也是喜欢很久了。 稚晖君：科技类博主，一个人就是一个团队。现在应该搞创业，视频基本不更新了。 oooooohmygosh：设计类博主。 盗月社：看着下饭！ Bilibili 国际版 发现 Bilibili 国际版要比国内简洁太多了。两个版本的对比： 这周读了啥 搭讪的意义 https://stephenleng.com/cn/the-significance-of-approaching-someone/
-自信是搭讪的第一步。
-MIT 的黑客恶作剧画廊：http://hacks.mit.edu/ 国家优势 军事优势和经济优势 ，军事优势和经济优势又依靠人才优势，人才优势靠制度优势
         </p>
     </div>
 </a>
