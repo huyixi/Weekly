@@ -53,6 +53,7 @@
 .text-right{text-align:right;}
 .text-4{font-size:1rem;}
 .text-8{font-size:2rem;}
+.text-lg{font-size:1.125rem;line-height:1.75rem;}
 .text-sm{font-size:0.875rem;line-height:1.25rem;}
 .text-xl{font-size:1.25rem;line-height:1.75rem;}
 .text-\[\#0076d1\]{--un-text-opacity:1;color:rgb(0 118 209 / var(--un-text-opacity));}
