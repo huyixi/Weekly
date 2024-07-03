@@ -117,11 +117,6 @@ fi
 
 ### Vue3 中的 ref 与 reactive
 
-|---|---|---|
-|x|适用范围|
-|ref|简单数据，如 Boolean,Number,string|
-|reactive|Object, Array|
-
 **适用范围**
 ref 适用于简单的数据结构，如 Boolean, Number, String；reactive 适用于较为复杂的数据结构，如 Object, Array。
 
@@ -152,7 +147,7 @@ Twitter Video Downloader
 
 ## 这周看了啥
 
-**TED 拖延症**
+### TED 拖延症
 
 在 Youtube 上看了 TED 播放量最高的一个演讲，这是一个关于人的拖延症的演讲。演讲者相当有意思，整个演讲经常有令人意想不到的笑点。
 
