@@ -2,7 +2,7 @@
 <html><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>如何活得更久 - 散步周刊</title>
+    <title>重新上线 - 散步周刊</title>
     <link rel="apple-touch-icon" sizes="180x180" href="/images/fav/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/images/fav/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/images/fav/favicon-16x16.png">
@@ -39,7 +39,7 @@
                 
                 <li class="my-1 py-1.5   overflow-hidden">
                     <a href="/weekly-48/"
-                        class="block w-full overflow-hidden text-ellipsis whitespace-nowrap text-#252627 ">
+                        class="block w-full overflow-hidden text-ellipsis whitespace-nowrap text-#252627 text-#3eb489 ">
                         第48期 - 重新上线</a>
                 </li>
                 
@@ -305,7 +305,7 @@
                 
                 <li class="my-1 py-1.5   overflow-hidden">
                     <a href="/weekly-10/"
-                        class="block w-full overflow-hidden text-ellipsis whitespace-nowrap text-#252627 text-#3eb489 ">
+                        class="block w-full overflow-hidden text-ellipsis whitespace-nowrap text-#252627 ">
                         第10期 - 如何活得更久</a>
                 </li>
                 
@@ -383,127 +383,92 @@
                     <img src="/images/logo.png" alt="Site Logo" width="40" height="40" class="object-cover">
                 </a>
             </div>
-            <h1 id="textOverlay">如何活得更久</h1>
+            <h1 id="textOverlay">重新上线</h1>
         </div>
         
         
+        <div class="relative w-full aspect-video overflow-hidden rounded my-2">
+            <img data-placeholder-background="linear-gradient(to bottom, #ece9e6, #ffffff)" alt="重新上线"
+                class="lozad absolute top-0 left-0 w-full h-full object-cover"
+                style="background: linear-gradient(rgb(236, 233, 230), rgb(255, 255, 255));"
+                src="/weekly-48/cover.png?x-oss-process=image/resize,w_640/format,webp" loading="lazy">
+        </div>
+        
         <main class="post-content">
-            <h2 id="文章">文章</h2>
-<h3 id="1如何写一个好的-git-commit-">1.如何写一个好的 git commit ?</h3>
-<h2 id="type-of-commit">Type of commit</h2>
-<blockquote>
-<p>feat: The new feature being added to a particular application
-fix: A bug fix (this correlates with PATCH in SemVer)
-style: Feature and updates related to styling
-refactor: Refactoring a specific section of the codebase
-test: Everything related to testing
-docs: Everything related to documentation
-chore: Regular code maintenance</p>
-</blockquote>
-<h3 id="相关命令">相关命令</h3>
+            <h2 id="这周做了啥">这周做了啥</h2>
+<h3 id="重新上线周刊">重新上线周刊</h3>
+<h4 id="周刊的评论系统">周刊的评论系统</h4>
+<p>使用 giscus 作为评论系统。原本打算使用一个可以进行匿名评论的系统，后来想想，给评论提高一些门槛也是一个很好的选择。所以最后采用了 gitcus，也不需要我另外再搭建服务器，直接放置在 Github 仓库中。</p>
+<h4 id="周刊的搜索">周刊的搜索</h4>
+<p>这里采用了 pagefind。刚好在搭建的时候发现一个推友推荐这个库，于是去尝试了一下，发现对于静态网站的搜索，这个库效果相当不错。于是最后决定使用这个库进行评论系统的搭建。
+我的博客中并没有采用评论系统，因为博客的主题并没有很多，通过浏览基本可以获取到所有的信息。但是对于周刊，这里会收集一些用过的工具，所以搜索系统还是很有必要的一个工具。</p>
+<h3 id="biliblii-取关">Biliblii 取关</h3>
+<p>发现 Bilibili 的关注数量已经有 800 多个，但是我并没有时间去看这么多的 UP 主的视频。所以这里决定取关一些 UP 主。但是一个一个取关实在是太麻烦了，于是我写了一个脚本来进行取关。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#a6e22e">$</span>(<span style="color:#e6db74">&#34;.be-dropdown-item:contains(&#39;取消关注&#39;)&#34;</span>).<span style="color:#a6e22e">click</span>();
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">location</span>.<span style="color:#a6e22e">replace</span>(<span style="color:#a6e22e">location</span>.<span style="color:#a6e22e">href</span>);
+</span></span></code></pre></div><p>通过查页面所有的取消关注按钮，然后点击这个按钮，最后刷新页面。</p>
+<p>不过 Bilibili 一页只能展示 10 个 UP 主，所以这里需要多次执行这个脚本。这里如果有人能实现一个
+插件来实现这功能会更好。但是也有一个问题，就是有一些
+UP 主是我不想取关的，这里就需要手动处理了。</p>
+<p>尽量减少关注的数量。留下来的 Up 主应该符合，发出的视频我观看的几率会超过 60%。没有很高的观看几率其实留下来并没有什么用。很多视频其实都是通过搜索发现的，而不是动态中发现的。</p>
+<p>还保留的一些 UP 主：</p>
 <ul>
-<li>
-<p>设置提交消息模板</p>
-<p>在主目录中创建一个名为 <code>.gitmessage</code> 的文件，并添加以下内容：</p>
-<pre tabindex="0"><code>[summary]
-
-[details]
-</code></pre><p>运行以下命令告诉 Git 使用此文件作为提交消息的模板：</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git config --global commit.template ~/.gitmessage
-</span></span></code></pre></div></li>
-<li>
-<p>只打印主题行</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git log --oneline
-</span></span></code></pre></div></li>
-<li>
-<p>按用户提交进行分组</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git shortlog
-</span></span></code></pre></div></li>
+<li>影视飓风：应该是 B 站最强的 Up 主了吧。</li>
+<li>亿点点不一样：影视飓风新推出的栏目，用超级放大镜或者超级慢放来看一东西。</li>
+<li>林捂捂：科技类博主，跟其他的科技博主的单纯体验不同，会挖掘一些新的视角来介绍产品。而且笑点很多，基本上每期都追。</li>
+<li>刘谦：无需多言，视频也相当有趣。</li>
+<li>王者荣耀皓辰：看见张飞直接上。视频很短，拿来消遣。</li>
+<li>陈婧霏：现在很喜欢的一个歌手。</li>
+<li>许嵩：也是喜欢很久了。</li>
+<li>稚晖君：科技类博主，一个人就是一个团队。现在应该搞创业，视频基本不更新了。</li>
+<li>oooooohmygosh：设计类博主。</li>
+<li>盗月社：看着下饭！</li>
 </ul>
-<h4 id="相关文章">相关文章：</h4>
-<p><a href="https://medium.com/swlh/writing-better-commit-messages-9b0b6ff60c67">Writing Better Commit Messages - Apurva Jain</a></p>
-<p><a href="https://www.freecodecamp.org/news/writing-good-commit-messages-a-practical-guide/">How to Write Good Commit Messages: A Practical Git Guide - Bolaji Ayodeji</a></p>
-<p><a href="https://blog.ossph.org/how-to-write-a-good-git-commit-message/">How to Write a Good Git Commit Message</a></p>
-<h4 id="相关工具">相关工具：</h4>
-<p><a href="https://github.com/commitizen/cz-cli">commitizen</a></p>
-<p><a href="https://github.com/streamich/git-cz">git-cz</a></p>
-<p>文件 git add 后，使用 git-cz 提交</p>
-<h3 id="2智齿">2.智齿</h3>
-<p>最近智齿发炎，去医院检查，医生说需要拔掉。这里是一些跟智齿相关的内容。</p>
-<ul>
-<li>
-<p><a href="https://www.healthhub.sg/a-z/diseases-and-conditions/486/oral_maxillofacial_surgery_sdhf">Wisdom Teeth Removal: Oral and Maxillofacial Surgery </a></p>
-</li>
-<li>
-<p><a href="https://www.nhs.uk/conditions/wisdom-tooth-removal/">Wisdom tooth removal </a></p>
-</li>
-<li>
-<p><a href="https://ntuchealth.sg/denticare/resources/wisdom-teeth-101-all-you-need-to-know-about-wisdom-tooth-removal">Wisdom Teeth 101: All You Need To Know About Wisdom Tooth Removal</a></p>
-</li>
-</ul>
-<p>拔除的过程还是很迅速的，大概 15 分钟左右就拔掉了。在三甲医院的口腔科，总共花费了约 750 元。</p>
-<h3 id="3css-flex-layout">3.CSS Flex layout</h3>
-<p><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-flexbox-properties">A Complete Guide to Flexbox Flexbox</a></p>
-<p><a href="https://www.w3.org/TR/css-flexbox-1/#intro">CSS Flexible Box Layout Module Level 1</a></p>
-<h3 id="4爱上失焦的世界">4.爱上失焦的世界！</h3>
-<p><a href="https://subnooc.com/posts/to-love-the-blur-world">爱上失焦的世界</a></p>
-<p>在语言学习上，一直有个说法是，小孩子学习语言会比成年人快。除开小孩记忆力强等原因，回想自己小时候，学习很多东西都是不能完全理解的，但是也不会太害怕。那个时候不在乎自己有没有完全理解，只会对自己能理解的部分作出反应。</p>
-<p>我在想，是不是我这种想要完全理解一个东西的心态，看见一句英语后，必须要完全理解了才会进行下一句，正是阻止了我学习英语脚步的原因。</p>
-<p>于是我开始尝试换一种方式学习英语，直接看简单的原著，能看懂多少算多少，不要去在乎那些没太看懂的部分，就当是和这些单词打个照面。</p>
-<p>于是打开了《The Wonderful Wizard of OZ》，也就是《绿野仙踪》。第一章就看得似懂非懂，我理解成了，在他们的地下室，可以看到每个人的心情，心情好的人是彩色的，心情不好的人是灰色的。</p>
-<p>虽然看到后面，发现书里的设定并非如此，不过我觉得这个设定还挺有趣。所以我发现，这种模糊的、不确定的理解，似乎正是想象力和创造力的来源。</p>
-<p>这也可以解释为什么小孩子的想象力和创造力要远远大于成人。在成长中习得了能看清楚一些事物的能力，便开始拒绝去接触所有看不清的东西，于是所有的可能性就被限制在了自己眼前所看到的视角。</p>
-<p>失焦（Out of Focus）</p>
-<h3 id="5一棵小树的博客">5.一棵小树的博客</h3>
-<h6 id="提升信噪比过滤有价值信息的方法httpsyeshucloudpostsnewsletter-69"><a href="https://yeshu.cloud/posts/newsletter-69/">提升信噪比：过滤有价值信息的方法</a></h6>
+<h3 id="bilibili-国际版">Bilibili 国际版</h3>
+<p>发现 Bilibili 国际版要比国内简洁太多了。两个版本的对比：
+<img src="https://raw.githubusercontent.com/huyixi/Pics/main/uPic/IMG_5551.PNG" alt="IMG_5551">
+<img src="https://raw.githubusercontent.com/huyixi/Pics/main/uPic/Screenshot_2024-06-24-11-21-58-230_tv.danmaku.bili.jpg" alt="Screenshot_2024-06-24-11-21-58-230_tv.danmaku.bili"></p>
+<h2 id="这周读了啥">这周读了啥</h2>
+<h3 id="搭讪的意义">搭讪的意义</h3>
+<p><a href="https://stephenleng.com/cn/the-significance-of-approaching-someone/">https://stephenleng.com/cn/the-significance-of-approaching-someone/</a></p>
+<p>自信是搭讪的第一步。</p>
+<h3 id="mit-的黑客恶作剧画廊">MIT 的黑客恶作剧画廊</h3>
+<p><a href="http://hacks.mit.edu/">http://hacks.mit.edu/</a>
+国家优势依靠军事优势和经济优势 ，军事优势和经济优势又依靠人才优势，人才优势靠制度优势</p>
+<h2 id="这周发现了啥">这周发现了啥</h2>
+<p><strong>一个相当漂亮的网页动画效果库</strong>：https://ui.aceternity.com</p>
+<h3 id="chrome-原生长截屏">Chrome 原生长截屏</h3>
+<p><img src="https://raw.githubusercontent.com/huyixi/Pics/main/uPic/HTjpjm.png" alt=""></p>
+<p>使用 Chrome 自带长截屏功能，还可以避免 nav 栏 fixed。可以把 Chrome 上的长截屏插件都删掉了。</p>
 <ol>
-<li>不要听不厉害的人教你怎么变厉害：应该选择那些在特定领域中具有实力和成就的人，从他们那里获取准确和有深度的信息。培养自己批判性思维和信息验证的能力，以辨别真相和谣言之间的差别。</li>
-<li>不要听象牙塔里的人感悟人生：事非经过不知难，没有真正下场实践过的感悟大多是纸上谈兵。</li>
-<li>不要听评论/翻译家教你怎么去执行：他们更多是信息的传播者，而非实干家。</li>
-<li>取关关注列表中只会抱怨的人：我们应该选择与那些积极、理性并能提供有益信息的人保持交流。</li>
-<li>取关分不清事实和观点，只会在评论区党同伐异的人：过度暴露于负面的评论和争论中会消耗我们的注意力，而且很少能获取到有建设性的信息。</li>
+<li>打开开发者工具</li>
 </ol>
-<h6 id="个人知识管理的困境与改进httpsyeshucloudpostsnewsletter-51"><a href="https://yeshu.cloud/posts/newsletter-51">个人知识管理的困境与改进</a></h6>
-<p><strong>这就是为什么大家常说不要在毛坯房里雕花。</strong></p>
-<p>因为系统在没有搭建完成之前，对细枝末节的优化未必是好事。</p>
-<p>首先要确定基础的框架，建立流程，让这个系统能够按照预想的方式运行起来。</p>
-<p>粗糙一点没关系，只要它对我们的工作是有实际价值的。</p>
-<p>只有这样，再收集遇到的问题，分析并持续优化，才是有意义的。</p>
-<h3 id="6-英语才能发挥-chatgpt-的能力">6. 英语才能发挥 ChatGPT 的能力？</h3>
-<p><a href="https://clip.owenyoung.com/2023/06/04/chat-gpt-is-cutting-non-english-languages-out-of-the-ai-revolution/#chatgpt%E5%B0%86%E9%9D%9E%E8%8B%B1%E8%AF%AD%E8%AF%AD%E8%A8%80%E6%8E%92%E9%99%A4%E5%9C%A8ai%E9%9D%A9%E5%91%BD%E4%B9%8B%E5%A4%96--wired">ChatGPT 将非英语语言排除在 AI 革命之外</a></p>
-<h2 id="资源">资源</h2>
-<h3 id="1-来读点有意思的东西">1. 来读点有意思的东西！</h3>
-<p><a href="https://readsomethingwonderful.com/">Read Something Wonderful</a></p>
-<p>网页设计漂亮，交互优雅，收录了不少优质内容。包括 Altman 的一些博客文章。左侧的文章似乎可以无限滚动查看，右侧则是一些相关的信息，比如作者，出版时间等。</p>
-<h3 id="2-神学和网络安全的博客">2. 神学和网络安全的博客</h3>
-<p><a href="https://eddyemma.com/">Eddy &amp; Emma&rsquo;s Blog</a></p>
-<p>神学和网络安全跨界博客，太猛了。</p>
-<p>这是他们的网络安全相关的系列文章：</p>
-<p><a href="https://eddyemma.com/scientific-access/">网络安全</a></p>
-<h3 id="3-长毛象上的开源豆瓣">3. 长毛象上的开源豆瓣</h3>
-<p>官网：<a href="https://neodb.social">NeoDB</a></p>
-<p>Github 仓库<a href="https://github.com/neodb-social/neodb">NeoDB - Github</a></p>
-<p>一个类似豆瓣的开源项目。可以收藏你喜欢的东西。footer 里公开的 API ，方便二次开发。账号系统基于 mastodon，也支持从其他平台倒入数据。</p>
-<h3 id="4-从阮一峰科技爱好者周刊的-issue-中获取最新的技术趋势">4. 从阮一峰科技爱好者周刊的 issue 中获取最新的技术趋势</h3>
-<p><a href="https://github.com/ruanyf/weekly/issues">阮一峰科技爱好者周刊 issue</a></p>
-<p>![image-20230628155253906](/Users/huyixi/Library/Application Support/typora-user-images/image-20230628155253906.png)</p>
-<h3 id="5乔布斯档案馆">5.乔布斯档案馆</h3>
-<p><a href="https://stevejobsarchive.com/">The Steve Jobs Archive</a></p>
-<p>logo 是一个苹果从苹果树上掉下来。</p>
-<p>内容并不多， 只看到了乔布斯的两篇文章。</p>
-<h3 id="6用中文浏览国外社交媒体里的热门讨论">6.用中文浏览国外社交媒体里的热门讨论</h3>
-<p><a href="https://www.buzzing.cc">buzzing</a></p>
-<p>官方对这个网站的介绍：用中文浏览国外社交媒体里的热门讨论，母语快速导读， 感兴趣再进原文深度阅读</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>command + option + i
+</span></span></code></pre></div><ol start="2">
+<li>调用 Chrome 命令行窗口</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>command + shift +p
+</span></span></code></pre></div><ol start="3">
+<li>搜索 <code>screenshot</code> 选择你想要的截屏方式</li>
+</ol>
+<h3 id="huang-in-caltech-speech-but-most-important-is-you-the-graduaters">huang in Caltech Speech: But most important is you, the Graduaters</h3>
+<p><img src="https://raw.githubusercontent.com/huyixi/Pics/main/uPic/4Lkl4M.jpg" alt=""></p>
+<p>NVIDIA 的黄仁勋在 Caltech 毕业典礼上的演讲：</p>
+<blockquote>
+<p>但是最重要的是你们，毕业生们。</p>
+</blockquote>
+<h3 id="一张图片转换成多张-favicon">一张图片转换成多张 favicon</h3>
+<p><a href="https://favicon.io/favicon-converter/">https://favicon.io/favicon-converter/</a></p>
 
         </main>
         <footer class="post-footer mt-4 py-4">
   <div class="flex justify-between md:flex-row flex-col ">
     <div class=" flex-1">
-      发布日期：2023/06/25
+      发布日期：2024/06/24
     </div>
     <div class="md:mt-0 mt-4 flex-1 text-right">
       
-      <a href="http://localhost:1313/weekly-9/">下一篇 </a>|
+      <a href="http://localhost:1313/weekly-43/">下一篇 </a>|
       
       <a href="http://localhost:1313/">去首页 </a>|
       <a href="https://blog.huyixi.com">看博客 </a>|

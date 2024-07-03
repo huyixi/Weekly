@@ -21,6 +21,8 @@ draft = false
 
 ## 这周发现了啥
 
+### 阿里云网页终端切换到 normal 模式
+
 网页中打开终端使用 vim ，进入 esc 模式和退出网页冲突
 阿里云网页终端控制台，使用 vim 编辑文件，点击 esc 无法进入 vim 的 normal 模式，可以使用 Control+C 代替 Esc 将 Vim 切换到 normal 模式
 
@@ -175,4 +177,4 @@ Twitter Video Downloader
 
 ## 这周买了啥
 
-### HHKB 键盘
+HHKB 键盘

@@ -61,8 +61,10 @@ https://stephenleng.com/cn/the-significance-of-approaching-someone/
 
 自信是搭讪的第一步。
 
-MIT 的黑客恶作剧画廊：http://hacks.mit.edu/
-国家优势 军事优势和经济优势 ，军事优势和经济优势又依靠人才优势，人才优势靠制度优势
+### MIT 的黑客恶作剧画廊
+
+http://hacks.mit.edu/
+国家优势依靠军事优势和经济优势 ，军事优势和经济优势又依靠人才优势，人才优势靠制度优势
 
 ## 这周发现了啥
 
@@ -93,6 +95,9 @@ command + shift +p
 ![](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/4Lkl4M.jpg)
 
 NVIDIA 的黄仁勋在 Caltech 毕业典礼上的演讲：
+
 > 但是最重要的是你们，毕业生们。
 
-***将一张图片转换成多张 favicon**：https://favicon.io/favicon-converter/
+### 一张图片转换成多张 favicon
+
+https://favicon.io/favicon-converter/
