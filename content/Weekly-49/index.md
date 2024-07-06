@@ -177,4 +177,8 @@ Twitter Video Downloader
 
 ## 这周买了啥
 
-HHKB 键盘
+### HHKB 键盘
+
+看到polydog用的hhkb，原本一直觉得 hhkb 键盘配列不合适，所以去年买了niz。没想到使用不过一年又换新键盘了。
+
+hhkb 的段落感还是比较强烈的，niz 35g相对来说段落感没那么强烈，但是按下的话会比 hhkb 更轻松一点。刚拿到手发现hhkb是真的轻，niz因为电池的原因会重很多，但是其实niz的电池充满一次用不了多久
