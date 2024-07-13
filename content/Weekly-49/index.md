@@ -11,12 +11,12 @@ draft = false
 ## 这周玩了啥
 
 周五像往常一样回家，半夜刷小红书的时候发现这周六莉莉周她说居然要在厦门演出。和妹妹商量了一下，定了晚上演出的票。
-![IMG_5766](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/IMG_5766.HEIC)
+![IMG_5766](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/IMG_5766.avif)
 演出持续了大概一个半小时。大概有一个多月没看演出了，耳朵居然有点受不了，反而是妹妹觉得还可以，看来她可能比我更爱蹦。下次看演出的时候还是戴个耳塞比较好。
 第二天跟同学逛了华侨大学，刚好赶上华大的毕业典礼。想想去年我也是个毕业生，真是羡慕啊。然后骑了附近一个步道，骑到园博苑门口发现太热，找了个地方喝茶休息。
-![IMG_5833](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/IMG_5833.HEIC)
+![IMG_5833](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/IMG_5833-20240713162520450.avif)
 在店里发现了一只可爱的小狗
-![IMG_5855](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/IMG_5855.HEIC)
+![IMG_5855](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/IMG_5855-20240713162507139.avif)
 下午在厦大的白城沙滩一直坐到晚上，看着夕阳慢慢落下。
 
 ## 这周发现了啥
