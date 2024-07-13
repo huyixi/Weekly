@@ -8,8 +8,8 @@ draft = false
 
 ### 江西辣鸡爪和薄荷牛肉
 
-![IMG_6119](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/IMG_6119.HEIC)
-![IMG_6159](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/IMG_6159.HEIC)
+![IMG_6119](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/IMG_6119.avif)
+![IMG_6159](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/IMG_6159.avif)
 
 这周在家里做了江西辣鸡爪和薄荷牛肉。自从去年去江西玩一趟回来后，对江西菜念念不忘。每次都跟同去的朋友说，真想再去一趟江西。
 
