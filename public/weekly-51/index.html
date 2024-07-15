@@ -2,7 +2,7 @@
 <html><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>关于散步周刊 - 散步周刊</title>
+    <title>我的领域 - 散步周刊</title>
     <link rel="apple-touch-icon" sizes="180x180" href="/images/fav/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/images/fav/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/images/fav/favicon-16x16.png">
@@ -32,7 +32,7 @@
                 
                 <li class="my-1 py-1.5   overflow-hidden">
                     <a href="/weekly-51/"
-                        class="block w-full overflow-hidden text-ellipsis whitespace-nowrap text-#252627 ">
+                        class="block w-full overflow-hidden text-ellipsis whitespace-nowrap text-#252627 text-#3eb489 ">
                         第51期 - 我的领域</a>
                 </li>
                 
@@ -88,7 +88,7 @@
                 
                 <li class="my-1 py-1.5   overflow-hidden">
                     <a href="/about/"
-                        class="block w-full overflow-hidden text-ellipsis whitespace-nowrap text-#252627 text-#3eb489 ">
+                        class="block w-full overflow-hidden text-ellipsis whitespace-nowrap text-#252627 ">
                         第43期 - 关于散步周刊</a>
                 </li>
                 
@@ -397,29 +397,231 @@
                     <img src="/images/logo.png" alt="Site Logo" width="40" height="40" class="object-cover">
                 </a>
             </div>
-            <h1 id="textOverlay">关于散步周刊</h1>
+            <h1 id="textOverlay">我的领域</h1>
         </div>
         
         
+        <div class="relative w-full aspect-video overflow-hidden rounded my-2">
+            <img data-placeholder-background="linear-gradient(to bottom, #ece9e6, #ffffff)" alt="我的领域"
+                class="lozad absolute top-0 left-0 w-full h-full object-cover"
+                style="background: linear-gradient(rgb(236, 233, 230), rgb(255, 255, 255));"
+                src="/weekly-51/cover.avif?x-oss-process=image/resize,w_640/format,webp" loading="lazy">
+        </div>
+        
         <main class="post-content">
-            <p>这个周刊起名叫散步。</p>
-<p>散步两字来源于很多事物，比如 my little airport 的一句歌词：「散步才是正经事」；少楠在博客中提到的一句话「选择什么都不做其实就是做了一件事」；再比如「伟大不能被计划」一书中所提倡的状态。</p>
-<p>散步是一种随意的，不受约束的，自由的状态。在这种状态下，可以随意的思考，随意的行动，随意的选择。</p>
-<p>这个周刊的内容也是如此，随意的，不受约束的，自由的。内容可能是一些技术相关的内容，也可能是一些生活感悟，也可能是一些随笔，也可能是一些书评。</p>
-<p>周刊灵感来源于 Tw93，阮一峰等。界面布局也是主要模仿 Tw93 的<a href="https://weekly.tw93.fun/">周刊</a>。</p>
-<p>logo 想法来源于我最近所养的薄荷。薄荷这种植物感觉很清新的感觉，也很符合散步的主题。</p>
-<p>当然，虽说是周刊，但是我不想给自己很大的压力，所以可能会周更，也可能月更，甚至可能不想写就直接停更了。既然追求自由，那就不要给自己太多的约束。</p>
-<p>当然，也欢迎使用 <a href="https://index.xml">RSS 订阅</a>，或者在<a href="https://github.com/huyixi/Weekly">GitHub</a>上 「Watch」 此周刊。</p>
+            <p>封面图是我跟我妹在家里下象棋，好久没下象棋了，第一把不注意居然还给输了。</p>
+<h2 id="这周做了啥">这周做了啥</h2>
+<h3 id="webtoc">WebTOC</h3>
+<p>![Kapture2024-07-13at16.28.14](<a href="https://raw.githubusercontent.com/huyixi/Pics/main/uPic/Kapture">https://raw.githubusercontent.com/huyixi/Pics/main/uPic/Kapture</a> 2024-07-13 at 16.28.14.gif)</p>
+<p>一个谷歌浏览器扩展，用于发现当前页面的目录。</p>
+<p>这周在看《如何阅读一本书》，讲到在阅读书籍的时候要先看一下整本书的目录，了解一下书籍的大致结构。因为一些网站没有提供目录导航，所以做了这样一个 Chrome 插件来实现这个功能。</p>
+<p>一些亮点：</p>
+<ul>
+<li>Side Button 使用了毛玻璃效果</li>
+<li>TOC 主体上的关闭按钮模仿 Mac 的按钮设计。另外写了个 CodePen。链接：https://codepen.io/huyixi/pen/OJeVyYE</li>
+</ul>
+<p>目前已经实现了 MVP，后续的一些改进的地方：</p>
+<ul>
+<li>可移动的 Side Button</li>
+<li>可移动的 TOC 主体</li>
+<li>根据网页的语言展示「目录/TOC」</li>
+<li>可以自定义配置样式
+<ul>
+<li>自由改变目录的宽高</li>
+</ul>
+</li>
+</ul>
+<h3 id="快速切换输入法">快速切换输入法</h3>
+<p>自己在电脑使用的时候经常会因为要敲代码，如果此时输入法中有一个中文输入会经常打断流畅的编码体验。因为自己在使用的是 Rime，所有的配置都根据自己的配置文件来设置倒是比较方便。只需要注释掉对应的中文输入法就可以。</p>
+<p>另外因为 Rime 输入法需要使用 deploy 来将配置部署到输入法中。使用 Apple Script 来自动化这个操作。</p>
+<p><img src="https://raw.githubusercontent.com/huyixi/Pics/main/uPic/image-20240713164510475.png" alt="image-20240713164510475"></p>
+<p>写了一个 Rust 程序帮自己完成这件事，现在只需要在终端中输入</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>toggle-input-method
+</span></span></code></pre></div><p>就可以实现中文输入法的快速打开和关闭。</p>
+<p><img src="https://raw.githubusercontent.com/huyixi/Pics/main/uPic/image-20240713164608428.png" alt="image-20240713164608428"></p>
+<p>仓库链接：https://github.com/huyixi/Utils/tree/main/toggle-input-method</p>
+<h3 id="如何阅读一本书">如何阅读一本书</h3>
+<p>这周和上周把《如何阅读一本书》读完了，给我的启发还是挺大的。一直想着用「自顶向下方法」来写一篇读书笔记，但是目前内容还不多，也不知道什么时候能发到博客上去。</p>
+<h3 id="我的领域">我的领域</h3>
+<p>在整理《如何阅读一本书》的时候，看到了一些获取信息与知识管理的方法。这周前两天读了很多少楠的「<a href="https://www.pmthinking.com/a601a12335044f349a22caf57f274c27">产品沉思录</a>」的相关内容。于是开了新的分支：「知识管理」。</p>
+<p>这里面给我很大改变的一点就是 P.A.R.A. 管理法。</p>
+<p>A：Area，领域。</p>
+<p>P：Project，项目。</p>
+<p>R：Resources，资源。</p>
+<p>A：Archive，归档。</p>
+<p>少楠对 PARA 管理法的看法与原作者的看法有些许不同。少楠把 Area 领域理解成需要精通的事物，原作者的理解是需要对事物产生的结果负责的事物。我认为少楠这里的解释很不错。一个领域下会有许多的 Projetc，这些 Project 会指向某些具体的任务。资源就很好理解了，就是我们在推进项目或者在当前领域下需要的一些材料等等。当一个项目做完之后，就可以进行归档整理。</p>
+<p>我把领域的概念往前放，因为我认为这是这个管理法的精髓，也是改变我行动的最大的一点。</p>
+<p>在过去的一年里，我在工作以外的时间很喜欢折腾许多事情，但是没有深入任何一件。所以到现在也没有一个很厉害的产出。看到这个方法之后，我反思了一些，认为这是知识管理方法出现了问题。其实这个问题之前月车哥很早就给我指出了，但是我并没有很认真的执行。我总认为，要先看的够广，才能找到想要自己投入的领域。但是其实学习能力提高上去后，想要迁移到另一个技术是很快的事情。</p>
+<p>关于领域，由于人的精力有限，不能在过多的领域投入精力。而是要想清楚自己需要什么，然后再在上面投入精力。</p>
+<h2 id="这周发现了啥">这周发现了啥</h2>
+<h3 id="shadcnui">Shadcn/UI</h3>
+<p>在搜索 Svelte 的组件库的时候发现一个 shadcn-svelte 的组件合集，文档中有这样一句话：</p>
+<blockquote>
+<p>This is <strong>NOT</strong> a component library. It&rsquo;s a collection of re-usable components that you can copy and paste or use the CLI to add to your apps.</p>
+<p><strong>What do you mean not a component library?</strong></p>
+<p>It means you do not install it as a dependency. It is not available or distributed via npm, with no plans to publish it.</p>
+<p>Pick the components you need. Use the CLI to automatically add the components, or copy and paste the code into your project and customize to your needs. The code is yours.</p>
+<p><em>Use this as a reference to build your own component libraries.</em></p>
+</blockquote>
+<p>这不是一个组件库，而是一个组件集合。这意味着你不需要使用 npm 来安装整个库，你只需要通过命令行或者复制粘贴相关的组件代码到你自己的代码中。所有的代码都将属于你自己。</p>
+<p>工作中一般都使用 ElementUI，但是并没有根据 Element 的风格来设计 UI，而是有很多的自定义。这也就导致了在写样式的时候需要对 Element 做很多的自定义进行样式覆盖，不同的组件之间还有可能有样式冲突的问题。如果换成 Shadcn 的话会方便很多。</p>
+<p>很早就看到 Shadcn/UI 作为去年的 CSS 框架榜一，但是没有认真看文档，以为就是一个普通的 UI 组件库。还是要认真看文档一些关键的创新点。</p>
+<h3 id="机器人为什么羡慕人类">机器人为什么羡慕人类</h3>
+<p>看到一个群友发了这样一个音乐节的 VJ 视频。里面有几句话：
+<img src="https://raw.githubusercontent.com/huyixi/Pics/main/uPic/SCR-20240708-nwiw.png" alt="SCR-20240708-nwiw">
+<img src="https://raw.githubusercontent.com/huyixi/Pics/main/uPic/SCR-20240708-nvzd.jpeg" alt="SCR-20240708-nvzd">
+<img src="https://raw.githubusercontent.com/huyixi/Pics/main/uPic/SCR-20240708-nwaf.png" alt="SCR-20240708-nwaf">
+<img src="https://raw.githubusercontent.com/huyixi/Pics/main/uPic/SCR-20240708-nwdd.png" alt="SCR-20240708-nwdd">
+<img src="https://raw.githubusercontent.com/huyixi/Pics/main/uPic/SCR-20240708-nwed.png" alt="SCR-20240708-nwed">
+或许多年之后，AI 变得更强的时候，这会成真。</p>
+<h3 id="面向-web2-工程师的-web3-入门">面向 Web2 工程师的 Web3 入门</h3>
+<p><a href="https://s3.laisky.com/public/slides/web3-101.slides.html#">https://s3.laisky.com/public/slides/web3-101.slides.html#</a></p>
+<ul>
+<li>
+<p>养成习惯时常去 <a href="https://revoke.cash/">https://revoke.cash/</a> 这样的网站检查自己钱包的授权，及时撤销不必要的授权。</p>
+</li>
+<li>
+<p>入金 &amp; 出金：CEX 上所有的交易都是基于加密货币，一般不会支持直接使用法币（fiat）进行买卖。 所以用户需要先将自己的法币兑换成加密货币，兑换的方式往往是 C2C 交易。</p>
+<p>也就是由交易所撮合，提供一个卖家，你将法币转入到卖家的账户，卖家将对应的加密货币转入你在 CEX 的账户。 出入金最怕的就是黑钱，黑钱具有传染性，一旦某个账户被认定为黑钱，那么一段时间内所有和这个账户有过交易的账户都会被冻结。</p>
+<p>一般建议尽量不要使用微信/支付宝进行出入金操作，尽量使用不常用的银行卡。</p>
+</li>
+<li>
+<p>《区块链黑暗森林自救手册》:https://github.com/slowmist/Blockchain-dark-forest-selfguard-handbook/blob/main/README_CN.md</p>
+</li>
+</ul>
+<h2 id="这周看了啥">这周看了啥</h2>
+<h3 id="polebug23---vlog-63">polebug23 - vlog #63</h3>
+<p><a href="https://www.bilibili.com/video/BV1wM4m1m7Ni/?spm_id_from=333.337.search-card.all.click">https://www.bilibili.com/video/BV1wM4m1m7Ni/?spm_id_from=333.337.search-card.all.click</a></p>
+<blockquote>
+<ol>
+<li>
+<p>Topic（1/n）：当写代码从爱好变成工作，如何保持学习的兴趣？</p>
+<p>随意所欲地敲键盘，就像艺术创作一样。</p>
+<p>编程也可以是一种自由表达的方式。</p>
+<p>不要总是被工作任务束缚，</p>
+<p>给自己一些时间自由地编写代码。</p>
+<p>尝试编写一些你感兴趣但与工作无关的程序</p>
+<p>享受编码过程中的创造力和乐趣。</p>
+</li>
+<li>
+<p>Topic（3/n）：我的日记都写什么呢</p>
+<p>大多数时候，我比较关心我每天的状态，</p>
+<p>会简单回顾一下自己的工作、学习情况，</p>
+<p>比如做了哪些事情、</p>
+<p>遇到了什么挑战、</p>
+<p>有什么事情做到一半明天要继续的，</p>
+<p>或者是今天哪里没做好的，</p>
+<p>明天需要调整，等等。</p>
+</li>
+<li>
+<p>Topic（3/n）：我的日记都写什么呢</p>
+<p>有时我会遇到一些让我难受的事情，</p>
+<p>我就会在日记中进行梳理和排解负面情绪。</p>
+<p>我会把这些事情非常具体地写下来，</p>
+<p>从事情的起因、经过、结果，</p>
+<p>在梳理的过程中，</p>
+<p>我就会逐渐找到引起负面情绪的根源是什么，</p>
+<p>最后再写下未来应对的方式，</p>
+<p>或者是写下对这件事的感受，</p>
+<p>就当作是与负面情绪的一次对话。</p>
+</li>
+</ol>
+</blockquote>
+<p>看到 polebug 说的做视频进行总结的好处，或许以后有条件自己也可以尝试一下。</p>
+<p>polebug 的输入要比我好上许多。她的输入源有书籍、Github，Ted 等等高质量的内容，而我的输入源质量相对来说就要比 polebug 差一点。最近在尝试减少我的信息输入源，帮助自己获得更多的时间与专注。</p>
+<p>另外 polebug 的日记，每月复盘也是一个不错的方法，与我在上周看的 plantegg 的《如何在工作中学习》的博客所提倡的总结与建构的不错的实践方法论。</p>
+<h3 id="xihu-rock-音乐节">XIHU Rock 音乐节</h3>
+<p>今天买了 XIHU Rock 的音乐节双日门票，打算过两周带妹妹一起去看。这次的演出阵容其实我大部分都不认识，计划盲冲。相信大快这个主办方。</p>
+<h3 id="利用二八定律学习新技术的替代品">利用二八定律学习新技术的替代品</h3>
+<p>Learn X in Y minutes：https://learnxinyminutes.com</p>
+<p>前两周说使用 ChatGPT 帮我总结出来学习一门技术中最重要的 20% 以此来帮我快速进行学习。发现这个工具，经过了多人的总结编辑，或许是比 ChatGPT 总结更好的方式。</p>
+<ul>
+<li><a href="https://blog.lilydjwg.me/2024/7/9/firefox-addons-i-m-using-2024.216855.html">我正在使用的火狐扩展（2024 年版） - 依云&rsquo;s Blog</a></li>
+<li><a href="https://stephenleng.com/cn/chinese-young-people-under-three-big-mountains/">中国年轻人的“三座大山”：体制内、不出省和相亲</a></li>
+<li><a href="https://mp.weixin.qq.com/s/d141hMuyOkNAend9BzSyDw">UI 设计外包的出路和自救</a>：程序员也是一样</li>
+</ul>
+<h3 id="flomo-101---不知道积累什么知识是因为你没有自己关注的领域httpsmpweixinqqcomsi6yxhka8qe-qe8gbrp6jiq"><a href="https://mp.weixin.qq.com/s/i6YXHka8QE-qe8gbRp6JiQ">flomo 101 - 不知道积累什么知识，是因为你没有自己关注的领域</a></h3>
+<ul>
+<li>自己承担责任，靠着吃饭的东西叫领域。自己负责</li>
+<li>人生需要学习很多的知识，但是领域的知识才是我们最应当去学习的。</li>
+<li>在进行知识积累的时候，要下意识问自己，这是自己应该去学习掌握的领域，还是只是自己的兴趣爱好</li>
+<li>领域是会变动的。如果你的身份改变，之前的</li>
+</ul>
+<h3 id="hacker-news-推荐的阅读书单">Hacker News 推荐的阅读书单</h3>
+<p><img src="https://raw.githubusercontent.com/huyixi/Pics/main/uPic/765shots_so.png" alt="765shots_so"></p>
+<h3 id="一个十年软件工程师推荐的阅读书单">一个十年软件工程师推荐的阅读书单</h3>
+<p><a href="https://software-engineering-books.com">https://software-engineering-books.com</a></p>
+<p><img src="https://raw.githubusercontent.com/huyixi/Pics/main/uPic/368shots_so.png" alt="368shots_so"></p>
+<p>但是我找不到相关的作者信息，虽然这些书大部分是在很多地方都能看到的经典，但是阅读前还是要加以筛选。</p>
+<h3 id="life生活日志">LIfe：生活日志</h3>
+<p><a href="https://github.com/cheeaun/life">https://github.com/cheeaun/life</a></p>
+<p><img src="https://raw.githubusercontent.com/huyixi/Pics/main/uPic/427shots_so.png" alt="427shots_so"></p>
+<p>使用简单的 Markdown 文件生成自己的生活日志。</p>
+<h3 id="编程中不同形式的命名">编程中不同形式的命名</h3>
+<table>
+<thead>
+<tr>
+<th>命名形式</th>
+<th>示例</th>
+<th>使用场景</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>小驼峰式（camelCase）</td>
+<td><code>myVariable</code>, <code>calculateTotal</code>, <code>userName</code></td>
+<td>变量名、函数名、对象属性</td>
+</tr>
+<tr>
+<td>大驼峰式（PascalCase）</td>
+<td><code>MyClass</code>, <code>EmployeeRecord</code>, <code>User</code></td>
+<td>类名、构造函数名</td>
+</tr>
+<tr>
+<td>短横线（kebab-case）</td>
+<td><code>my-css-class</code>, <code>main-container</code>, <code>app-config</code></td>
+<td>CSS 类名、文件名、配置文件键名（如 YAML）</td>
+</tr>
+<tr>
+<td>下划线（snake_case）</td>
+<td><code>MAX_VALUE</code>, <code>total_amount</code>, <code>USER_ID</code></td>
+<td>常量名、数据库字段名、宏定义</td>
+</tr>
+<tr>
+<td>宏定义（MACRO_DEFINITION）</td>
+<td><code>#define MAX_BUFFER_SIZE 1024</code>, <code>#define PI 3.14</code></td>
+<td>预处理宏（如 C 和 C++中的宏）、配置常量</td>
+</tr>
+<tr>
+<td>匈牙利命名法（Hungarian Notation）</td>
+<td><code>strName</code>, <code>nCount</code>, <code>pElement</code></td>
+<td>早期 Windows API、一些特定场景中的变量命名</td>
+</tr>
+</tbody>
+</table>
+<p><img src="https://raw.githubusercontent.com/huyixi/Pics/main/uPic/image-20240712085743329.png" alt="image-20240712085743329"></p>
+<p>Linear 新增了一个 initiatives 设置公司的举措，其实这跟个人的领域是一个类似的概念</p>
+<p>我用 flomo 管理我的领域的知识， Linear 管理我的项目进度，Resources 的内容放置在我的个人 Wiki 中。</p>
+<h3 id="产品沉思录">产品沉思录</h3>
+<p><a href="https://codepen.io/huyixi/pen/OJeVyYE">https://codepen.io/huyixi/pen/OJeVyYE</a></p>
+<p>更新了一些知识管理的理念方法。</p>
+<p>计划使用 flomo 管理 Area，Linear 管理 Project，Resources 就放在自己的 wiki 里。</p>
+<h3 id="淘宝和拼多多的-widge">淘宝和拼多多的 widge</h3>
+<p><img src="https://raw.githubusercontent.com/huyixi/Pics/main/uPic/image-20240713135701557.png" alt="image-20240713135701557"></p>
+<p><img src="https://raw.githubusercontent.com/huyixi/Pics/main/uPic/image-20240713135805679.png" alt="image-20240713135805679"></p>
+<p>淘宝和拼多多的 Widgets 对比，淘宝一堆乱七八糟的入口，拼多多就简洁多了。很讨厌拼多多的压榨，但不得不说，拼多多这个 app 确实是要比淘宝好用。启动速度更快，页面更简洁。拼多多的收货地址可以直接复制使用，淘宝和京东的都无法直接复制。另外最近使用淘宝启动聊天窗口，两个小米手机都启动失败了。其中一个系统是 MIUI，一个是新出的澎湃。</p>
+<h3 id="其他文章">其他文章</h3>
+<p><a href="https://mp.weixin.qq.com/s/9aUXHJ7dXgrHuT19jRhCnw">2024 年上半年，一次通过软考高级架构师考试的备考秘诀</a></p>
 
         </main>
         <footer class="post-footer mt-4 py-4">
   <div class="flex justify-between md:flex-row flex-col ">
     <div class=" flex-1">
-      发布日期：2024/05/26
+      发布日期：2024/07/15
     </div>
     <div class="md:mt-0 mt-4 flex-1 text-right">
       
-      <a href="http://localhost:1313/202403/">下一篇 </a>|
+      <a href="http://localhost:1313/weekly-50/">下一篇 </a>|
       
       <a href="http://localhost:1313/">去首页 </a>|
       <a href="https://blog.huyixi.com">看博客 </a>|

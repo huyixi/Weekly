@@ -6,8 +6,15 @@
     <description>Recent content on 散步周刊</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 07 Jul 2024 23:49:02 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jul 2024 21:21:15 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>我的领域</title>
+      <link>http://localhost:1313/weekly-51/</link>
+      <pubDate>Mon, 15 Jul 2024 21:21:15 +0800</pubDate>
+      <guid>http://localhost:1313/weekly-51/</guid>
+      <description>封面图是我跟我妹在家里下象棋，好久没下象棋了，第一把不注意居然还给输了。&#xA;这周做了啥 WebTOC ![Kapture2024-07-13at16.28.14](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/Kapture 2024-07-13 at 16.28.14.gif)&#xA;一个谷歌浏览器扩展，用于发现当前页面的目录。&#xA;这周在看《如何阅读一本书》，讲到在阅读书籍的时候要先看一下整本书的目录，了解一下书籍的大致结构。因为一些网站没有提供目录导航，所以做了这样一个 Chrome 插件来实现这个功能。&#xA;一些亮点：&#xA;Side Button 使用了毛玻璃效果 TOC 主体上的关闭按钮模仿 Mac 的按钮设计。另外写了个 CodePen。链接：https://codepen.io/huyixi/pen/OJeVyYE 目前已经实现了 MVP，后续的一些改进的地方：&#xA;可移动的 Side Button 可移动的 TOC 主体 根据网页的语言展示「目录/TOC」 可以自定义配置样式 自由改变目录的宽高 快速切换输入法 自己在电脑使用的时候经常会因为要敲代码，如果此时输入法中有一个中文输入会经常打断流畅的编码体验。因为自己在使用的是 Rime，所有的配置都根据自己的配置文件来设置倒是比较方便。只需要注释掉对应的中文输入法就可以。&#xA;另外因为 Rime 输入法需要使用 deploy 来将配置部署到输入法中。使用 Apple Script 来自动化这个操作。&#xA;写了一个 Rust 程序帮自己完成这件事，现在只需要在终端中输入&#xA;toggle-input-method 就可以实现中文输入法的快速打开和关闭。&#xA;仓库链接：https://github.com/huyixi/Utils/tree/main/toggle-input-method&#xA;如何阅读一本书 这周和上周把《如何阅读一本书》读完了，给我的启发还是挺大的。一直想着用「自顶向下方法」来写一篇读书笔记，但是目前内容还不多，也不知道什么时候能发到博客上去。&#xA;我的领域 在整理《如何阅读一本书》的时候，看到了一些获取信息与知识管理的方法。这周前两天读了很多少楠的「产品沉思录」的相关内容。于是开了新的分支：「知识管理」。&#xA;这里面给我很大改变的一点就是 P.A.R.A. 管理法。&#xA;A：Area，领域。&#xA;P：Project，项目。&#xA;R：Resources，资源。&#xA;A：Archive，归档。&#xA;少楠对 PARA 管理法的看法与原作者的看法有些许不同。少楠把 Area 领域理解成需要精通的事物，原作者的理解是需要对事物产生的结果负责的事物。我认为少楠这里的解释很不错。一个领域下会有许多的 Projetc，这些 Project 会指向某些具体的任务。资源就很好理解了，就是我们在推进项目或者在当前领域下需要的一些材料等等。当一个项目做完之后，就可以进行归档整理。&#xA;我把领域的概念往前放，因为我认为这是这个管理法的精髓，也是改变我行动的最大的一点。&#xA;在过去的一年里，我在工作以外的时间很喜欢折腾许多事情，但是没有深入任何一件。所以到现在也没有一个很厉害的产出。看到这个方法之后，我反思了一些，认为这是知识管理方法出现了问题。其实这个问题之前月车哥很早就给我指出了，但是我并没有很认真的执行。我总认为，要先看的够广，才能找到想要自己投入的领域。但是其实学习能力提高上去后，想要迁移到另一个技术是很快的事情。&#xA;关于领域，由于人的精力有限，不能在过多的领域投入精力。而是要想清楚自己需要什么，然后再在上面投入精力。</description>
+    </item>
     <item>
       <title>江西辣鸡爪</title>
       <link>http://localhost:1313/weekly-50/</link>
