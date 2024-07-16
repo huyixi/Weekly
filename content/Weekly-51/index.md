@@ -10,7 +10,7 @@ draft = false
 
 ### WebTOC
 
-![Kapture2024-07-13at16.28.14](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/Kapture 2024-07-13 at 16.28.14.gif)
+![Kapture2024-07-13](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/Kapture2024-07-13.gif)
 
 一个谷歌浏览器扩展，用于发现当前页面的目录。
 
@@ -129,53 +129,53 @@ https://www.bilibili.com/video/BV1wM4m1m7Ni/?spm_id_from=333.337.search-card.all
 
 > 1. Topic（1/n）：当写代码从爱好变成工作，如何保持学习的兴趣？
 >
->    随意所欲地敲键盘，就像艺术创作一样。
+>随意所欲地敲键盘，就像艺术创作一样。
 >
->    编程也可以是一种自由表达的方式。
+>编程也可以是一种自由表达的方式。
 >
->    不要总是被工作任务束缚，
+>不要总是被工作任务束缚，
 >
->    给自己一些时间自由地编写代码。
+>给自己一些时间自由地编写代码。
 >
->    尝试编写一些你感兴趣但与工作无关的程序
+>尝试编写一些你感兴趣但与工作无关的程序
 >
->    享受编码过程中的创造力和乐趣。
+>享受编码过程中的创造力和乐趣。
 >
 > 2. Topic（3/n）：我的日记都写什么呢
 >
->    大多数时候，我比较关心我每天的状态，
+>大多数时候，我比较关心我每天的状态，
 >
->    会简单回顾一下自己的工作、学习情况，
+>会简单回顾一下自己的工作、学习情况，
 >
->    比如做了哪些事情、
+>比如做了哪些事情、
 >
->    遇到了什么挑战、
+>遇到了什么挑战、
 >
->    有什么事情做到一半明天要继续的，
+>有什么事情做到一半明天要继续的，
 >
->    或者是今天哪里没做好的，
+>或者是今天哪里没做好的，
 >
->    明天需要调整，等等。
+>明天需要调整，等等。
 >
 > 3. Topic（3/n）：我的日记都写什么呢
 >
->    有时我会遇到一些让我难受的事情，
+>有时我会遇到一些让我难受的事情，
 >
->    我就会在日记中进行梳理和排解负面情绪。
+>我就会在日记中进行梳理和排解负面情绪。
 >
->    我会把这些事情非常具体地写下来，
+>我会把这些事情非常具体地写下来，
 >
->    从事情的起因、经过、结果，
+>从事情的起因、经过、结果，
 >
->    在梳理的过程中，
+>在梳理的过程中，
 >
->    我就会逐渐找到引起负面情绪的根源是什么，
+>我就会逐渐找到引起负面情绪的根源是什么，
 >
->    最后再写下未来应对的方式，
+>最后再写下未来应对的方式，
 >
->    或者是写下对这件事的感受，
+>或者是写下对这件事的感受，
 >
->    就当作是与负面情绪的一次对话。
+>就当作是与负面情绪的一次对话。
 
 看到 polebug 说的做视频进行总结的好处，或许以后有条件自己也可以尝试一下。
 
@@ -226,20 +226,14 @@ https://github.com/cheeaun/life
 
 ### 编程中不同形式的命名
 
-| 命名形式                           | 示例                                              | 使用场景                                   |
-| ---------------------------------- | ------------------------------------------------- | ------------------------------------------ |
-| 小驼峰式（camelCase）              | `myVariable`, `calculateTotal`, `userName`        | 变量名、函数名、对象属性                   |
-| 大驼峰式（PascalCase）             | `MyClass`, `EmployeeRecord`, `User`               | 类名、构造函数名                           |
-| 短横线（kebab-case）               | `my-css-class`, `main-container`, `app-config`    | CSS 类名、文件名、配置文件键名（如 YAML）  |
-| 下划线（snake_case）               | `MAX_VALUE`, `total_amount`, `USER_ID`            | 常量名、数据库字段名、宏定义               |
-| 宏定义（MACRO_DEFINITION）         | `#define MAX_BUFFER_SIZE 1024`, `#define PI 3.14` | 预处理宏（如 C 和 C++中的宏）、配置常量    |
-| 匈牙利命名法（Hungarian Notation） | `strName`, `nCount`, `pElement`                   | 早期 Windows API、一些特定场景中的变量命名 |
-
-![image-20240712085743329](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/image-20240712085743329.png)
-
-Linear 新增了一个 initiatives 设置公司的举措，其实这跟个人的领域是一个类似的概念
-
-我用 flomo 管理我的领域的知识， Linear 管理我的项目进度，Resources 的内容放置在我的个人 Wiki 中。
+|命名形式|示例|使用场景|
+|---|---|---|
+| 小驼峰式（camelCase）|`myVariable`, `calculateTotal`, `userName`| 变量名、函数名、对象属性|
+| 大驼峰式（PascalCase）| `MyClass`, `EmployeeRecord`, `User`|类名、构造函数名|
+| 短横线（kebab-case）| `my-css-class`, `main-container`, `app-config`|CSS 类名、文件名、配置文件键名（如 YAML）|
+| 下划线（snake_case） | `MAX_VALUE`, `total_amount`, `USER_ID`| 常量名、数据库字段名、宏定义|
+| 宏定义（MACRO_DEFINITION）| `#define MAX_BUFFER_SIZE 1024`, `#define PI 3.14` | 预处理宏（如 C 和 C++中的宏）、配置常量|
+| 匈牙利命名法（Hungarian Notation）| `strName`, `nCount`, `pElement`| 早期 Windows API、一些特定场景中的变量命名|
 
 ### 产品沉思录
 
@@ -248,6 +242,12 @@ https://codepen.io/huyixi/pen/OJeVyYE
 更新了一些知识管理的理念方法。
 
 计划使用 flomo 管理 Area，Linear 管理 Project，Resources 就放在自己的 wiki 里。
+
+![image-20240712085743329](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/image-20240712085743329.png)
+
+Linear 新增了一个 initiatives 设置公司的举措，其实这跟个人的领域是一个类似的概念
+
+我用 flomo 管理我的领域的知识， Linear 管理我的项目进度，Resources 的内容放置在我的个人 Wiki 中。
 
 ### 淘宝和拼多多的 widge
 
