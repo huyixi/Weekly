@@ -121,7 +121,7 @@ Learn How to Learn:
 ### Switch
 
 给妹妹买了个 Switch 。我希望能让她早日接触到一些比较好的游戏。另外如果暑假有同学来家里的话，可以几个人一起玩一些好玩的游戏，而不是就坐在那边独自玩自己的手机。
-![SCR-20240722-ryzy](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/SCR-20240722-ryzy.jpeg)
+![SCR-20240722-rzdr](https://raw.githubusercontent.com/huyixi/Pics/main/uPic/SCR-20240722-rzdr.jpeg)
 周天跟妹妹在玩双人成行
 
 ## 这周发生了啥
