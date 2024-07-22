@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Weekly-52s on 散步周刊</title>
+    <link>http://localhost:1313/weekly-52/</link>
+    <description>Recent content in Weekly-52s on 散步周刊</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <atom:link href="http://localhost:1313/weekly-52/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/weekly-52/weekly-52/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/weekly-52/weekly-52/</guid>
+      <description>斋戒极好 bilibili-subtitle-to-text 一次性展示bilibili的cc字幕。适合需要快速阅读字幕的场景。&#xA;https://greasyfork.org/zh-CN/scripts/460073-bilibili-subtitle-to-text&#xA;Vue Conf 通过上面的这个小插件获取了一下这次深圳 2024 年 Vue 10 周年论坛，简单看了一下 Vue Conf 的演讲字幕。&#xA;尤雨溪的分享：&#xA;做解决自己需求的事情 Antfu 的分享：&#xA;在解决一个问题的时候会碰到许多的问题，这个时候，在这些分支的问题上不要做过多的纠缠。做好一个 MVP 之后就赶紧回到主线问题上，避免在分支上迷失自己。 如果社区上有现成的解决方案直接使用现成的解决方案处理，不要自己重复造轮子。时间可以用来做一些还没有提供解决方案的事情。 Cali 推荐的创作者和灵感来源 Polebug vlog #64 1.不要被自己的好学生思维困住&#xA;或许是从小到大都被教育说，&#xA;凡事要做到最好。&#xA;这个思维在工作上，&#xA;曾经对我造成巨大的心理负担。&#xA;比如老板说有一件“急事”让我去做，&#xA;这个“急事”可能1-2天完成就可以，&#xA;但我会解读为“立刻马上、明天就要”。&#xA;无形中，我自己给自己增加了很多工作压力。&#xA;感觉作者对心态的把握很好，遇到市场熊的时候会寻找自己的位置，潜心学习，等市场转牛的时候再投入进去。&#xA;悉达多：目标会指引他，他会禁止任何干扰他目标的事情进入他的灵魂。&#xA;假如悉达多没有学过斋戒，那么他就会因为饥饿去寻找事物。但是现在他可以忍受饥饿，藐视饥饿的围困。他可以等待，思考，不被困境左右。「因此，先生。斋戒极好」&#xA;我的领域 2 &amp;ndash; 续上篇&#xA;2024-07-15 21:01:28&#xA;今天看了 Vue Conf 上 Antfu 的演讲，发现 Antfu 对于这方面的处理就很不错。在遇到一个问题的时候，我们寻找解决方案的时候，在路上会遇到很多的问题。这个时候我们要做的首先并不是埋头苦干，而是先去社区找找是否有现成的解决方案，或者有类似的解决方案自己可以修改成适合自己的。如果没有的话，我们需要在解决方案这条路径上向外扩展一个路径分支，做一个可以快速处理的 MVP。不要将这个 MVP 做的太过负责，例如考虑很多的 UI 等等。完成 MVP 后就应当尽快回到主线任务上继续处理，而不是将分支问题处理地太过精致最后迷失在其中。&#xA;另外我重新启用了 Linear 这个软件。我发现 Linear 这个软件似乎就是根据 PARA 管理法设计而成。&#xA;Linear 的最新版本中使用 Initiatives 代替原本的 Roadmap。这其实就是 Area 的另一种概念。我们可以往 Initiatives 加入许多当前领域的 Project。</description>
+    </item>
+  </channel>
+</rss>
